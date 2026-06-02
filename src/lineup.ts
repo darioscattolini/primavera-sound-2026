@@ -75,6 +75,6 @@ function processLineup(raw: RawLineup): Artist[] {
 }
 
 export async function fetchLineup(): Promise<Artist[]> {
-  const raw: RawLineup = await fetch('lineup.json').then(r => r.json());
+  const raw: RawLineup = await fetch('data/lineup.json').then(r => r.json());
   return processLineup(raw);
 }
