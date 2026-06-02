@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Primavera Sound 2026</title>
+  <script type="module" crossorigin src="/primavera-sound-2026/assets/index-BJC4qy2G.js"></script>
+  <link rel="stylesheet" crossorigin href="/primavera-sound-2026/assets/index-C0ck2HFN.css">
+</head>
+<body>
+
+<header>
+  <div class="tabs">
+    <div class="tab active" data-tab="lineup">Lineup</div>
+    <div class="tab" data-tab="schedule">My Schedule</div>
+  </div>
+  <div class="view-toggle">
+    <div class="chip" data-view="time">Time</div>
+    <div class="chip active" data-view="stage">Stage</div>
+  </div>
+</header>
+
+<div class="filters" id="filters-bar">
+
+  <div class="filter-group" id="day-filters">
+    <button class="filter-group-btn" type="button">Day <span class="filter-chevron">›</span></button>
+    <div class="filter-chips"></div>
+  </div>
+
+  <div class="filter-group">
+    <button class="filter-group-btn" type="button">Show <span class="filter-chevron">›</span></button>
+    <div class="filter-chips">
+      <div class="chip active" data-filter="prio" data-val="all">All</div>
+      <div class="chip p-must"  data-filter="prio" data-val="must">🔥 Must</div>
+      <div class="chip p-want"  data-filter="prio" data-val="want">⭐ Want</div>
+      <div class="chip p-maybe" data-filter="prio" data-val="maybe">🤔 Maybe</div>
+      <div class="chip p-skip"  data-filter="prio" data-val="skip">👋 Skip</div>
+      <div class="chip" data-filter="prio" data-val="none">Unrated</div>
+    </div>
+  </div>
+
+  <div class="filter-group" id="stage-filter-wrap">
+    <button class="filter-group-btn" type="button">Stage <span class="filter-chevron">›</span></button>
+    <div class="filter-chips">
+      <div class="chip active" data-filter="stage" data-val="all">All</div>
+    </div>
+  </div>
+
+</div>
+
+<main>
+  <div id="lineup-view">
+    <div id="lineup-grid"><div class="loading">Loading lineup…</div></div>
+  </div>
+  <div id="schedule-view" class="schedule-view">
+    <div id="schedule-content"></div>
+  </div>
+</main>
+
+<div id="modal-container"></div>
+</body>
+</html>
