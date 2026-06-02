@@ -15,8 +15,6 @@ export interface Artist {
 
 export interface ArtistState {
   priority: Priority;
-  tags: string[];
-  notes: string;
 }
 
 export interface AppState {

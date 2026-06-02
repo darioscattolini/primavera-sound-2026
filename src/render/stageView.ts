@@ -2,6 +2,7 @@ import type { Artist, AppState } from '../types';
 import { getArtistState } from '../state';
 import { esc, addMinutes } from '../utils';
 import { DAY_META, DAY_ORDER } from '../constants';
+import { getEnrichment } from '../enrichment';
 
 const PX_PER_MIN = 1.5;
 export const COL_WIDTH = 160;
@@ -87,13 +88,16 @@ function renderDayGrid(day: string, artists: Artist[], state: AppState): string 
         const top    = (a.timeTs - startTs) / 60_000 * PX_PER_MIN;
         const height = Math.max(a.duration * PX_PER_MIN, 28);
         const endTime = addMinutes(a.time, a.duration);
-        const icon = prio === 'must' ? '🔥 ' : prio === 'want' ? '⭐ ' : prio === 'maybe' ? '🤔' : '';
+        const icon = prio === 'must' ? '🔥 ' : prio === 'want' ? '⭐ ' : prio === 'maybe' ? '🤔 ' : '';
+        const { genres } = getEnrichment(a.id);
+        const genreLine = genres.slice(0, 2).map(g => `<span class="sg-genre">${esc(g)}</span>`).join('');
         return `<div class="sg-block${prio ? ` sg-${prio}` : ''}"
           style="top:${top}px;height:${height}px"
-          data-action="sg-cycle" data-id="${a.id}"
+          data-action="open-modal" data-id="${a.id}"
           title="${esc(a.name)} · ${a.time}–${endTime}">
           <div class="sg-block-name">${icon}${esc(a.name)}</div>
           <div class="sg-block-time">${a.time}–${endTime}</div>
+          <div class="sg-block-genres">${genreLine}</div>
         </div>`;
       }).join('');
     return `<div class="sg-col" style="width:${COL_WIDTH}px">${blocks}</div>`;

@@ -12,9 +12,8 @@ export function getFilteredArtists(artists: Artist[], state: AppState, filters: 
       if (p !== filters.prio) return false;
     }
     if (q) {
-      const tagMatch = s.tags.some(t => t.toLowerCase().includes(q));
       const stageMatch = a.stage.toLowerCase().includes(q);
-      if (!a.name.toLowerCase().includes(q) && !tagMatch && !stageMatch) return false;
+      if (!a.name.toLowerCase().includes(q) && !stageMatch) return false;
     }
     return true;
   });

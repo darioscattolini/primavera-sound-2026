@@ -2,6 +2,9 @@ import type { Artist, AppState } from '../types';
 import { getArtistState } from '../state';
 import { esc, addMinutes } from '../utils';
 import { DAY_META, DAY_ORDER } from '../constants';
+import { getEnrichment } from '../enrichment';
+
+const PRIO_ICON: Record<string, string> = { must: '🔥', want: '⭐', maybe: '🤔', skip: '👋' };
 
 export function renderSchedule(artists: Artist[], state: AppState): string {
   const myArtists = artists
@@ -39,20 +42,20 @@ export function renderSchedule(artists: Artist[], state: AppState): string {
 
     for (const a of group) {
       const s = getArtistState(state, a.id);
-      const icon = s.priority === 'must' ? '🔥' : s.priority === 'want' ? '⭐' : '🤔';
-      const tagsHtml = s.tags.map(t => `<span class="sched-tag">${esc(t)}</span>`).join('');
-      const notesHtml = s.notes ? `<div class="sched-notes">"${esc(s.notes)}"</div>` : '';
+      const prio = s.priority ?? '';
+      const icon = PRIO_ICON[prio] ?? '';
       const conflictBadge = conflicts.has(a.id) ? `<span class="conflict-badge">⚡ clash</span>` : '';
       const endTime = addMinutes(a.time, a.duration);
+      const { genres } = getEnrichment(a.id);
+      const genreChips = genres.map(g => `<span class="genre-chip genre-chip--sm">${esc(g)}</span>`).join('');
 
-      html += `<div class="schedule-item ${s.priority ?? ''}">
+      html += `<div class="schedule-item ${prio}" data-action="open-modal" data-id="${a.id}">
         <div class="sched-time">${a.time}</div>
         <div class="sched-prio-icon">${icon}</div>
         <div style="flex:1;min-width:0">
           <div class="sched-name">${esc(a.name)}${conflictBadge}</div>
           <div class="sched-meta">${esc(a.stage)} · ${a.duration} min · ends ${endTime}</div>
-          ${tagsHtml ? `<div class="sched-tags">${tagsHtml}</div>` : ''}
-          ${notesHtml}
+          <div style="margin-top:4px">${genreChips}</div>
         </div>
       </div>`;
     }

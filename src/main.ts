@@ -5,7 +5,7 @@ import { getFilteredArtists } from './filters';
 import { renderLineup } from './render/lineup';
 import { renderSchedule } from './render/schedule';
 import { renderStageLineup, renderStageSchedule } from './render/stageView';
-import { renderTagList } from './render/card';
+import { renderModal } from './render/modal';
 import { buildDayChips, buildStageChips } from './render/filters';
 import { esc } from './utils';
 import type { Artist, AppState, Filters } from './types';
@@ -16,11 +16,13 @@ let currentTab: 'lineup' | 'schedule' = 'lineup';
 let viewMode: 'time' | 'stage' = 'time';
 const filters: Filters = { day: 'all', prio: 'all', stage: 'all', search: '' };
 
-const lineupView   = document.getElementById('lineup-view')!;
-const scheduleView = document.getElementById('schedule-view')!;
-const lineupGrid   = document.getElementById('lineup-grid')!;
+const lineupView      = document.getElementById('lineup-view')!;
+const scheduleView    = document.getElementById('schedule-view')!;
+const lineupGrid      = document.getElementById('lineup-grid')!;
 const scheduleContent = document.getElementById('schedule-content')!;
+const modalContainer  = document.getElementById('modal-container')!;
 
+// ── Render ────────────────────────────────────────────────────────────────────
 function render(): void {
   if (currentTab === 'lineup') {
     const filtered = getFilteredArtists(artists, state, filters);
@@ -60,6 +62,16 @@ document.addEventListener('click', e => {
   render();
 });
 
+// ── View toggle ───────────────────────────────────────────────────────────────
+document.addEventListener('click', e => {
+  const btn = (e.target as Element).closest<HTMLElement>('[data-view]');
+  if (!btn) return;
+  viewMode = btn.dataset.view as 'time' | 'stage';
+  document.querySelectorAll('[data-view]').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  render();
+});
+
 // ── Filter chips ──────────────────────────────────────────────────────────────
 document.getElementById('filters-bar')!.addEventListener('click', e => {
   const chip = (e.target as Element).closest<HTMLElement>('[data-filter]');
@@ -74,108 +86,83 @@ document.getElementById('filters-bar')!.addEventListener('click', e => {
   if (currentTab === 'lineup') render();
 });
 
-// ── View toggle ───────────────────────────────────────────────────────────────
-document.addEventListener('click', e => {
-  const btn = (e.target as Element).closest<HTMLElement>('[data-view]');
-  if (!btn) return;
-  viewMode = btn.dataset.view as 'time' | 'stage';
-  document.querySelectorAll('[data-view]').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-  render();
-});
-
 // ── Search ────────────────────────────────────────────────────────────────────
 document.getElementById('search-input')!.addEventListener('input', e => {
   filters.search = (e.target as HTMLInputElement).value;
   render();
 });
 
-// ── Card actions (event delegation on lineup-grid) ────────────────────────────
-lineupGrid.addEventListener('click', e => {
-  const el = (e.target as Element).closest<HTMLElement>('[data-action]');
+// ── Modal: open ───────────────────────────────────────────────────────────────
+document.addEventListener('click', e => {
+  const el = (e.target as Element).closest<HTMLElement>('[data-action="open-modal"]');
   if (!el) return;
-  const { action, id } = el.dataset;
-  if (!action || !id) return;
-
-  if (action === 'set-priority') {
-    const value = el.dataset.value as 'must' | 'want' | 'skip';
-    const s = getArtistState(state, id);
-    s.priority = s.priority === value ? null : value;
-    saveState(state);
-    updateCardDOM(id, s.priority);
-    updateStats();
-  }
-
-  if (action === 'remove-tag') {
-    const tag = el.dataset.tag!;
-    const s = getArtistState(state, id);
-    s.tags = s.tags.filter(t => t !== tag);
-    saveState(state);
-    const tagEl = document.getElementById(`tags-${id}`);
-    if (tagEl) tagEl.innerHTML = renderTagList(id, s.tags);
-  }
-
-  if (action === 'add-tag') addTag(id);
-
-  if (action === 'sg-cycle') {
-    const s = getArtistState(state, id);
-    const cycle = [null, 'must', 'want', 'maybe', 'skip', null] as const;
-    const idx = cycle.indexOf(s.priority);
-    s.priority = cycle[idx + 1] ?? null;
-    saveState(state);
-    // Update block in-place: class + icon
-    document.querySelectorAll<HTMLElement>(`[data-action="sg-cycle"][data-id="${id}"]`).forEach(block => {
-      block.className = `sg-block${s.priority ? ` sg-${s.priority}` : ''}`;
-      const nameEl = block.querySelector<HTMLElement>('.sg-block-name');
-      if (nameEl) {
-        const icon = s.priority === 'must' ? '🔥 ' : s.priority === 'want' ? '⭐ ' : s.priority === 'maybe' ? '🤔' : '';
-        nameEl.textContent = icon + (artists.find(a => a.id === id)?.name ?? '');
-      }
-    });
-    updateStats();
-  }
+  const artist = artists.find(a => a.id === el.dataset.id);
+  if (!artist) return;
+  modalContainer.innerHTML = renderModal(artist, state);
+  document.body.style.overflow = 'hidden';
 });
 
-lineupGrid.addEventListener('keydown', e => {
-  const target = e.target as HTMLElement;
-  if (target.dataset.tagInput && (e as KeyboardEvent).key === 'Enter') {
-    e.preventDefault();
-    addTag(target.dataset.tagInput);
-  }
+// ── Modal: close ──────────────────────────────────────────────────────────────
+document.addEventListener('click', e => {
+  const target = e.target as Element;
+  if (
+    target.id === 'modal-overlay' ||
+    target.closest('[data-action="close-modal"]')
+  ) closeModal();
 });
 
-lineupGrid.addEventListener('change', e => {
-  const target = e.target as HTMLElement;
-  if (target.dataset.action === 'set-notes' && target.dataset.id) {
-    getArtistState(state, target.dataset.id).notes = (target as HTMLTextAreaElement).value;
-    saveState(state);
-  }
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeModal();
 });
 
-// ── Helpers ───────────────────────────────────────────────────────────────────
-function addTag(id: string): void {
-  const input = document.getElementById(`taginput-${id}`) as HTMLInputElement | null;
-  if (!input) return;
-  const val = input.value.trim().toLowerCase();
-  if (!val) return;
-  const s = getArtistState(state, id);
-  if (!s.tags.includes(val)) {
-    s.tags = [...s.tags, val];
-    saveState(state);
-    const tagEl = document.getElementById(`tags-${id}`);
-    if (tagEl) tagEl.innerHTML = renderTagList(id, s.tags);
-  }
-  input.value = '';
+function closeModal(): void {
+  modalContainer.innerHTML = '';
+  document.body.style.overflow = '';
 }
 
-function updateCardDOM(id: string, priority: string | null): void {
+// ── Modal: priority change ────────────────────────────────────────────────────
+document.addEventListener('click', e => {
+  const btn = (e.target as Element).closest<HTMLElement>('[data-action="modal-set-priority"]');
+  if (!btn) return;
+  const { id, value } = btn.dataset as { id: string; value: string };
+  const s = getArtistState(state, id);
+  s.priority = s.priority === value ? null : value as typeof s.priority;
+  saveState(state);
+  updateArtistDOM(id, s.priority);
+  updateStats();
+  // Refresh modal priority buttons in-place
+  document.querySelectorAll<HTMLElement>('[data-action="modal-set-priority"]').forEach(b => {
+    b.className = b.className.replace(/active-\w+/g, '').trim();
+    if (s.priority && b.dataset.value === s.priority) b.classList.add(`active-${s.priority}`);
+  });
+});
+
+
+// ── Helpers ───────────────────────────────────────────────────────────────────
+function updateArtistDOM(id: string, priority: string | null): void {
+  // Grid card
   const card = document.getElementById(`card-${id}`);
-  if (!card) return;
-  card.className = card.className.replace(/priority-\w+/g, '').trim();
-  if (priority) card.classList.add(`priority-${priority}`);
-  card.querySelectorAll<HTMLElement>('.prio-btn').forEach(btn => {
-    btn.className = btn.className.replace(/active-\w+/g, '').trim();
-    if (priority && btn.dataset.value === priority) btn.classList.add(`active-${priority}`);
+  if (card) {
+    card.className = card.className.replace(/priority-\w+/g, '').trim();
+    if (priority) card.classList.add(`priority-${priority}`);
+    const icon = card.querySelector<HTMLElement>('.card-prio-icon');
+    const icons: Record<string, string> = { must: '🔥', want: '⭐', maybe: '🤔', skip: '👋' };
+    if (icon) icon.textContent = priority ? (icons[priority] ?? '') : '';
+  }
+  // Stage blocks
+  document.querySelectorAll<HTMLElement>(`.sg-block[data-id="${id}"]`).forEach(block => {
+    block.className = `sg-block${priority ? ` sg-${priority}` : ''}`;
+    const nameEl = block.querySelector<HTMLElement>('.sg-block-name');
+    if (nameEl) {
+      const icons: Record<string, string> = { must: '🔥 ', want: '⭐ ', maybe: '🤔 ' };
+      const artistName = artists.find(a => a.id === id)?.name ?? '';
+      nameEl.textContent = (priority && icons[priority] ? icons[priority] : '') + artistName;
+    }
+  });
+  // Schedule items
+  document.querySelectorAll<HTMLElement>(`.schedule-item[data-id="${id}"]`).forEach(item => {
+    item.className = item.className.replace(/\b(must|want|maybe|skip)\b/g, '').trim();
+    if (priority) item.classList.add(priority);
   });
 }
 
@@ -191,6 +178,6 @@ fetchLineup()
     lineupGrid.innerHTML = `<div class="empty-state">
       <div class="big">⚠️</div>
       <div>Could not load lineup.json</div>
-      <div style="margin-top:8px;font-size:0.8rem;color:#555">${esc(err.message)}</div>
+      <div style="margin-top:8px;font-size:0.8rem;color:#999">${esc(err.message)}</div>
     </div>`;
   });
