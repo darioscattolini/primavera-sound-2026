@@ -34,21 +34,8 @@ function render(): void {
       ? renderStageSchedule(artists, state)
       : renderSchedule(artists, state);
   }
-  updateStats();
 }
 
-function updateStats(): void {
-  let must = 0, want = 0, maybe = 0;
-  for (const a of artists) {
-    const p = getArtistState(state, a.id).priority;
-    if (p === 'must') must++;
-    else if (p === 'want') want++;
-    else if (p === 'maybe') maybe++;
-  }
-  document.getElementById('stat-must')!.textContent  = String(must);
-  document.getElementById('stat-want')!.textContent  = String(want);
-  document.getElementById('stat-maybe')!.textContent = String(maybe);
-}
 
 // ── Tabs ─────────────────────────────────────────────────────────────────────
 document.addEventListener('click', e => {
@@ -138,7 +125,6 @@ document.addEventListener('click', e => {
   s.priority = s.priority === value ? null : value as typeof s.priority;
   saveState(state);
   updateArtistDOM(id, s.priority);
-  updateStats();
   // Refresh modal priority buttons in-place
   document.querySelectorAll<HTMLElement>('[data-action="modal-set-priority"]').forEach(b => {
     b.className = b.className.replace(/active-\w+/g, '').trim();
