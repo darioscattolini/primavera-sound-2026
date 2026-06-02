@@ -13,8 +13,8 @@ import type { Artist, AppState, Filters } from './types';
 let artists: Artist[] = [];
 let state: AppState = loadState();
 let currentTab: 'lineup' | 'schedule' = 'lineup';
-let viewMode: 'time' | 'stage' = 'time';
-const filters: Filters = { day: 'all', prio: 'all', stage: 'all', search: '' };
+let viewMode: 'time' | 'stage' = 'stage';
+const filters: Filters = { day: 'all', prio: 'all', stage: 'all' };
 
 const lineupView      = document.getElementById('lineup-view')!;
 const scheduleView    = document.getElementById('schedule-view')!;
@@ -68,8 +68,15 @@ document.addEventListener('click', e => {
   if (!btn) return;
   viewMode = btn.dataset.view as 'time' | 'stage';
   document.querySelectorAll('[data-view]').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
+  document.querySelectorAll(`[data-view="${viewMode}"]`).forEach(b => b.classList.add('active'));
   render();
+});
+
+// ── Filter accordion (mobile) ─────────────────────────────────────────────────
+document.getElementById('filters-bar')!.addEventListener('click', e => {
+  const btn = (e.target as Element).closest<HTMLElement>('.filter-group-btn');
+  if (!btn) return;
+  btn.closest('.filter-group')?.classList.toggle('open');
 });
 
 // ── Filter chips ──────────────────────────────────────────────────────────────
@@ -86,11 +93,13 @@ document.getElementById('filters-bar')!.addEventListener('click', e => {
   if (currentTab === 'lineup') render();
 });
 
-// ── Search ────────────────────────────────────────────────────────────────────
-document.getElementById('search-input')!.addEventListener('input', e => {
-  filters.search = (e.target as HTMLInputElement).value;
-  render();
-});
+// ── Stage header horizontal sync ─────────────────────────────────────────────
+document.addEventListener('scroll', e => {
+  const el = e.target as HTMLElement;
+  if (!el.classList?.contains('sg-scroll')) return;
+  const row = el.closest('.sg-outer')?.querySelector<HTMLElement>('.sg-header-row');
+  if (row) row.style.transform = `translateX(-${el.scrollLeft}px)`;
+}, { passive: true, capture: true });
 
 // ── Modal: open ───────────────────────────────────────────────────────────────
 document.addEventListener('click', e => {
@@ -166,12 +175,25 @@ function updateArtistDOM(id: string, priority: string | null): void {
   });
 }
 
+function closestFestivalDay(): string {
+  const DAY_DATE: Record<string, number> = { wed: 3, thu: 4, fri: 5, sat: 6, sun: 7 };
+  const bcn = new Date(Date.now() + 2 * 3_600_000);
+  const todayVal = bcn.getUTCMonth() === 5 ? bcn.getUTCDate() : (bcn.getUTCMonth() < 5 ? 0 : 99);
+  const order: string[] = ['wed', 'thu', 'fri', 'sat', 'sun'];
+  const available = order.filter(d => artists.some(a => a.day === d));
+  return available.find(d => DAY_DATE[d] >= todayVal) ?? available[available.length - 1] ?? 'thu';
+}
+
 // ── Init ──────────────────────────────────────────────────────────────────────
 fetchLineup()
   .then(data => {
     artists = data;
-    document.getElementById('day-filters')!.insertAdjacentHTML('beforeend', buildDayChips(artists));
-    document.getElementById('stage-filter-wrap')!.insertAdjacentHTML('beforeend', buildStageChips(artists));
+    document.querySelector('#day-filters .filter-chips')!.insertAdjacentHTML('beforeend', buildDayChips(artists));
+    document.querySelector('#stage-filter-wrap .filter-chips')!.insertAdjacentHTML('beforeend', buildStageChips(artists));
+
+    const day = closestFestivalDay();
+    filters.day = day;
+    document.querySelector<HTMLElement>(`[data-filter="day"][data-val="${day}"]`)?.classList.add('active');
     render();
   })
   .catch((err: Error) => {

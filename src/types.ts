@@ -25,5 +25,4 @@ export interface Filters {
   day: string;
   prio: string;
   stage: string;
-  search: string;
 }
