@@ -14,7 +14,7 @@ let artists: Artist[] = [];
 let state: AppState = loadState();
 let currentTab: 'lineup' | 'schedule' = 'lineup';
 let viewMode: 'time' | 'stage' = 'stage';
-const filters: Filters = { day: 'all', prio: 'all', stage: 'all' };
+const filters: Filters = { day: 'all', prio: [], stage: [] };
 
 const lineupView      = document.getElementById('lineup-view')!;
 const scheduleView    = document.getElementById('schedule-view')!;
@@ -72,11 +72,32 @@ document.getElementById('filters-bar')!.addEventListener('click', e => {
   if (!chip) return;
   const group = chip.dataset.filter!;
   const val   = chip.dataset.val!;
-  document.querySelectorAll(`[data-filter="${group}"]`).forEach(c => c.classList.remove('active'));
-  chip.classList.add('active');
-  if (group === 'day')   filters.day   = val;
-  if (group === 'prio')  filters.prio  = val;
-  if (group === 'stage') filters.stage = val;
+
+  if (group === 'day') {
+    // Single select
+    document.querySelectorAll('[data-filter="day"]').forEach(c => c.classList.remove('active'));
+    chip.classList.add('active');
+    filters.day = val;
+  } else if (val === 'all') {
+    // All resets multi-select
+    document.querySelectorAll(`[data-filter="${group}"]`).forEach(c => c.classList.remove('active'));
+    chip.classList.add('active');
+    if (group === 'prio')  filters.prio  = [];
+    if (group === 'stage') filters.stage = [];
+  } else {
+    // Multi-select toggle
+    document.querySelector<HTMLElement>(`[data-filter="${group}"][data-val="all"]`)?.classList.remove('active');
+    chip.classList.toggle('active');
+    const selected = [...document.querySelectorAll<HTMLElement>(`[data-filter="${group}"].active`)]
+      .map(c => c.dataset.val!);
+    if (group === 'prio')  filters.prio  = selected;
+    if (group === 'stage') filters.stage = selected;
+    // Nothing selected → restore All
+    if (selected.length === 0) {
+      document.querySelector<HTMLElement>(`[data-filter="${group}"][data-val="all"]`)?.classList.add('active');
+    }
+  }
+
   if (currentTab === 'lineup') render();
 });
 

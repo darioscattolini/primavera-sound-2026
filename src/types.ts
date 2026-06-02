@@ -23,6 +23,6 @@ export interface AppState {
 
 export interface Filters {
   day: string;
-  prio: string;
-  stage: string;
+  prio: string[];   // empty = all
+  stage: string[];  // empty = all
 }
