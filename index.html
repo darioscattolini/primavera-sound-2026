@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Primavera Sound 2026</title>
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <div>
+      <div class="logo">Primavera <span>2026</span> 🌸</div>
+      <div class="dates">Jun 4–6 · Parc del Fòrum, Barcelona</div>
+    </div>
+    <div class="stats">
+      <div class="stat"><span class="n" id="stat-must">0</span> 🔥</div>
+      <div class="stat"><span class="n" id="stat-want">0</span> ⭐</div>
+    </div>
+  </div>
+  <div class="tabs">
+    <div class="tab active" data-tab="lineup">Lineup</div>
+    <div class="tab" data-tab="schedule">My Schedule</div>
+  </div>
+</header>
+
+<div class="filters" id="filters-bar">
+  <div class="filter-group" id="day-filters">
+    <span class="filter-label">Day</span>
+    <div class="chip active" data-filter="day" data-val="all">All</div>
+  </div>
+  <div class="filter-group">
+    <span class="filter-label">Show</span>
+    <div class="chip active" data-filter="prio" data-val="all">All</div>
+    <div class="chip p-must" data-filter="prio" data-val="must">🔥 Must</div>
+    <div class="chip p-want" data-filter="prio" data-val="want">⭐ Want</div>
+    <div class="chip p-skip" data-filter="prio" data-val="skip">👋 Skip</div>
+    <div class="chip" data-filter="prio" data-val="none">Unrated</div>
+  </div>
+  <div class="filter-group" id="stage-filter-wrap">
+    <span class="filter-label">Stage</span>
+    <div class="chip active" data-filter="stage" data-val="all">All</div>
+  </div>
+  <div class="search-wrap">
+    <input class="search-input" type="text" placeholder="Search artist, stage, tag…" id="search-input">
+  </div>
+</div>
+
+<main>
+  <div id="lineup-view">
+    <div class="hint">Click priority buttons to mark artists · Add tags and notes · Saves automatically in your browser</div>
+    <div id="lineup-grid"><div class="loading">Loading lineup…</div></div>
+  </div>
+  <div id="schedule-view" class="schedule-view">
+    <div id="schedule-content"></div>
+  </div>
+</main>
+
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>

@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Primavera Sound 2026 🌸</title>
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --surface: #14141e;
+    --surface2: #1e1e2e;
+    --border: #2a2a3e;
+    --text: #e8e8f0;
+    --text-muted: #888;
+    --accent: #7c3aed;
+    --accent2: #06b6d4;
+    --must: #f59e0b;
+    --want: #10b981;
+    --skip: #6b7280;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    min-height: 100vh;
+  }
+
+  /* Header */
+  header {
+    background: linear-gradient(135deg, #1a0030 0%, #0a0a1a 60%, #001a30 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 20px 20px 0;
+    position: sticky; top: 0; z-index: 100;
+  }
+  .header-top {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  .logo { font-size: 1.4rem; font-weight: 700; letter-spacing: -0.5px; }
+  .logo span { color: var(--accent); }
+  .dates { font-size: 0.8rem; color: var(--text-muted); }
+  .stats { display: flex; gap: 12px; font-size: 0.78rem; }
+  .stat { background: var(--surface2); border-radius: 20px; padding: 4px 10px; }
+  .stat .n { font-weight: 700; color: var(--must); }
+
+  /* Tabs */
+  .tabs { display: flex; gap: 0; border-bottom: none; }
+  .tab {
+    padding: 10px 20px; cursor: pointer; font-size: 0.9rem; font-weight: 500;
+    color: var(--text-muted); border-bottom: 2px solid transparent;
+    transition: all .2s; user-select: none;
+  }
+  .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+  .tab:hover { color: var(--text); }
+
+  /* Filters */
+  .filters {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 20px;
+    display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+  }
+  .filter-group { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+  .filter-label { font-size: 0.75rem; color: var(--text-muted); margin-right: 2px; }
+  .chip {
+    padding: 5px 12px; border-radius: 20px; font-size: 0.8rem; cursor: pointer;
+    border: 1px solid var(--border); background: var(--surface2); color: var(--text-muted);
+    transition: all .15s; user-select: none;
+  }
+  .chip:hover { border-color: var(--accent); color: var(--text); }
+  .chip.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .chip.day-wed.active { background: #4a1d6b; border-color: #4a1d6b; }
+  .chip.day-thu.active { background: #7c3aed; border-color: #7c3aed; }
+  .chip.day-fri.active { background: #0891b2; border-color: #0891b2; }
+  .chip.day-sat.active { background: #059669; border-color: #059669; }
+  .chip.day-sun.active { background: #db2777; border-color: #db2777; }
+  .chip.p-must.active { background: var(--must); border-color: var(--must); color: #000; }
+  .chip.p-want.active { background: var(--want); border-color: var(--want); color: #000; }
+  .chip.p-skip.active { background: var(--skip); border-color: var(--skip); }
+
+  .search-wrap { flex: 1; min-width: 160px; }
+  .search-input {
+    width: 100%; background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 20px; padding: 6px 14px; color: var(--text); font-size: 0.85rem;
+    outline: none;
+  }
+  .search-input:focus { border-color: var(--accent); }
+  .search-input::placeholder { color: var(--text-muted); }
+
+  /* Stage filter */
+  #stage-filter-wrap { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+
+  /* Main */
+  main { padding: 20px; max-width: 1400px; margin: 0 auto; }
+
+  /* Grid */
+  .artists-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 12px;
+  }
+
+  /* Card */
+  .artist-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: border-color .2s, transform .15s;
+    position: relative;
+  }
+  .artist-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+  .artist-card.priority-must { border-left: 3px solid var(--must); }
+  .artist-card.priority-want { border-left: 3px solid var(--want); }
+  .artist-card.priority-skip { opacity: 0.45; }
+
+  .card-img {
+    width: 100%; height: 110px; object-fit: cover; display: block;
+    background: var(--surface2);
+  }
+  .card-body { padding: 12px 14px 14px; }
+
+  .card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+  .artist-name { font-size: 0.95rem; font-weight: 600; line-height: 1.3; }
+  .day-badge {
+    font-size: 0.7rem; font-weight: 700; padding: 2px 7px; border-radius: 10px;
+    white-space: nowrap; flex-shrink: 0;
+  }
+  .day-wed .day-badge { background: #2d1052; color: #c084fc; }
+  .day-thu .day-badge { background: #3b1a6e; color: #c4b5fd; }
+  .day-fri .day-badge { background: #0c2a38; color: #67e8f9; }
+  .day-sat .day-badge { background: #052e1a; color: #6ee7b7; }
+  .day-sun .day-badge { background: #3b0a2a; color: #f9a8d4; }
+
+  .card-meta { margin-top: 6px; font-size: 0.75rem; color: var(--text-muted); display: flex; gap: 8px; flex-wrap: wrap; }
+  .card-meta .time { color: var(--accent2); font-weight: 600; }
+  .card-meta .stage { color: var(--text-muted); }
+  .card-meta .duration { color: #555; }
+
+  /* Priority buttons */
+  .priority-btns { display: flex; gap: 5px; margin-top: 10px; }
+  .prio-btn {
+    flex: 1; padding: 5px 4px; border-radius: 8px; border: 1px solid var(--border);
+    background: var(--surface2); color: var(--text-muted); font-size: 0.72rem;
+    cursor: pointer; transition: all .15s; text-align: center;
+  }
+  .prio-btn:hover { border-color: #555; color: var(--text); }
+  .prio-btn.active-must { background: #451a03; border-color: var(--must); color: var(--must); font-weight: 600; }
+  .prio-btn.active-want { background: #022c22; border-color: var(--want); color: var(--want); font-weight: 600; }
+  .prio-btn.active-skip { background: #1c1c24; border-color: var(--skip); color: #9ca3af; font-weight: 600; }
+
+  /* Tags */
+  .tags-area { margin-top: 8px; }
+  .tag-list { display: flex; flex-wrap: wrap; gap: 4px; min-height: 20px; }
+  .tag {
+    background: var(--surface2); border: 1px solid var(--border); border-radius: 20px;
+    padding: 2px 8px; font-size: 0.7rem; color: var(--text-muted); cursor: pointer;
+    display: flex; align-items: center; gap: 4px;
+  }
+  .tag:hover { border-color: #f87171; }
+  .tag .remove { color: #f87171; font-size: 0.65rem; }
+  .tag-input-row { display: flex; gap: 4px; margin-top: 5px; }
+  .tag-input {
+    flex: 1; background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 10px; padding: 3px 8px; color: var(--text); font-size: 0.75rem;
+    outline: none;
+  }
+  .tag-input:focus { border-color: var(--accent2); }
+  .tag-add-btn {
+    background: var(--surface2); border: 1px solid var(--border); border-radius: 10px;
+    padding: 3px 8px; color: var(--text-muted); cursor: pointer; font-size: 0.75rem;
+  }
+  .tag-add-btn:hover { border-color: var(--accent2); color: var(--accent2); }
+
+  /* Notes */
+  .notes-input {
+    width: 100%; margin-top: 8px; background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 8px; padding: 5px 8px; color: var(--text); font-size: 0.75rem;
+    resize: none; outline: none; font-family: inherit;
+  }
+  .notes-input:focus { border-color: var(--border); }
+  .notes-input::placeholder { color: #555; }
+
+  /* Section headers */
+  .day-section { margin-bottom: 28px; }
+  .day-header {
+    display: flex; align-items: center; gap: 12px; margin-bottom: 12px; padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+  .day-header h2 { font-size: 1.1rem; font-weight: 700; }
+  .day-header .day-count { font-size: 0.8rem; color: var(--text-muted); }
+  .day-header .day-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+
+  /* Schedule view */
+  .schedule-view { display: none; }
+  .schedule-day { margin-bottom: 32px; }
+  .schedule-day-title {
+    font-size: 1.2rem; font-weight: 700; padding: 12px 0; margin-bottom: 12px;
+    border-bottom: 2px solid var(--border); display: flex; align-items: center; gap: 10px;
+  }
+  .schedule-list { display: flex; flex-direction: column; gap: 8px; }
+  .schedule-item {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    padding: 12px 16px; display: flex; align-items: center; gap: 14px;
+  }
+  .schedule-item.must { border-left: 3px solid var(--must); }
+  .schedule-item.want { border-left: 3px solid var(--want); }
+  .sched-time { font-size: 1rem; font-weight: 700; color: var(--accent2); min-width: 44px; }
+  .sched-name { font-weight: 600; font-size: 0.95rem; }
+  .sched-meta { font-size: 0.78rem; color: var(--text-muted); margin-top: 2px; }
+  .sched-tags { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 4px; }
+  .sched-tag { background: var(--surface2); border-radius: 10px; padding: 2px 8px; font-size: 0.7rem; color: var(--text-muted); }
+  .sched-notes { font-size: 0.78rem; color: #a78bfa; font-style: italic; margin-top: 4px; }
+  .sched-prio-icon { font-size: 1.1rem; flex-shrink: 0; }
+
+  .empty-state { text-align: center; padding: 60px 20px; color: var(--text-muted); }
+  .empty-state .big { font-size: 2rem; margin-bottom: 12px; }
+  .count-badge { background: var(--surface2); border-radius: 20px; padding: 2px 8px; font-size: 0.75rem; color: var(--text-muted); }
+  .hint { font-size: 0.72rem; color: #555; margin-bottom: 16px; }
+  .loading { text-align: center; padding: 80px 20px; color: var(--text-muted); font-size: 1rem; }
+
+  /* Conflict warning */
+  .conflict-badge {
+    display: inline-block; background: #7f1d1d; color: #fca5a5; border-radius: 8px;
+    padding: 1px 6px; font-size: 0.68rem; font-weight: 700; margin-left: 6px;
+  }
+
+  @media (max-width: 600px) {
+    .artists-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
+    .filters { padding: 10px 12px; }
+    main { padding: 12px; }
+  }
+  @media (max-width: 380px) {
+    .artists-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <div>
+      <div class="logo">Primavera <span>2026</span> 🌸</div>
+      <div class="dates">Jun 4–6 · Parc del Fòrum, Barcelona</div>
+    </div>
+    <div class="stats">
+      <div class="stat"><span class="n" id="stat-must">0</span> 🔥</div>
+      <div class="stat"><span class="n" id="stat-want">0</span> ⭐</div>
+    </div>
+  </div>
+  <div class="tabs">
+    <div class="tab active" onclick="switchTab('lineup')">Lineup</div>
+    <div class="tab" onclick="switchTab('schedule')">My Schedule</div>
+  </div>
+</header>
+
+<div class="filters" id="filters-bar">
+  <div class="filter-group" id="day-filters">
+    <span class="filter-label">Day</span>
+    <div class="chip active" data-filter="day" data-val="all" onclick="toggleFilter(this)">All</div>
+    <!-- day chips injected after data loads -->
+  </div>
+  <div class="filter-group">
+    <span class="filter-label">Show</span>
+    <div class="chip active" data-filter="prio" data-val="all" onclick="toggleFilter(this)">All</div>
+    <div class="chip p-must" data-filter="prio" data-val="must" onclick="toggleFilter(this)">🔥 Must</div>
+    <div class="chip p-want" data-filter="prio" data-val="want" onclick="toggleFilter(this)">⭐ Want</div>
+    <div class="chip p-skip" data-filter="prio" data-val="skip" onclick="toggleFilter(this)">👋 Skip</div>
+    <div class="chip" data-filter="prio" data-val="none" onclick="toggleFilter(this)">Unrated</div>
+  </div>
+  <div class="filter-group" id="stage-filter-wrap">
+    <span class="filter-label">Stage</span>
+    <div class="chip active" data-filter="stage" data-val="all" onclick="toggleFilter(this)">All</div>
+    <!-- stage chips injected after data loads -->
+  </div>
+  <div class="search-wrap">
+    <input class="search-input" type="text" placeholder="Search artist, stage, tag…" id="search-input" oninput="renderLineup()">
+  </div>
+</div>
+
+<main>
+  <div id="lineup-view">
+    <div class="hint">Click priority buttons to mark artists · Add tags and notes · Saves automatically in your browser</div>
+    <div id="lineup-grid"><div class="loading">Loading lineup…</div></div>
+  </div>
+  <div id="schedule-view" class="schedule-view">
+    <div id="schedule-content"></div>
+  </div>
+</main>
+
+<script>
+// ─── CONFIG ───────────────────────────────────────────────────────────────────
+const VENUE_NAMES = {
+  'estrella-damm':       'Estrella Damm',
+  'revolut':             'Revolut',
+  'cupra':               'Cupra',
+  'warehouse':           'Warehouse',
+  'auditori-rockdelux':  'Auditori Rockdelux',
+  'schwarzkopf':         'Schwarzkopf',
+  'schwarzkopf-backstage': 'Schwarzkopf Backstage',
+  'port':                'Port',
+  'occident':            'Occident',
+  'fever':               'Fever',
+  'plenitude':           'Plenitude',
+  'levis-501-club':      "Levi's 501 Club",
+  'levis-501-plaza':     "Levi's 501 Plaza",
+  'aperol-island-of-joy':'Aperol Island of Joy',
+  'pulse-cupra':         'Pulse Cupra',
+  'disney-stage':        'Disney Stage',
+  'barcelona-sona':      'Barcelona Sona',
+  'parc-del-forum':      'Parc del Fòrum',
+};
+
+const DAY_META = {
+  wed: { label: 'Wed 3', full: 'Wednesday, June 3', color: '#4a1d6b', emoji: '💜' },
+  thu: { label: 'Thu 4', full: 'Thursday, June 4',  color: '#7c3aed', emoji: '💜' },
+  fri: { label: 'Fri 5', full: 'Friday, June 5',    color: '#0891b2', emoji: '💙' },
+  sat: { label: 'Sat 6', full: 'Saturday, June 6',  color: '#059669', emoji: '💚' },
+  sun: { label: 'Sun 7', full: 'Sunday, June 7 · Primavera Bits', color: '#db2777', emoji: '🩷' },
+};
+
+const DAY_ORDER = ['wed','thu','fri','sat','sun'];
+
+// ─── DATA LOADING ─────────────────────────────────────────────────────────────
+let ARTISTS = []; // processed from lineup.json
+
+function tsToBarcelonaTime(ms) {
+  const d = new Date(ms + 2 * 3600 * 1000); // UTC+2
+  return d.getUTCHours().toString().padStart(2,'0') + ':' + d.getUTCMinutes().toString().padStart(2,'0');
+}
+
+function humanTsToDay(humanMs, realMs) {
+  const ms = humanMs || realMs;
+  const d = new Date(ms + 2 * 3600 * 1000);
+  const date = d.getUTCDate();
+  return { 3:'wed', 4:'thu', 5:'fri', 6:'sat', 7:'sun' }[date] || 'tbd';
+}
+
+function processLineup(raw) {
+  return raw.data.getLineupEvent.artists.map(a => {
+    const v = a.venues[0];
+    const realTs = parseInt(v.dateTimeStartReal);
+    const humanTs = parseInt(v.dateTimeStartHuman);
+    return {
+      id:       a.artistSlugName,
+      name:     a.artistName,
+      day:      humanTsToDay(humanTs, realTs),
+      stage:    VENUE_NAMES[v.venueSlugName] || v.venueSlugName,
+      stageSlug: v.venueSlugName,
+      time:     tsToBarcelonaTime(realTs),
+      timeTs:   realTs,
+      duration: v.duration,
+      image:    (a.image && a.image.en) || '',
+    };
+  }).sort((a, b) => a.timeTs - b.timeTs);
+}
+
+// ─── STATE ────────────────────────────────────────────────────────────────────
+let state = {};
+let filters = { day: 'all', prio: 'all', stage: 'all' };
+let currentTab = 'lineup';
+
+function loadState() {
+  try { state = JSON.parse(localStorage.getItem('ps26_state') || '{}'); } catch(e) { state = {}; }
+}
+function saveState() {
+  localStorage.setItem('ps26_state', JSON.stringify(state));
+  updateStats();
+}
+function getArtistState(id) {
+  if (!state[id]) state[id] = { priority: null, tags: [], notes: '' };
+  return state[id];
+}
+
+// ─── FILTERS ──────────────────────────────────────────────────────────────────
+function toggleFilter(el) {
+  const group = el.dataset.filter;
+  const val   = el.dataset.val;
+  document.querySelectorAll(`[data-filter="${group}"]`).forEach(c => c.classList.remove('active'));
+  el.classList.add('active');
+  filters[group] = val;
+  if (currentTab === 'lineup') renderLineup();
+}
+
+function getFilteredArtists() {
+  const q = document.getElementById('search-input').value.toLowerCase().trim();
+  return ARTISTS.filter(a => {
+    const s = getArtistState(a.id);
+    if (filters.day !== 'all' && a.day !== filters.day) return false;
+    if (filters.stage !== 'all' && a.stageSlug !== filters.stage) return false;
+    if (filters.prio !== 'all') {
+      const p = s.priority || 'none';
+      if (p !== filters.prio) return false;
+    }
+    if (q) {
+      const tagMatch = (s.tags||[]).some(t => t.toLowerCase().includes(q));
+      const stageMatch = a.stage.toLowerCase().includes(q);
+      if (!a.name.toLowerCase().includes(q) && !tagMatch && !stageMatch) return false;
+    }
+    return true;
+  });
+}
+
+// ─── DYNAMIC FILTER CHIPS ─────────────────────────────────────────────────────
+function buildDayChips() {
+  const container = document.getElementById('day-filters');
+  const days = DAY_ORDER.filter(d => ARTISTS.some(a => a.day === d));
+  days.forEach(d => {
+    const m = DAY_META[d];
+    const chip = document.createElement('div');
+    chip.className = `chip day-${d}`;
+    chip.dataset.filter = 'day';
+    chip.dataset.val = d;
+    chip.textContent = m.label;
+    chip.onclick = () => toggleFilter(chip);
+    container.appendChild(chip);
+  });
+}
+
+function buildStageChips() {
+  const container = document.getElementById('stage-filter-wrap');
+  const seen = new Set();
+  const stages = [];
+  ARTISTS.forEach(a => {
+    if (!seen.has(a.stageSlug)) { seen.add(a.stageSlug); stages.push({ slug: a.stageSlug, name: a.stage }); }
+  });
+  stages.sort((a,b) => a.name.localeCompare(b.name));
+  stages.forEach(({ slug, name }) => {
+    const chip = document.createElement('div');
+    chip.className = 'chip';
+    chip.dataset.filter = 'stage';
+    chip.dataset.val = slug;
+    chip.textContent = name;
+    chip.onclick = () => toggleFilter(chip);
+    container.appendChild(chip);
+  });
+}
+
+// ─── RENDER LINEUP ────────────────────────────────────────────────────────────
+function renderLineup() {
+  const grid = document.getElementById('lineup-grid');
+  const artists = getFilteredArtists();
+  const byDay = {};
+  artists.forEach(a => (byDay[a.day] = byDay[a.day] || []).push(a));
+
+  let html = '';
+  for (const day of DAY_ORDER) {
+    const group = byDay[day];
+    if (!group || group.length === 0) continue;
+    const m = DAY_META[day] || { full: day, color: '#888', emoji: '' };
+    html += `<div class="day-section">
+      <div class="day-header">
+        <div class="day-dot" style="background:${m.color}"></div>
+        <h2>${m.emoji} ${m.full}</h2>
+        <span class="day-count">${group.length} artist${group.length !== 1 ? 's' : ''}</span>
+      </div>
+      <div class="artists-grid">`;
+    for (const a of group) html += renderCard(a);
+    html += `</div></div>`;
+  }
+
+  if (!html) html = `<div class="empty-state"><div class="big">🔍</div><div>No artists match your filters.</div></div>`;
+  grid.innerHTML = html;
+}
+
+function renderCard(a) {
+  const s = getArtistState(a.id);
+  const prio = s.priority || '';
+  const prioClass = prio ? `priority-${prio}` : '';
+  const tags = s.tags || [];
+  const mustActive = prio === 'must' ? 'active-must' : '';
+  const wantActive = prio === 'want' ? 'active-want' : '';
+  const skipActive = prio === 'skip' ? 'active-skip' : '';
+
+  const tagsHtml = tags.map(t =>
+    `<span class="tag" onclick="removeTag('${a.id}','${t.replace(/'/g,"\\'")}')">
+      ${escHtml(t)} <span class="remove">×</span>
+    </span>`
+  ).join('');
+
+  const imgHtml = a.image
+    ? `<img class="card-img" src="${a.image}" alt="" loading="lazy" onerror="this.style.display='none'">`
+    : '';
+
+  const endTime = addMinutes(a.time, a.duration);
+
+  return `<div class="artist-card day-${a.day} ${prioClass}" id="card-${a.id}">
+    ${imgHtml}
+    <div class="card-body">
+      <div class="card-top">
+        <div class="artist-name">${escHtml(a.name)}</div>
+        <span class="day-badge">${DAY_META[a.day] ? DAY_META[a.day].label : a.day}</span>
+      </div>
+      <div class="card-meta">
+        <span class="time">${a.time}–${endTime}</span>
+        <span class="stage">${escHtml(a.stage)}</span>
+      </div>
+      <div class="priority-btns">
+        <button class="prio-btn ${mustActive}" onclick="setPriority('${a.id}','must')">🔥 Must</button>
+        <button class="prio-btn ${wantActive}" onclick="setPriority('${a.id}','want')">⭐ Want</button>
+        <button class="prio-btn ${skipActive}" onclick="setPriority('${a.id}','skip')">👋 Skip</button>
+      </div>
+      <div class="tags-area">
+        <div class="tag-list" id="tags-${a.id}">${tagsHtml}</div>
+        <div class="tag-input-row">
+          <input class="tag-input" id="taginput-${a.id}" placeholder="add tag…"
+            onkeydown="handleTagKey(event,'${a.id}')" maxlength="20">
+          <button class="tag-add-btn" onclick="addTagFromInput('${a.id}')">+</button>
+        </div>
+      </div>
+      <textarea class="notes-input" rows="1" placeholder="notes…"
+        onchange="setNotes('${a.id}',this.value)"
+        onfocus="this.rows=3" onblur="this.rows=1"
+      >${escHtml(s.notes||'')}</textarea>
+    </div>
+  </div>`;
+}
+
+// ─── RENDER SCHEDULE ──────────────────────────────────────────────────────────
+function renderSchedule() {
+  const content = document.getElementById('schedule-content');
+  const myArtists = ARTISTS.filter(a => {
+    const p = getArtistState(a.id).priority;
+    return p === 'must' || p === 'want';
+  }).sort((a,b) => a.timeTs - b.timeTs);
+
+  if (myArtists.length === 0) {
+    content.innerHTML = `<div class="empty-state">
+      <div class="big">📋</div>
+      <div>No artists marked yet.</div>
+      <div style="margin-top:8px;font-size:0.85rem">Go to Lineup and mark artists as 🔥 Must or ⭐ Want.</div>
+    </div>`;
+    return;
+  }
+
+  // Detect conflicts: overlapping sets on same day
+  const conflicts = new Set();
+  for (let i = 0; i < myArtists.length; i++) {
+    for (let j = i + 1; j < myArtists.length; j++) {
+      const a = myArtists[i], b = myArtists[j];
+      if (a.day !== b.day) continue;
+      const aEnd = a.timeTs + a.duration * 60000;
+      const bEnd = b.timeTs + b.duration * 60000;
+      if (a.timeTs < bEnd && b.timeTs < aEnd) {
+        conflicts.add(a.id); conflicts.add(b.id);
+      }
+    }
+  }
+
+  const byDay = {};
+  myArtists.forEach(a => (byDay[a.day] = byDay[a.day] || []).push(a));
+
+  let html = '';
+  for (const day of DAY_ORDER) {
+    const group = byDay[day];
+    if (!group) continue;
+    const m = DAY_META[day] || { full: day, color: '#888', emoji: '' };
+    html += `<div class="schedule-day">
+      <div class="schedule-day-title">
+        <span style="color:${m.color}">${m.emoji}</span>
+        ${m.full}
+        <span class="count-badge">${group.length}</span>
+      </div>
+      <div class="schedule-list">`;
+
+    for (const a of group) {
+      const s = getArtistState(a.id);
+      const prio = s.priority;
+      const icon = prio === 'must' ? '🔥' : '⭐';
+      const tagsHtml = (s.tags||[]).map(t => `<span class="sched-tag">${escHtml(t)}</span>`).join('');
+      const notesHtml = s.notes ? `<div class="sched-notes">"${escHtml(s.notes)}"</div>` : '';
+      const conflictBadge = conflicts.has(a.id) ? `<span class="conflict-badge">⚡ clash</span>` : '';
+      const endTime = addMinutes(a.time, a.duration);
+
+      html += `<div class="schedule-item ${prio}">
+        <div class="sched-time">${a.time}</div>
+        <div class="sched-prio-icon">${icon}</div>
+        <div style="flex:1;min-width:0">
+          <div class="sched-name">${escHtml(a.name)}${conflictBadge}</div>
+          <div class="sched-meta">${escHtml(a.stage)} · ${a.duration} min · ends ${endTime}</div>
+          ${tagsHtml ? `<div class="sched-tags">${tagsHtml}</div>` : ''}
+          ${notesHtml}
+        </div>
+      </div>`;
+    }
+    html += `</div></div>`;
+  }
+
+  content.innerHTML = html;
+}
+
+// ─── ACTIONS ──────────────────────────────────────────────────────────────────
+function setPriority(id, prio) {
+  const s = getArtistState(id);
+  s.priority = s.priority === prio ? null : prio;
+  saveState();
+  const card = document.getElementById(`card-${id}`);
+  if (card) {
+    card.className = card.className.replace(/priority-\w+/g, '').trim();
+    if (s.priority) card.classList.add(`priority-${s.priority}`);
+    card.querySelectorAll('.prio-btn').forEach(b => b.className = b.className.replace(/active-\w+/g,'').trim());
+    if (s.priority) {
+      const btns = card.querySelectorAll('.prio-btn');
+      ({ must:0, want:1, skip:2 })[s.priority] !== undefined &&
+        btns[({ must:0, want:1, skip:2 })[s.priority]].classList.add(`active-${s.priority}`);
+    }
+  }
+}
+
+function handleTagKey(e, id) { if (e.key === 'Enter') { e.preventDefault(); addTagFromInput(id); } }
+
+function addTagFromInput(id) {
+  const input = document.getElementById(`taginput-${id}`);
+  const val = input.value.trim().toLowerCase();
+  if (!val) return;
+  const s = getArtistState(id);
+  if (!(s.tags||[]).includes(val)) {
+    s.tags = [...(s.tags||[]), val];
+    saveState();
+    document.getElementById(`tags-${id}`).innerHTML = s.tags.map(t =>
+      `<span class="tag" onclick="removeTag('${id}','${t.replace(/'/g,"\\'")}')">
+        ${escHtml(t)} <span class="remove">×</span>
+      </span>`).join('');
+  }
+  input.value = '';
+}
+
+function removeTag(id, tag) {
+  const s = getArtistState(id);
+  s.tags = (s.tags||[]).filter(t => t !== tag);
+  saveState();
+  document.getElementById(`tags-${id}`).innerHTML = s.tags.map(t =>
+    `<span class="tag" onclick="removeTag('${id}','${t.replace(/'/g,"\\'")}')">
+      ${escHtml(t)} <span class="remove">×</span>
+    </span>`).join('');
+}
+
+function setNotes(id, val) { getArtistState(id).notes = val; saveState(); }
+
+function updateStats() {
+  let must = 0, want = 0;
+  ARTISTS.forEach(a => {
+    const p = getArtistState(a.id).priority;
+    if (p === 'must') must++;
+    else if (p === 'want') want++;
+  });
+  document.getElementById('stat-must').textContent = must;
+  document.getElementById('stat-want').textContent = want;
+}
+
+function switchTab(tab) {
+  currentTab = tab;
+  document.querySelectorAll('.tab').forEach((t, i) =>
+    t.classList.toggle('active', (i === 0 && tab === 'lineup') || (i === 1 && tab === 'schedule')));
+  document.getElementById('lineup-view').style.display = tab === 'lineup' ? '' : 'none';
+  document.getElementById('schedule-view').style.display = tab === 'schedule' ? '' : 'none';
+  if (tab === 'lineup') renderLineup(); else renderSchedule();
+}
+
+// ─── UTILS ────────────────────────────────────────────────────────────────────
+function escHtml(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function addMinutes(timeStr, mins) {
+  const [h, m] = timeStr.split(':').map(Number);
+  const total = h * 60 + m + mins;
+  return `${String(Math.floor(total/60) % 24).padStart(2,'0')}:${String(total%60).padStart(2,'0')}`;
+}
+
+// ─── INIT ─────────────────────────────────────────────────────────────────────
+loadState();
+
+fetch('lineup.json')
+  .then(r => r.json())
+  .then(raw => {
+    ARTISTS = processLineup(raw);
+    buildDayChips();
+    buildStageChips();
+    renderLineup();
+    updateStats();
+  })
+  .catch(err => {
+    document.getElementById('lineup-grid').innerHTML =
+      `<div class="empty-state"><div class="big">⚠️</div><div>Could not load lineup.json</div><div style="margin-top:8px;font-size:0.8rem;color:#555">${err.message}</div></div>`;
+  });
+</script>
+</body>
+</html>

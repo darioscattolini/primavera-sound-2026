@@ -1,0 +1,26 @@
+import type { Artist } from '../types';
+import { DAY_META, DAY_ORDER } from '../constants';
+import { esc } from '../utils';
+
+export function buildDayChips(artists: Artist[]): string {
+  const presentDays = DAY_ORDER.filter(d => artists.some(a => a.day === d));
+  return presentDays.map(d => {
+    const m = DAY_META[d];
+    return `<div class="chip day-${d}" data-filter="day" data-val="${d}">${m.label}</div>`;
+  }).join('');
+}
+
+export function buildStageChips(artists: Artist[]): string {
+  const seen = new Set<string>();
+  const stages: { slug: string; name: string }[] = [];
+  artists.forEach(a => {
+    if (!seen.has(a.stageSlug)) {
+      seen.add(a.stageSlug);
+      stages.push({ slug: a.stageSlug, name: a.stage });
+    }
+  });
+  stages.sort((a, b) => a.name.localeCompare(b.name));
+  return stages.map(({ slug, name }) =>
+    `<div class="chip" data-filter="stage" data-val="${slug}">${esc(name)}</div>`
+  ).join('');
+}
