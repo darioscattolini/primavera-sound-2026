@@ -4,6 +4,7 @@ import { loadState, saveState, getArtistState } from './state';
 import { getFilteredArtists } from './filters';
 import { renderLineup } from './render/lineup';
 import { renderSchedule } from './render/schedule';
+import { renderStageLineup, renderStageSchedule } from './render/stageView';
 import { renderTagList } from './render/card';
 import { buildDayChips, buildStageChips } from './render/filters';
 import { esc } from './utils';
@@ -12,6 +13,7 @@ import type { Artist, AppState, Filters } from './types';
 let artists: Artist[] = [];
 let state: AppState = loadState();
 let currentTab: 'lineup' | 'schedule' = 'lineup';
+let viewMode: 'time' | 'stage' = 'time';
 const filters: Filters = { day: 'all', prio: 'all', stage: 'all', search: '' };
 
 const lineupView   = document.getElementById('lineup-view')!;
@@ -21,9 +23,14 @@ const scheduleContent = document.getElementById('schedule-content')!;
 
 function render(): void {
   if (currentTab === 'lineup') {
-    lineupGrid.innerHTML = renderLineup(getFilteredArtists(artists, state, filters), state);
+    const filtered = getFilteredArtists(artists, state, filters);
+    lineupGrid.innerHTML = viewMode === 'stage'
+      ? renderStageLineup(filtered, state)
+      : renderLineup(filtered, state);
   } else {
-    scheduleContent.innerHTML = renderSchedule(artists, state);
+    scheduleContent.innerHTML = viewMode === 'stage'
+      ? renderStageSchedule(artists, state)
+      : renderSchedule(artists, state);
   }
   updateStats();
 }
@@ -65,6 +72,16 @@ document.getElementById('filters-bar')!.addEventListener('click', e => {
   if (currentTab === 'lineup') render();
 });
 
+// ── View toggle ───────────────────────────────────────────────────────────────
+document.addEventListener('click', e => {
+  const btn = (e.target as Element).closest<HTMLElement>('[data-view]');
+  if (!btn) return;
+  viewMode = btn.dataset.view as 'time' | 'stage';
+  document.querySelectorAll('[data-view]').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  render();
+});
+
 // ── Search ────────────────────────────────────────────────────────────────────
 document.getElementById('search-input')!.addEventListener('input', e => {
   filters.search = (e.target as HTMLInputElement).value;
@@ -97,6 +114,24 @@ lineupGrid.addEventListener('click', e => {
   }
 
   if (action === 'add-tag') addTag(id);
+
+  if (action === 'sg-cycle') {
+    const s = getArtistState(state, id);
+    const cycle = [null, 'must', 'want', 'skip', null] as const;
+    const idx = cycle.indexOf(s.priority);
+    s.priority = cycle[idx + 1] ?? null;
+    saveState(state);
+    // Update block in-place: class + icon
+    document.querySelectorAll<HTMLElement>(`[data-action="sg-cycle"][data-id="${id}"]`).forEach(block => {
+      block.className = `sg-block${s.priority ? ` sg-${s.priority}` : ''}`;
+      const nameEl = block.querySelector<HTMLElement>('.sg-block-name');
+      if (nameEl) {
+        const icon = s.priority === 'must' ? '🔥 ' : s.priority === 'want' ? '⭐ ' : '';
+        nameEl.textContent = icon + (artists.find(a => a.id === id)?.name ?? '');
+      }
+    });
+    updateStats();
+  }
 });
 
 lineupGrid.addEventListener('keydown', e => {
