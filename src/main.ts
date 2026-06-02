@@ -36,14 +36,16 @@ function render(): void {
 }
 
 function updateStats(): void {
-  let must = 0, want = 0;
+  let must = 0, want = 0, maybe = 0;
   for (const a of artists) {
     const p = getArtistState(state, a.id).priority;
     if (p === 'must') must++;
     else if (p === 'want') want++;
+    else if (p === 'maybe') maybe++;
   }
-  document.getElementById('stat-must')!.textContent = String(must);
-  document.getElementById('stat-want')!.textContent = String(want);
+  document.getElementById('stat-must')!.textContent  = String(must);
+  document.getElementById('stat-want')!.textContent  = String(want);
+  document.getElementById('stat-maybe')!.textContent = String(maybe);
 }
 
 // ── Tabs ─────────────────────────────────────────────────────────────────────
@@ -117,7 +119,7 @@ lineupGrid.addEventListener('click', e => {
 
   if (action === 'sg-cycle') {
     const s = getArtistState(state, id);
-    const cycle = [null, 'must', 'want', 'skip', null] as const;
+    const cycle = [null, 'must', 'want', 'maybe', 'skip', null] as const;
     const idx = cycle.indexOf(s.priority);
     s.priority = cycle[idx + 1] ?? null;
     saveState(state);
@@ -126,7 +128,7 @@ lineupGrid.addEventListener('click', e => {
       block.className = `sg-block${s.priority ? ` sg-${s.priority}` : ''}`;
       const nameEl = block.querySelector<HTMLElement>('.sg-block-name');
       if (nameEl) {
-        const icon = s.priority === 'must' ? '🔥 ' : s.priority === 'want' ? '⭐ ' : '';
+        const icon = s.priority === 'must' ? '🔥 ' : s.priority === 'want' ? '⭐ ' : s.priority === 'maybe' ? '🤔' : '';
         nameEl.textContent = icon + (artists.find(a => a.id === id)?.name ?? '');
       }
     });

@@ -26,9 +26,10 @@ export function renderCard(artist: Artist, state: AppState): string {
         <span class="stage">${esc(artist.stage)}</span>
       </div>
       <div class="priority-btns">
-        <button class="prio-btn ${prio === 'must' ? 'active-must' : ''}" data-action="set-priority" data-id="${artist.id}" data-value="must">🔥 Must</button>
-        <button class="prio-btn ${prio === 'want' ? 'active-want' : ''}" data-action="set-priority" data-id="${artist.id}" data-value="want">⭐ Want</button>
-        <button class="prio-btn ${prio === 'skip' ? 'active-skip' : ''}" data-action="set-priority" data-id="${artist.id}" data-value="skip">👋 Skip</button>
+        <button class="prio-btn ${prio === 'must'  ? 'active-must'  : ''}" data-action="set-priority" data-id="${artist.id}" data-value="must">🔥 Must</button>
+        <button class="prio-btn ${prio === 'want'  ? 'active-want'  : ''}" data-action="set-priority" data-id="${artist.id}" data-value="want">⭐ Want</button>
+        <button class="prio-btn ${prio === 'maybe' ? 'active-maybe' : ''}" data-action="set-priority" data-id="${artist.id}" data-value="maybe">🤔 Maybe</button>
+        <button class="prio-btn ${prio === 'skip'  ? 'active-skip'  : ''}" data-action="set-priority" data-id="${artist.id}" data-value="skip">👋 Skip</button>
       </div>
       <div class="tags-area">
         <div class="tag-list" id="tags-${artist.id}">${renderTagList(artist.id, s.tags)}</div>

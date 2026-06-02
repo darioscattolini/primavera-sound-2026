@@ -7,7 +7,7 @@ export function renderSchedule(artists: Artist[], state: AppState): string {
   const myArtists = artists
     .filter(a => {
       const p = getArtistState(state, a.id).priority;
-      return p === 'must' || p === 'want';
+      return p === 'must' || p === 'want' || p === 'maybe';
     })
     .sort((a, b) => a.timeTs - b.timeTs);
 
@@ -39,7 +39,7 @@ export function renderSchedule(artists: Artist[], state: AppState): string {
 
     for (const a of group) {
       const s = getArtistState(state, a.id);
-      const icon = s.priority === 'must' ? '🔥' : '⭐';
+      const icon = s.priority === 'must' ? '🔥' : s.priority === 'want' ? '⭐' : '🤔';
       const tagsHtml = s.tags.map(t => `<span class="sched-tag">${esc(t)}</span>`).join('');
       const notesHtml = s.notes ? `<div class="sched-notes">"${esc(s.notes)}"</div>` : '';
       const conflictBadge = conflicts.has(a.id) ? `<span class="conflict-badge">⚡ clash</span>` : '';

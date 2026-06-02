@@ -24,7 +24,7 @@ export function renderStageLineup(artists: Artist[], state: AppState): string {
 export function renderStageSchedule(artists: Artist[], state: AppState): string {
   const myArtists = artists.filter(a => {
     const p = getArtistState(state, a.id).priority;
-    return p === 'must' || p === 'want';
+    return p === 'must' || p === 'want' || p === 'maybe';
   });
 
   if (!myArtists.length) {
@@ -87,7 +87,7 @@ function renderDayGrid(day: string, artists: Artist[], state: AppState): string 
         const top    = (a.timeTs - startTs) / 60_000 * PX_PER_MIN;
         const height = Math.max(a.duration * PX_PER_MIN, 28);
         const endTime = addMinutes(a.time, a.duration);
-        const icon = prio === 'must' ? '🔥 ' : prio === 'want' ? '⭐ ' : '';
+        const icon = prio === 'must' ? '🔥 ' : prio === 'want' ? '⭐ ' : prio === 'maybe' ? '🤔' : '';
         return `<div class="sg-block${prio ? ` sg-${prio}` : ''}"
           style="top:${top}px;height:${height}px"
           data-action="sg-cycle" data-id="${a.id}"

@@ -1,4 +1,4 @@
-export type Priority = 'must' | 'want' | 'skip' | null;
+export type Priority = 'must' | 'want' | 'maybe' | 'skip' | null;
 export type Day = 'wed' | 'thu' | 'fri' | 'sat' | 'sun' | 'tbd';
 
 export interface Artist {
