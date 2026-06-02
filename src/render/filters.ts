@@ -1,5 +1,5 @@
 import type { Artist } from '../types';
-import { DAY_META, DAY_ORDER } from '../constants';
+import { DAY_META, DAY_ORDER, STAGE_ORDER } from '../constants';
 import { esc } from '../utils';
 
 export function buildDayChips(artists: Artist[]): string {
@@ -19,7 +19,14 @@ export function buildStageChips(artists: Artist[]): string {
       stages.push({ slug: a.stageSlug, name: a.stage });
     }
   });
-  stages.sort((a, b) => a.name.localeCompare(b.name));
+  stages.sort((a, b) => {
+    const ai = STAGE_ORDER.indexOf(a.slug);
+    const bi = STAGE_ORDER.indexOf(b.slug);
+    if (ai === -1 && bi === -1) return a.name.localeCompare(b.name);
+    if (ai === -1) return 1;
+    if (bi === -1) return -1;
+    return ai - bi;
+  });
   return stages.map(({ slug, name }) =>
     `<div class="chip" data-filter="stage" data-val="${slug}">${esc(name)}</div>`
   ).join('');

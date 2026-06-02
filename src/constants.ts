@@ -2,6 +2,27 @@ import type { Day } from './types';
 
 export const DAY_ORDER: Day[] = ['wed', 'thu', 'fri', 'sat', 'sun'];
 
+// Preferred stage column order (slugs). Unknown stages append alphabetically at the end.
+export const STAGE_ORDER: string[] = [
+  'estrella-damm',
+  'revolut',
+  'plenitude',
+  'adidas',
+  'aperol-island-of-joy',
+  'disney-stage',
+  'barcelona-sona',
+  'cupra',
+  'pulse-cupra',
+  'port',
+  'schwarzkopf',
+  'warehouse',
+  'levis-501-club',
+  'schwarzkopf-backstage',
+  'levis-501-plaza',
+  'occident',
+  'auditori-rockdelux',
+];
+
 export interface DayMeta {
   label: string;
   full: string;

@@ -4,21 +4,22 @@ const VENUE_NAMES: Record<string, string> = {
   'estrella-damm':         'Estrella Damm',
   'revolut':               'Revolut',
   'cupra':                 'Cupra',
-  'warehouse':             'Warehouse',
+  'warehouse':             "Levi's Warehouse",
   'auditori-rockdelux':    'Auditori Rockdelux',
   'schwarzkopf':           'Schwarzkopf',
-  'schwarzkopf-backstage': 'Schwarzkopf Backstage',
+  'schwarzkopf-backstage': 'Backstage by Schwarzkopf',
   'port':                  'Port',
   'occident':              'Occident',
-  'fever':                 'Fever',
+  'fever':                 'Fever House',
   'plenitude':             'Plenitude',
-  'levis-501-club':        "Levi's 501 Club",
-  'levis-501-plaza':       "Levi's 501 Plaza",
+  'levis-501-club':        '501 Club',
+  'levis-501-plaza':       "Levi's Plaza",
   'aperol-island-of-joy':  'Aperol Island of Joy',
-  'pulse-cupra':           'Pulse Cupra',
-  'disney-stage':          'Disney Stage',
+  'pulse-cupra':           'Cupra Pulse',
+  'disney-stage':          'Disney',
   'barcelona-sona':        'Barcelona Sona',
   'parc-del-forum':        'Parc del Fòrum',
+  'adidas':                'The Adidas Yard',
 };
 
 interface RawVenue {
@@ -74,7 +75,36 @@ function processLineup(raw: RawLineup): Artist[] {
     .sort((a, b) => a.timeTs - b.timeTs);
 }
 
+const GQL_URL = 'https://graphql.primaverasound.com/prod/graphql';
+const GQL_QUERY = `
+  query Get($name: String!) {
+    getLineupEvent(name: $name) {
+      artists {
+        artistSlugName
+        artistName
+        image { en }
+        duration
+        venues {
+          venueSlugName
+          dateTimeStartReal
+          dateTimeStartHuman
+          duration
+        }
+      }
+    }
+  }
+`;
+
 export async function fetchLineup(): Promise<Artist[]> {
-  const raw: RawLineup = await fetch('data/lineup.json').then(r => r.json());
+  const res = await fetch(GQL_URL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      query: GQL_QUERY,
+      operationName: 'Get',
+      variables: { name: 'primavera-sound-2026-barcelona' },
+    }),
+  });
+  const raw: RawLineup = await res.json();
   return processLineup(raw);
 }

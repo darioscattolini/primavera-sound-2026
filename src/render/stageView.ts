@@ -1,7 +1,7 @@
 import type { Artist, AppState } from '../types';
 import { getArtistState } from '../state';
 import { esc, addMinutes } from '../utils';
-import { DAY_META, DAY_ORDER } from '../constants';
+import { DAY_META, DAY_ORDER, STAGE_ORDER } from '../constants';
 
 const PX_PER_MIN = 1.5;
 const GUTTER_W = 48;
@@ -44,7 +44,14 @@ function renderDayGrid(day: string, artists: Artist[], state: AppState): string 
   // Unique stages sorted alphabetically
   const stageMap = new Map<string, string>();
   artists.forEach(a => { if (!stageMap.has(a.stageSlug)) stageMap.set(a.stageSlug, a.stage); });
-  const stages = [...stageMap.entries()].sort((a, b) => a[1].localeCompare(b[1]));
+  const stages = [...stageMap.entries()].sort((a, b) => {
+    const ai = STAGE_ORDER.indexOf(a[0]);
+    const bi = STAGE_ORDER.indexOf(b[0]);
+    if (ai === -1 && bi === -1) return a[1].localeCompare(b[1]);
+    if (ai === -1) return 1;
+    if (bi === -1) return -1;
+    return ai - bi;
+  });
 
   // Time bounds — round to hour boundaries
   const minTs = Math.min(...artists.map(a => a.timeTs));
