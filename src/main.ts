@@ -7,6 +7,7 @@ import { renderSchedule } from './render/schedule';
 import { renderStageLineup, renderStageSchedule } from './render/stageView';
 import { renderModal } from './render/modal';
 import { buildDayChips, buildStageChips } from './render/filters';
+import { loadEnrichment } from './enrichment';
 import { esc } from './utils';
 import type { Artist, AppState, Filters } from './types';
 
@@ -192,8 +193,8 @@ function closestFestivalDay(): string {
 }
 
 // ── Init ──────────────────────────────────────────────────────────────────────
-fetchLineup()
-  .then(data => {
+Promise.all([fetchLineup(), loadEnrichment()])
+  .then(([data]) => {
     artists = data;
     document.querySelector('#day-filters .filter-chips')!.insertAdjacentHTML('beforeend', buildDayChips(artists));
     document.querySelector('#stage-filter-wrap .filter-chips')!.insertAdjacentHTML('beforeend', buildStageChips(artists));

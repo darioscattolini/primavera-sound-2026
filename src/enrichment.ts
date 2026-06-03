@@ -8,7 +8,23 @@ export interface ArtistEnrichment {
   videos: Video[];
 }
 
-// Placeholder — same data for every artist until enrichment.json is built
+interface RawEntry {
+  genres: string[];
+  classics?: Video[];
+  recent?: Video[];
+  videos?: Video[];
+}
+
+let data: Record<string, RawEntry> = {};
+
+export async function loadEnrichment(): Promise<void> {
+  try {
+    data = await fetch('data/enrichment.json').then(r => r.json());
+  } catch {
+    data = {};
+  }
+}
+
 const PLACEHOLDER: ArtistEnrichment = {
   genres: ['Indie Rock', 'Shoegaze', 'Dream Pop'],
   videos: [
@@ -19,6 +35,11 @@ const PLACEHOLDER: ArtistEnrichment = {
   ],
 };
 
-export function getEnrichment(_artistId: string): ArtistEnrichment {
-  return PLACEHOLDER;
+export function getEnrichment(artistId: string): ArtistEnrichment {
+  const e = data[artistId];
+  if (!e) return PLACEHOLDER;
+  return {
+    genres: e.genres ?? [],
+    videos: [...(e.classics ?? []), ...(e.recent ?? []), ...(e.videos ?? [])],
+  };
 }
