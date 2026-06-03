@@ -1,0 +1,902 @@
+[
+  {
+    "slug": "bd",
+    "name": ".bd."
+  },
+  {
+    "slug": "yousuke-yukimatsu",
+    "name": "¥ØU$UK€ ¥UK1MAT$U"
+  },
+  {
+    "slug": "2hollis",
+    "name": "2hollis"
+  },
+  {
+    "slug": "a-guy-called-gerald",
+    "name": "A Guy Called Gerald Live"
+  },
+  {
+    "slug": "absolutely",
+    "name": "Absolutely"
+  },
+  {
+    "slug": "addison-rae",
+    "name": "Addison Rae"
+  },
+  {
+    "slug": "adios-adios",
+    "name": "Adios Adios"
+  },
+  {
+    "slug": "agriculture",
+    "name": "Agriculture"
+  },
+  {
+    "slug": "ahadadream",
+    "name": "Ahadadream"
+  },
+  {
+    "slug": "aiko-el-grupo",
+    "name": "Aiko el Grupo"
+  },
+  {
+    "slug": "akazie",
+    "name": "Akazie"
+  },
+  {
+    "slug": "ale-hope",
+    "name": "Ale Hope"
+  },
+  {
+    "slug": "alex-g",
+    "name": "Alex G"
+  },
+  {
+    "slug": "amaarae",
+    "name": "Amaarae"
+  },
+  {
+    "slug": "amiga-date-cuenta",
+    "name": "Amiga Date Cuenta"
+  },
+  {
+    "slug": "anna-von-hausswolff",
+    "name": "Anna von Hausswolff"
+  },
+  {
+    "slug": "annahstasia",
+    "name": "Annahstasia"
+  },
+  {
+    "slug": "anthony-naples",
+    "name": "Anthony Naples"
+  },
+  {
+    "slug": "ashnikko",
+    "name": "Ashnikko"
+  },
+  {
+    "slug": "aurora-halal",
+    "name": "Aurora Halal"
+  },
+  {
+    "slug": "babymorocco",
+    "name": "Babymorocco"
+  },
+  {
+    "slug": "bad-gyal",
+    "name": "Bad Gyal"
+  },
+  {
+    "slug": "bambii",
+    "name": "BAMBII"
+  },
+  {
+    "slug": "barry-b",
+    "name": "Barry B"
+  },
+  {
+    "slug": "baxter-dury",
+    "name": "Baxter Dury"
+  },
+  {
+    "slug": "bclip",
+    "name": "Bclip"
+  },
+  {
+    "slug": "beatrice-m",
+    "name": "Beatrice M."
+  },
+  {
+    "slug": "bel-cobain",
+    "name": "Bel Cobain"
+  },
+  {
+    "slug": "ben-ufo",
+    "name": "Ben UFO"
+  },
+  {
+    "slug": "berlioz",
+    "name": "berlioz"
+  },
+  {
+    "slug": "bestia-bebe",
+    "name": "Bestia Bebé"
+  },
+  {
+    "slug": "beverly-glenncopeland-and-elizabeth-copeland",
+    "name": "Beverly Glenn-Copeland and Elizabeth Copeland"
+  },
+  {
+    "slug": "big-thief",
+    "name": "Big Thief"
+  },
+  {
+    "slug": "blondish",
+    "name": "BLOND:ISH"
+  },
+  {
+    "slug": "blood-orange",
+    "name": "Blood Orange"
+  },
+  {
+    "slug": "bombificadas",
+    "name": "Bombificadas"
+  },
+  {
+    "slug": "brat-star",
+    "name": "Brat Star DJ Set"
+  },
+  {
+    "slug": "brighde-chaimbeul",
+    "name": "Brìghde Chaimbeul"
+  },
+  {
+    "slug": "brutalismus-3000",
+    "name": "Brutalismus 3000"
+  },
+  {
+    "slug": "buscabulla",
+    "name": "Buscabulla"
+  },
+  {
+    "slug": "call-super",
+    "name": "Call Super"
+  },
+  {
+    "slug": "cameron-winter",
+    "name": "Cameron Winter"
+  },
+  {
+    "slug": "cara-delevingne",
+    "name": "Cara Delevingne"
+  },
+  {
+    "slug": "carl-cox",
+    "name": "Carl Cox"
+  },
+  {
+    "slug": "caroline",
+    "name": "caroline"
+  },
+  {
+    "slug": "cheri",
+    "name": "Chéri"
+  },
+  {
+    "slug": "chica-acosta",
+    "name": "Chica Acosta"
+  },
+  {
+    "slug": "cobrah",
+    "name": "Cobrah"
+  },
+  {
+    "slug": "corte",
+    "name": "Corte!"
+  },
+  {
+    "slug": "sonny",
+    "name": "Curated by SONNY"
+  },
+  {
+    "slug": "dani-dicostas",
+    "name": "Dani Dicostas"
+  },
+  {
+    "slug": "dave-p",
+    "name": "Dave P."
+  },
+  {
+    "slug": "debasement",
+    "name": "deBasement"
+  },
+  {
+    "slug": "debit",
+    "name": "Debit"
+  },
+  {
+    "slug": "depresion-sonora",
+    "name": "Depresión Sonora"
+  },
+  {
+    "slug": "dharmacide",
+    "name": "Dharmacide"
+  },
+  {
+    "slug": "dijon",
+    "name": "Dijon"
+  },
+  {
+    "slug": "disobey",
+    "name": "Disobey"
+  },
+  {
+    "slug": "dj-khalipha",
+    "name": "Dj Khalipha"
+  },
+  {
+    "slug": "dj-koolt",
+    "name": "DJ Koolt"
+  },
+  {
+    "slug": "dj-marcelle",
+    "name": "DJ Marcelle"
+  },
+  {
+    "slug": "dj-nobu",
+    "name": "DJ Nobu"
+  },
+  {
+    "slug": "dj-playero",
+    "name": "DJ Playero"
+  },
+  {
+    "slug": "doja-cat",
+    "name": "Doja Cat"
+  },
+  {
+    "slug": "ecco2k",
+    "name": "Ecco2k"
+  },
+  {
+    "slug": "einsturzende-neubauten",
+    "name": "Einstürzende Neubauten"
+  },
+  {
+    "slug": "ethel-cain",
+    "name": "Ethel Cain"
+  },
+  {
+    "slug": "european-vampire",
+    "name": "European Vampire"
+  },
+  {
+    "slug": "fakemink",
+    "name": "fakemink"
+  },
+  {
+    "slug": "father-john-misty",
+    "name": "Father John Misty"
+  },
+  {
+    "slug": "fcukers",
+    "name": "Fcukers"
+  },
+  {
+    "slug": "femtanyl",
+    "name": "Femtanyl"
+  },
+  {
+    "slug": "fillo-deportaberta",
+    "name": "Fillo Deportaberta"
+  },
+  {
+    "slug": "florence-road",
+    "name": "Florence Road"
+  },
+  {
+    "slug": "florentino-b2b-dj-g2g",
+    "name": "Florentino b2b dj g2g"
+  },
+  {
+    "slug": "gara-duran",
+    "name": "Gara Durán"
+  },
+  {
+    "slug": "geese",
+    "name": "Geese"
+  },
+  {
+    "slug": "gelli-haha",
+    "name": "Gelli Haha"
+  },
+  {
+    "slug": "gisela-joao",
+    "name": "Gisela João"
+  },
+  {
+    "slug": "gorillaz",
+    "name": "Gorillaz"
+  },
+  {
+    "slug": "grace-ives",
+    "name": "Grace Ives"
+  },
+  {
+    "slug": "greta",
+    "name": "Greta"
+  },
+  {
+    "slug": "guedra-guedra",
+    "name": "Guedra Guedra"
+  },
+  {
+    "slug": "guitarricadelafuente",
+    "name": "Guitarricadelafuente"
+  },
+  {
+    "slug": "greg",
+    "name": "GЯEG"
+  },
+  {
+    "slug": "hadren",
+    "name": "Hadren"
+  },
+  {
+    "slug": "haich-ber-na",
+    "name": "Haich Ber Na"
+  },
+  {
+    "slug": "haloplus",
+    "name": "Haloplus+"
+  },
+  {
+    "slug": "hannah-diamond",
+    "name": "Hannah Diamond (DJ)"
+  },
+  {
+    "slug": "hekt",
+    "name": "Hekt"
+  },
+  {
+    "slug": "hello-sasy",
+    "name": "Hello Sasy"
+  },
+  {
+    "slug": "hypnosis-therapy",
+    "name": "Hypnosis Therapy"
+  },
+  {
+    "slug": "iglooghost",
+    "name": "Iglooghost"
+  },
+  {
+    "slug": "isabella-lovestory",
+    "name": "Isabella Lovestory"
+  },
+  {
+    "slug": "ivy-barkakati",
+    "name": "Ivy Barkakati"
+  },
+  {
+    "slug": "iza-tkm",
+    "name": "iza tkm"
+  },
+  {
+    "slug": "jade",
+    "name": "Jade"
+  },
+  {
+    "slug": "jan",
+    "name": "Jan"
+  },
+  {
+    "slug": "jasmine4t",
+    "name": "Jasmine.4.T."
+  },
+  {
+    "slug": "jasss",
+    "name": "JASSS"
+  },
+  {
+    "slug": "jimena-amarillo",
+    "name": "Jimena Amarillo"
+  },
+  {
+    "slug": "joan-la-barbara",
+    "name": "Joan La Barbara"
+  },
+  {
+    "slug": "joey-valence-and-brae",
+    "name": "Joey Valence & Brae"
+  },
+  {
+    "slug": "joseph-capriati",
+    "name": "Joseph Capriati"
+  },
+  {
+    "slug": "juicy-bae",
+    "name": "Juicy Bae"
+  },
+  {
+    "slug": "kiki",
+    "name": "KI/KI"
+  },
+  {
+    "slug": "kneecap",
+    "name": "Kneecap"
+  },
+  {
+    "slug": "knocked-loose",
+    "name": "Knocked Loose"
+  },
+  {
+    "slug": "korashe",
+    "name": "korashe"
+  },
+  {
+    "slug": "kylesa",
+    "name": "Kylesa"
+  },
+  {
+    "slug": "lablackie",
+    "name": "LaBlackie"
+  },
+  {
+    "slug": "lambrini-girls",
+    "name": "Lambrini Girls"
+  },
+  {
+    "slug": "las-petunias",
+    "name": "Las Petunias"
+  },
+  {
+    "slug": "lea-sen",
+    "name": "Léa Sen"
+  },
+  {
+    "slug": "lechuga-zafiro-and-verraco-hyperverbena",
+    "name": "Lechuga Zafiro & Verraco: Hyperverbena"
+  },
+  {
+    "slug": "little-simz",
+    "name": "Little Simz"
+  },
+  {
+    "slug": "loukeman",
+    "name": "Loukeman"
+  },
+  {
+    "slug": "lucrecia-dalt",
+    "name": "Lucrecia Dalt"
+  },
+  {
+    "slug": "lusillon",
+    "name": "Lusillon"
+  },
+  {
+    "slug": "m8nse",
+    "name": "M8NSE"
+  },
+  {
+    "slug": "ma-ra",
+    "name": "Ma Ra"
+  },
+  {
+    "slug": "mac-demarco",
+    "name": "Mac DeMarco"
+  },
+  {
+    "slug": "maestro-espada",
+    "name": "Maestro Espada"
+  },
+  {
+    "slug": "malena",
+    "name": "Malena"
+  },
+  {
+    "slug": "malibu",
+    "name": "Malibu"
+  },
+  {
+    "slug": "marc-pinol",
+    "name": "Marc Piñol"
+  },
+  {
+    "slug": "marina",
+    "name": "Marina"
+  },
+  {
+    "slug": "mark-william-lewis",
+    "name": "mark william lewis"
+  },
+  {
+    "slug": "martin",
+    "name": "MARTIN"
+  },
+  {
+    "slug": "massive-attack",
+    "name": "Massive Attack"
+  },
+  {
+    "slug": "matmos",
+    "name": "Matmos"
+  },
+  {
+    "slug": "mechatok",
+    "name": "Mechatok Live"
+  },
+  {
+    "slug": "melt-banana",
+    "name": "Melt-Banana"
+  },
+  {
+    "slug": "men-i-trust",
+    "name": "Men I Trust"
+  },
+  {
+    "slug": "menine",
+    "name": "Menine"
+  },
+  {
+    "slug": "merzbow",
+    "name": "Merzbow"
+  },
+  {
+    "slug": "mina-galan",
+    "name": "Mina Galán"
+  },
+  {
+    "slug": "mobilegirl",
+    "name": "mobilegirl"
+  },
+  {
+    "slug": "mohammad-reza-mortazavi",
+    "name": "Mohammad Reza Mortazavi"
+  },
+  {
+    "slug": "mondo-du-plantis",
+    "name": "Mondo Du Plantis"
+  },
+  {
+    "slug": "mourn",
+    "name": "Mourn"
+  },
+  {
+    "slug": "muna-khaled",
+    "name": "Muna Khaled"
+  },
+  {
+    "slug": "my-bloody-valentine",
+    "name": "My Bloody Valentine"
+  },
+  {
+    "slug": "natalia-lacunza",
+    "name": "Natalia Lacunza"
+  },
+  {
+    "slug": "neska",
+    "name": "neska"
+  },
+  {
+    "slug": "new-york",
+    "name": "NEW YORK"
+  },
+  {
+    "slug": "newdad",
+    "name": "NewDad"
+  },
+  {
+    "slug": "nick-leon",
+    "name": "Nick León Live"
+  },
+  {
+    "slug": "nicole-aiff",
+    "name": "Nicole.Aiff"
+  },
+  {
+    "slug": "ninajirachi",
+    "name": "Ninajirachi"
+  },
+  {
+    "slug": "oklou",
+    "name": "Oklou"
+  },
+  {
+    "slug": "oli-xl",
+    "name": "Oli XL Live"
+  },
+  {
+    "slug": "osserp",
+    "name": "Ósserp"
+  },
+  {
+    "slug": "ouineta",
+    "name": "Ouineta"
+  },
+  {
+    "slug": "overmono",
+    "name": "Overmono"
+  },
+  {
+    "slug": "paco-te-quiero",
+    "name": "Paco Te Quiero"
+  },
+  {
+    "slug": "panda-bear",
+    "name": "Panda Bear"
+  },
+  {
+    "slug": "paula-tape",
+    "name": "Paula Tape"
+  },
+  {
+    "slug": "paus",
+    "name": "Paus"
+  },
+  {
+    "slug": "pavvla",
+    "name": "Pavvla"
+  },
+  {
+    "slug": "peggy-gou",
+    "name": "Peggy Gou"
+  },
+  {
+    "slug": "perfecto-miserable",
+    "name": "Perfecto Miserable"
+  },
+  {
+    "slug": "pinkpantheress",
+    "name": "PinkPantheress"
+  },
+  {
+    "slug": "powder",
+    "name": "Powder"
+  },
+  {
+    "slug": "proc-fiskal-live",
+    "name": "Proc Fiskal live"
+  },
+  {
+    "slug": "ralphie-choo",
+    "name": "Ralphie Choo"
+  },
+  {
+    "slug": "raly",
+    "name": "Raly"
+  },
+  {
+    "slug": "rashad-becker",
+    "name": "Rashad Becker"
+  },
+  {
+    "slug": "ravyn-lenae",
+    "name": "Ravyn Lenae"
+  },
+  {
+    "slug": "raya-diplomatica-es",
+    "name": "Raya Diplomática"
+  },
+  {
+    "slug": "rebe",
+    "name": "Rebe"
+  },
+  {
+    "slug": "renaldo-and-clara",
+    "name": "Renaldo & Clara"
+  },
+  {
+    "slug": "res",
+    "name": "res_"
+  },
+  {
+    "slug": "rian-brazil",
+    "name": "Rian Brazil"
+  },
+  {
+    "slug": "rilo-kiley",
+    "name": "Rilo Kiley"
+  },
+  {
+    "slug": "rojuu",
+    "name": "Rojuu"
+  },
+  {
+    "slug": "role-model",
+    "name": "Role Model"
+  },
+  {
+    "slug": "rose-gray",
+    "name": "Rose Gray"
+  },
+  {
+    "slug": "roza-terenzi",
+    "name": "Roza Terenzi Live"
+  },
+  {
+    "slug": "rusowsky",
+    "name": "rusowsky"
+  },
+  {
+    "slug": "rustie",
+    "name": "Rustie"
+  },
+  {
+    "slug": "sade-oulotola",
+    "name": "Sade Oulotola"
+  },
+  {
+    "slug": "safety-trance",
+    "name": "Safety Trance Live AV"
+  },
+  {
+    "slug": "sama-yax",
+    "name": "Sama Yax"
+  },
+  {
+    "slug": "sama-abdulhadi",
+    "name": "Sama’ Abdulhadi"
+  },
+  {
+    "slug": "shackleton",
+    "name": "Shackleton Live"
+  },
+  {
+    "slug": "shlohmo",
+    "name": "Shlohmo"
+  },
+  {
+    "slug": "six-sex",
+    "name": "Six Sex"
+  },
+  {
+    "slug": "skrillex",
+    "name": "Skrillex"
+  },
+  {
+    "slug": "skullcrusher",
+    "name": "Skullcrusher"
+  },
+  {
+    "slug": "slowdive",
+    "name": "Slowdive"
+  },
+  {
+    "slug": "smerz",
+    "name": "Smerz"
+  },
+  {
+    "slug": "sofia",
+    "name": "Sofia"
+  },
+  {
+    "slug": "sofy-suars",
+    "name": "Sofy Suars"
+  },
+  {
+    "slug": "somos-la-herencia",
+    "name": "Somos la Herencia"
+  },
+  {
+    "slug": "spill-tab",
+    "name": "Spill Tab"
+  },
+  {
+    "slug": "st-frances",
+    "name": "st.frances"
+  },
+  {
+    "slug": "stein",
+    "name": "Stein"
+  },
+  {
+    "slug": "sudan-archives",
+    "name": "Sudan Archives"
+  },
+  {
+    "slug": "svsto",
+    "name": "SVSTO"
+  },
+  {
+    "slug": "teo-lucadamo",
+    "name": "Teo Lucadamo"
+  },
+  {
+    "slug": "teo-planell",
+    "name": "Teo Planell"
+  },
+  {
+    "slug": "texas-is-the-reason",
+    "name": "Texas Is The Reason"
+  },
+  {
+    "slug": "the-avalanches",
+    "name": "The Avalanches DJ Set"
+  },
+  {
+    "slug": "the-cure",
+    "name": "The Cure"
+  },
+  {
+    "slug": "the-new-eves",
+    "name": "The New Eves"
+  },
+  {
+    "slug": "the-sophs",
+    "name": "The Sophs"
+  },
+  {
+    "slug": "the-xx",
+    "name": "The xx"
+  },
+  {
+    "slug": "these-new-puritans",
+    "name": "These New Puritans"
+  },
+  {
+    "slug": "tiyumii",
+    "name": "Tiyumii"
+  },
+  {
+    "slug": "touche-amore",
+    "name": "Touché Amoré"
+  },
+  {
+    "slug": "toumba",
+    "name": "Toumba live"
+  },
+  {
+    "slug": "tv-girl",
+    "name": "TV Girl"
+  },
+  {
+    "slug": "urtrax",
+    "name": "u.r.trax Live"
+  },
+  {
+    "slug": "underground-resistance",
+    "name": "Underground Resistance"
+  },
+  {
+    "slug": "vennus",
+    "name": "Ven’nus"
+  },
+  {
+    "slug": "viagra-boys",
+    "name": "Viagra Boys"
+  },
+  {
+    "slug": "vvv-trippinyou",
+    "name": "VVV [Trippin'you]"
+  },
+  {
+    "slug": "water-from-your-eyes",
+    "name": "Water From Your Eyes"
+  },
+  {
+    "slug": "waterbaby",
+    "name": "Waterbaby"
+  },
+  {
+    "slug": "wet-leg",
+    "name": "Wet Leg"
+  },
+  {
+    "slug": "xavisphone",
+    "name": "xavisphone"
+  },
+  {
+    "slug": "yard-act",
+    "name": "Yard Act"
+  },
+  {
+    "slug": "ydegirl",
+    "name": "Ydegirl"
+  },
+  {
+    "slug": "zohar",
+    "name": "Zohar"
+  }
+]

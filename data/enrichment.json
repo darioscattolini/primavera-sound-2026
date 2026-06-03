@@ -1,0 +1,4257 @@
+{
+  "bd": {
+    "genres": [
+      "post rock",
+      "indie rock",
+      "spain",
+      "dream pop",
+      "humildad"
+    ],
+    "classics": [
+      {
+        "id": "p3XdiSMssaA",
+        "title": "Cien y Cientos"
+      },
+      {
+        "id": "9fbRUBkt0iA",
+        "title": "Ahora Sí"
+      }
+    ],
+    "recent": [
+      {
+        "id": "OJNuIGnuHe0",
+        "title": "Menagaray"
+      },
+      {
+        "id": "3vC6lAWYz8w",
+        "title": "Hemos Roto los Espejos"
+      }
+    ]
+  },
+  "yousuke-yukimatsu": {
+    "genres": [
+      "japan",
+      "japanese",
+      "dj",
+      "Rave"
+    ],
+    "classics": [
+      {
+        "id": "T1tcUfUhR5U",
+        "title": "¥ØU$UK€ ¥UK1MAT$U | Boiler Room: Tokyo"
+      },
+      {
+        "id": "WvyvwlowHWM",
+        "title": "Midnight Shift - ¥ØU$UK€ ¥UK1MAT$U | HÖR - Nov 19 / 2022"
+      }
+    ],
+    "recent": [
+      {
+        "id": "KvHGYT6ZqRw",
+        "title": "¥ØU$UK€ ¥UK1MAT$U spins Skrillex and ISOxo&#39;s &quot;fuze&quot; at Coachella | April 18, 2026"
+      },
+      {
+        "id": "wBhulrbJ-_g",
+        "title": "my take on ¥ØU$UK€ ¥UK1MAT$U&#39;S iconic boiler room mix"
+      }
+    ]
+  },
+  "2hollis": {
+    "genres": [
+      "cloud rap",
+      "digicore",
+      "hyperpop",
+      "electropop",
+      "Electroclash"
+    ],
+    "classics": [
+      {
+        "id": "jOLT6ukrQSg",
+        "title": "poster boy"
+      },
+      {
+        "id": "-roV0TWbOsY",
+        "title": "jeans"
+      }
+    ],
+    "recent": [
+      {
+        "id": "LJGWQkyJRaU",
+        "title": "safety"
+      },
+      {
+        "id": "QQJZeionzLc",
+        "title": "PLASTER"
+      }
+    ]
+  },
+  "a-guy-called-gerald": {
+    "genres": [],
+    "classics": [
+      {
+        "id": "j7vxHOCeiQ4",
+        "title": "A Guy Called Gerald - Voodoo Ray (OFFICIAL MUSIC VIDEO)"
+      },
+      {
+        "id": "Gzi3CSzt_7s",
+        "title": "Voodoo Ray - A Guy Called Gerald"
+      }
+    ],
+    "recent": [
+      {
+        "id": "J9SRC_BCfWI",
+        "title": "A Guy Called Gerald ( Live ) @ Wonderfruit 2025"
+      },
+      {
+        "id": "JNLTjbCDnkw",
+        "title": "A Guy Called Gerald, 1988"
+      }
+    ]
+  },
+  "absolutely": {
+    "genres": [
+      "pop",
+      "singer-songwriter",
+      "UK",
+      "british",
+      "post-punk"
+    ],
+    "classics": [
+      {
+        "id": "gKiKeLP6Iyk",
+        "title": "I Just Don&#39;t Know You Yet (Live)"
+      },
+      {
+        "id": "nzI14kST9KQ",
+        "title": "24 Hours"
+      }
+    ],
+    "recent": [
+      {
+        "id": "y1aNqYXpz2U",
+        "title": "Heartbreak Anniversary (H&amp;M&amp;REDSTAGE)"
+      },
+      {
+        "id": "khPw6uFpQMc",
+        "title": "Prototype"
+      }
+    ]
+  },
+  "addison-rae": {
+    "genres": [
+      "pop",
+      "american",
+      "electropop",
+      "alt-pop",
+      "queen of pop"
+    ],
+    "classics": [
+      {
+        "id": "APvEk-IEGJ4",
+        "title": "Fame is a Gun"
+      },
+      {
+        "id": "KS3lA6_-I7U",
+        "title": "Diet Pepsi"
+      }
+    ],
+    "recent": [
+      {
+        "id": "yOAMX0g7u3A",
+        "title": "Life&#39;s No Fun Through Clear Waters"
+      },
+      {
+        "id": "ztXfOuLY_9k",
+        "title": "Lost &amp; Found"
+      }
+    ]
+  },
+  "adios-adios": {
+    "genres": [
+      "psychedelic",
+      "folk",
+      "art rock",
+      "indie"
+    ],
+    "classics": [
+      {
+        "id": "CYafryb-VoY",
+        "title": "El Marinero Me Hará Pasar"
+      },
+      {
+        "id": "CuH4qXXh6A0",
+        "title": "Blanket Of Fools"
+      }
+    ],
+    "recent": [
+      {
+        "id": "J10zNZHxYX0",
+        "title": "Virando Hacia El Agua"
+      },
+      {
+        "id": "3zgYdGXQqak",
+        "title": "Por Ejemplo (Cover)"
+      }
+    ]
+  },
+  "agriculture": {
+    "genres": [],
+    "classics": [
+      {
+        "id": "CkDR5EKLoFw",
+        "title": "My Garden"
+      },
+      {
+        "id": "ycQ6xaYqtWg",
+        "title": "Micah (5: 15am)"
+      }
+    ],
+    "recent": [
+      {
+        "id": "BiAUE6mqSQs",
+        "title": "Hallelujah"
+      },
+      {
+        "id": "NqdXv7UoJak",
+        "title": "The Reply"
+      }
+    ]
+  },
+  "ahadadream": {
+    "genres": [
+      "dance",
+      "electronic",
+      "uk funky",
+      "UK",
+      "british"
+    ],
+    "classics": [
+      {
+        "id": "CAwTpysdDuY",
+        "title": "TAKA"
+      },
+      {
+        "id": "tZzvZIdv9Fs",
+        "title": "TAKA (PEEKABOO Remix)"
+      }
+    ],
+    "recent": [
+      {
+        "id": "XzvpEdoKO8I",
+        "title": "Make Space (Preview)"
+      },
+      {
+        "id": "gOFX92gtYcI",
+        "title": "Put That Banger On Next"
+      }
+    ]
+  },
+  "aiko-el-grupo": {
+    "genres": [
+      "spain",
+      "indie pop",
+      "spanish",
+      "garage",
+      "garage pop"
+    ],
+    "classics": [
+      {
+        "id": "WuwfNgugVEI",
+        "title": "k pesao"
+      },
+      {
+        "id": "h2oUNebLut8",
+        "title": "Es la forma que tienes de ocultar algo que hay en tu mente"
+      }
+    ],
+    "recent": [
+      {
+        "id": "mrnF7h7ujCI",
+        "title": "el aWard es para:"
+      },
+      {
+        "id": "PJbL4JYN9rM",
+        "title": "modo sigilo"
+      }
+    ]
+  },
+  "akazie": {
+    "genres": [],
+    "classics": [
+      {
+        "id": "9s50v1fBKR0",
+        "title": "Reppin&#39; Time"
+      },
+      {
+        "id": "sZnK6e8LaMs",
+        "title": "Snow White"
+      }
+    ],
+    "recent": [
+      {
+        "id": "A63fZ08_iC0",
+        "title": "O Meu Amor (Rework)"
+      },
+      {
+        "id": "shB2KLomLfo",
+        "title": "One Moe Hizit"
+      }
+    ]
+  },
+  "ale-hope": {
+    "genres": [],
+    "classics": [
+      {
+        "id": "eOt9y_qKu6o",
+        "title": "Engatusa"
+      }
+    ],
+    "recent": []
+  },
+  "alex-g": {
+    "genres": [
+      "Lo-Fi",
+      "indie rock",
+      "singer-songwriter",
+      "indie",
+      "indie folk"
+    ],
+    "classics": [
+      {
+        "id": "I_5lEJjGgto",
+        "title": "Treehouse"
+      },
+      {
+        "id": "1PSGHl0Gp18",
+        "title": "Things to Do"
+      }
+    ],
+    "recent": [
+      {
+        "id": "YQIFg9uDZLI",
+        "title": "Beam Me Up"
+      },
+      {
+        "id": "gnrDcRIYKUE",
+        "title": "Spinning"
+      }
+    ]
+  },
+  "amaarae": {
+    "genres": [
+      "rnb",
+      "afrobeats",
+      "ghana",
+      "alternative rnb",
+      "pop"
+    ],
+    "classics": [
+      {
+        "id": "eNgFfBrPAoc",
+        "title": "SAD GIRLZ LUV MONEY (Remix)"
+      },
+      {
+        "id": "O28QqNitznA",
+        "title": "Angels in Tibet"
+      }
+    ],
+    "recent": [
+      {
+        "id": "ZjQoFHNtwY0",
+        "title": "Kiss Me Thru The Phone pt 2"
+      },
+      {
+        "id": "kkcvSMHSYL8",
+        "title": "100DRUM"
+      }
+    ]
+  },
+  "amiga-date-cuenta": {
+    "genres": [],
+    "classics": [
+      {
+        "id": "9LcCeTP61Wg",
+        "title": "“Lo soñé antes de que pasara”: Ari cuenta su relato más fuerte junto a &#39;Morras malditas’😲"
+      },
+      {
+        "id": "Z8qIw6qn9Fg",
+        "title": "Acompañó a un paciente con SIDA hasta el final… y eso cambió su vocación para siempre 🥹"
+      }
+    ],
+    "recent": [
+      {
+        "id": "sB-BBVYLLCQ",
+        "title": "El arte como acto de servir ❤️‍🩹| Aura y Miriam de @foro.82 #hermosillo"
+      },
+      {
+        "id": "KPAFiAkld8w",
+        "title": "LA MATERNIDAD EXPUESTA EN REDES SOCIALES | Jenniffer Figueroa @desarrollopleno_"
+      }
+    ]
+  },
+  "anna-von-hausswolff": {
+    "genres": [
+      "swedish",
+      "singer-songwriter",
+      "female vocalists",
+      "indie",
+      "art pop"
+    ],
+    "classics": [
+      {
+        "id": "EHjrMTqwTsw",
+        "title": "Theatre of Nature"
+      },
+      {
+        "id": "Zaqr3As-K_I",
+        "title": "The Iconoclast"
+      }
+    ],
+    "recent": [
+      {
+        "id": "_x2BvzZSLqQ",
+        "title": "Epitaph Of Daniel"
+      },
+      {
+        "id": "6lkSudjC07Q",
+        "title": "Sun Rise"
+      }
+    ]
+  },
+  "annahstasia": {
+    "genres": [
+      "folk",
+      "american",
+      "USA",
+      "nigeria",
+      "singer-songwriter"
+    ],
+    "classics": [
+      {
+        "id": "ybANpBVzfXE",
+        "title": "Sunday"
+      },
+      {
+        "id": "jnO0oXMWI6o",
+        "title": "Power"
+      }
+    ],
+    "recent": [
+      {
+        "id": "gyG3-3-VKdY",
+        "title": "Untamed - Live at Glasshaus"
+      },
+      {
+        "id": "zbwNsmmROuk",
+        "title": "Satisfy Me – Live at Glasshaus"
+      }
+    ]
+  },
+  "anthony-naples": {
+    "genres": [
+      "House",
+      "deep house",
+      "electronic",
+      "techno",
+      "outsider house"
+    ],
+    "classics": [
+      {
+        "id": "qpf1hIHxbrk",
+        "title": "Orb Two (Mixed)"
+      },
+      {
+        "id": "CtViSEvcBjQ",
+        "title": "Benefit"
+      }
+    ],
+    "recent": [
+      {
+        "id": "v07dxX1y7tk",
+        "title": "Tusk"
+      },
+      {
+        "id": "AJVUcRBiWIQ",
+        "title": "Mad Disrespect"
+      }
+    ]
+  },
+  "ashnikko": {
+    "genres": [
+      "pop",
+      "electropop",
+      "electronic",
+      "Hip-Hop",
+      "rap"
+    ],
+    "classics": [
+      {
+        "id": "pky4r3tCn9Q",
+        "title": "Slumber Party (feat. Princess Nokia)"
+      },
+      {
+        "id": "oYXVYiEV40I",
+        "title": "Daisy"
+      }
+    ],
+    "recent": [
+      {
+        "id": "WnyZWEQ7jqQ",
+        "title": "She’s So Pretty"
+      },
+      {
+        "id": "qVwMJiUz78s",
+        "title": "Lip Smacker"
+      }
+    ]
+  },
+  "aurora-halal": {
+    "genres": [
+      "techno",
+      "experimental",
+      "electronic",
+      "House",
+      "deep house"
+    ],
+    "classics": [
+      {
+        "id": "TjNNaCKpsoo",
+        "title": "Eternal Blue (Wata Igarashi Crossing Remix)"
+      },
+      {
+        "id": "CRaFPq5scCo",
+        "title": "Joey"
+      }
+    ],
+    "recent": [
+      {
+        "id": "orEQvTb65es",
+        "title": "Just Tell Me (Mixed)"
+      },
+      {
+        "id": "ZvDTGmnquME",
+        "title": "Off The Top"
+      }
+    ]
+  },
+  "babymorocco": {
+    "genres": [
+      "pop",
+      "electronic",
+      "Electroclash",
+      "electropop",
+      "synthpop"
+    ],
+    "classics": [
+      {
+        "id": "t1889weT2nw",
+        "title": "The Boys &amp; The Girls"
+      },
+      {
+        "id": "2smEoGuPyIc",
+        "title": "i wish you would make it easy"
+      }
+    ],
+    "recent": [
+      {
+        "id": "J09wFYZ6wsY",
+        "title": "Crayons"
+      },
+      {
+        "id": "E59w1dNdCDQ",
+        "title": "NRG (bo en Remix)"
+      }
+    ]
+  },
+  "bad-gyal": {
+    "genres": [
+      "dancehall",
+      "Reggaeton",
+      "neoperreo",
+      "spanish",
+      "catalan"
+    ],
+    "classics": [
+      {
+        "id": "VuawhqUGO4U",
+        "title": "Chulo pt.2"
+      },
+      {
+        "id": "3jU2fYV1ryY",
+        "title": "Perdió Este Culo"
+      }
+    ],
+    "recent": [
+      {
+        "id": "kxP4lxnfOB8",
+        "title": "Gatitas"
+      },
+      {
+        "id": "PYP48mDcNd4",
+        "title": "Tic Tac (Hour Love)"
+      }
+    ]
+  },
+  "bambii": {
+    "genres": [
+      "dancehall",
+      "electronic",
+      "canada",
+      "dance",
+      "female vocalist"
+    ],
+    "classics": [
+      {
+        "id": "69jCEef-4Uc",
+        "title": "TWITCH"
+      },
+      {
+        "id": "IOONDURvCYs",
+        "title": "WICKED GYAL"
+      }
+    ],
+    "recent": [
+      {
+        "id": "uf8RYt1IU1Y",
+        "title": "INFINITY CLUB II"
+      },
+      {
+        "id": "tKHfxRFN3Ys",
+        "title": "Remember"
+      }
+    ]
+  },
+  "barry-b": {
+    "genres": [
+      "house",
+      "electronic",
+      "deep house"
+    ],
+    "classics": [
+      {
+        "id": "tPw0LATBXd8",
+        "title": "Yo pensaba que me había tocado Dios"
+      },
+      {
+        "id": "wNzrq-SNYEc",
+        "title": "Monster Truck"
+      }
+    ],
+    "recent": [
+      {
+        "id": "BCAuQmpFGeA",
+        "title": "Silverado"
+      },
+      {
+        "id": "AP2IDHGh8NY",
+        "title": "Monster Truck (GALLERY SESSION)"
+      }
+    ]
+  },
+  "baxter-dury": {
+    "genres": [
+      "indie rock",
+      "singer-songwriter",
+      "indie",
+      "dream pop",
+      "alternative"
+    ],
+    "classics": [
+      {
+        "id": "WARS6mNZdto",
+        "title": "Lips"
+      },
+      {
+        "id": "H9Xke4-Ogdc",
+        "title": "Miami"
+      }
+    ],
+    "recent": [
+      {
+        "id": "XyYa6NTtPl4",
+        "title": "Allbarone (Meal Deal Mix by Parrot and Cocker Too)"
+      },
+      {
+        "id": "otkA8BwSMJk",
+        "title": "Allbarone (Parrot and Cocker Too Remix)"
+      }
+    ]
+  },
+  "bclip": {
+    "genres": [
+      "Colombia"
+    ],
+    "classics": [
+      {
+        "id": "pBkQ47r6pGE",
+        "title": "Roots"
+      }
+    ],
+    "recent": []
+  },
+  "beatrice-m": {
+    "genres": [
+      "french"
+    ],
+    "classics": [
+      {
+        "id": "dBv9AeD0a8w",
+        "title": "Midnight Swim"
+      },
+      {
+        "id": "y8SuqgOfsvs",
+        "title": "Oval"
+      }
+    ],
+    "recent": [
+      {
+        "id": "QkxWHTgd0Bo",
+        "title": "Disco Corner"
+      },
+      {
+        "id": "EJiFTrEEdZs",
+        "title": "In Touch"
+      }
+    ]
+  },
+  "bel-cobain": {
+    "genres": [
+      "soul",
+      "indie",
+      "alternative",
+      "pop",
+      "rnb"
+    ],
+    "classics": [
+      {
+        "id": "KP_G3v9qnnA",
+        "title": "Mint (These Lines)"
+      },
+      {
+        "id": "_2-Jw4UYQWg",
+        "title": "Emocean"
+      }
+    ],
+    "recent": [
+      {
+        "id": "nvEifUefWhA",
+        "title": "Change"
+      },
+      {
+        "id": "3QSdds4i0AI",
+        "title": "Mind is a Dancer"
+      }
+    ]
+  },
+  "ben-ufo": {
+    "genres": [
+      "dubstep",
+      "House",
+      "electronic",
+      "techno",
+      "electro"
+    ],
+    "classics": [
+      {
+        "id": "eDn4lsHcbAU",
+        "title": "Ben UFO Boiler Room x Dekmantel x IR DJ Set"
+      },
+      {
+        "id": "FvtjyRHN-hk",
+        "title": "Ben UFO | Boiler Room x Sugar Mountain 2025: Melbourne"
+      }
+    ],
+    "recent": [
+      {
+        "id": "Jl4prme427Q",
+        "title": "Ben UFO @TheLotRadio 05-29-2026"
+      },
+      {
+        "id": "Li1v0Jwu5Nk",
+        "title": "Amazing support by Ben UFO, Hamdi, Jacques Renault and more so far."
+      }
+    ]
+  },
+  "berlioz": {
+    "genres": [
+      "indie pop",
+      "indie rock",
+      "alternative"
+    ],
+    "classics": [
+      {
+        "id": "kBbnPzFcty8",
+        "title": "deep in it"
+      },
+      {
+        "id": "MCXQzX5H7SE",
+        "title": "jazz is for ordinary people"
+      }
+    ],
+    "recent": [
+      {
+        "id": "v37D6hnNIWk",
+        "title": "free fall"
+      },
+      {
+        "id": "C84TtIU96Ek",
+        "title": "open this wall"
+      }
+    ]
+  },
+  "bestia-bebe": {
+    "genres": [
+      "indie rock",
+      "rock",
+      "argentina",
+      "indie",
+      "pop punk"
+    ],
+    "classics": [
+      {
+        "id": "iiK5hN0TNR0",
+        "title": "Lo Quiero Mucho a Ese Muchacho"
+      },
+      {
+        "id": "vjXv6v6j1kM",
+        "title": "Sabés!"
+      }
+    ],
+    "recent": [
+      {
+        "id": "I6QttuJY9Cc",
+        "title": "El tiempo (es lo peor)"
+      },
+      {
+        "id": "i2Kd0wyCyIs",
+        "title": "Planes perfectos"
+      }
+    ]
+  },
+  "beverly-glenncopeland-and-elizabeth-copeland": {
+    "genres": [],
+    "classics": [
+      {
+        "id": "n1FCJr1HOio",
+        "title": "Beverly Glenn-Copeland &amp; Indigo Rising - Ever New (Official Music Video)"
+      },
+      {
+        "id": "AyejxeYnihA",
+        "title": "Beverly Glenn-Copeland - Harbour (Song For Elizabeth) - Live from Lakewind Sound Studios"
+      }
+    ],
+    "recent": [
+      {
+        "id": "cuzsnnuhQR0",
+        "title": "Beverly Glenn-Copeland and Elizabeth Copeland on the Hard Commitment of Love"
+      },
+      {
+        "id": "Vxou3cccvKc",
+        "title": "Beverly Glenn-Copeland featuring Elizabeth Copeland - Harbour (Live at Hackney Empire)"
+      }
+    ]
+  },
+  "big-thief": {
+    "genres": [
+      "indie rock",
+      "indie folk",
+      "folk",
+      "folk rock",
+      "indie"
+    ],
+    "classics": [
+      {
+        "id": "dF6-DLQ8xLo",
+        "title": "Velvet Ring"
+      },
+      {
+        "id": "PFoVAtIPG3c",
+        "title": "Simulation Swarm"
+      }
+    ],
+    "recent": [
+      {
+        "id": "c06NgMn64Pg",
+        "title": "Relive, Redie"
+      },
+      {
+        "id": "Uzn7HRReUfE",
+        "title": "No Fear"
+      }
+    ]
+  },
+  "blondish": {
+    "genres": [
+      "House",
+      "electronic",
+      "minimal",
+      "tech house",
+      "canada"
+    ],
+    "classics": [
+      {
+        "id": "qJAbLWc7hAE",
+        "title": "Laberinto Feat Bahramji"
+      },
+      {
+        "id": "FJ2IGj-tgKI",
+        "title": "Never Walk Alone (Alex Wann Remix)"
+      }
+    ],
+    "recent": [
+      {
+        "id": "uOCmgTS-_lA",
+        "title": "In Da Jungle"
+      },
+      {
+        "id": "wDE_iTQjNi8",
+        "title": "nothin lasts 4ever"
+      }
+    ]
+  },
+  "blood-orange": {
+    "genres": [
+      "chillwave",
+      "indie",
+      "rnb",
+      "alternative rnb",
+      "indie pop"
+    ],
+    "classics": [
+      {
+        "id": "MuZfJwghp1Y",
+        "title": "Champagne Coast"
+      },
+      {
+        "id": "qxWi0AK0q9k",
+        "title": "Champagne Coast"
+      }
+    ],
+    "recent": [
+      {
+        "id": "1Fzc54S2ckI",
+        "title": "Essex_Honey.mp3"
+      },
+      {
+        "id": "wpxE0IwfAk0",
+        "title": "Your Politics"
+      }
+    ]
+  },
+  "bombificadas": {
+    "genres": [
+      "indie rock",
+      "alternative",
+      "experimental"
+    ],
+    "classics": [
+      {
+        "id": "G8u6N3P8rWA",
+        "title": "Apocalipsis"
+      }
+    ],
+    "recent": []
+  },
+  "brat-star": {
+    "genres": [
+      "house",
+      "electronic",
+      "dance"
+    ],
+    "classics": [
+      {
+        "id": "i5KyM7cwpbg",
+        "title": "BRAT STAR DJ SET XXX SLIPKNOT ~ PSYCHOSOCIAL XXX"
+      }
+    ],
+    "recent": []
+  },
+  "brighde-chaimbeul": {
+    "genres": [
+      "Scottish",
+      "folk",
+      "scotland",
+      "psychedelic",
+      "composer"
+    ],
+    "classics": [
+      {
+        "id": "0Wd34k96N7o",
+        "title": "O Chiadain an Lo"
+      },
+      {
+        "id": "VfXAaeKbV6k",
+        "title": "Pililiù (The Call of the Redshank)"
+      }
+    ],
+    "recent": [
+      {
+        "id": "7oiwLe0xCss",
+        "title": "Sguabag/The Sweeper"
+      },
+      {
+        "id": "8VMZal-1Jgg",
+        "title": "A&#39; Chailleach"
+      }
+    ]
+  },
+  "brutalismus-3000": {
+    "genres": [
+      "techno",
+      "Gabber",
+      "early hardstyle",
+      "hardcore techno",
+      "industrial"
+    ],
+    "classics": [
+      {
+        "id": "jtRV9DWKTKo",
+        "title": "Romantika"
+      },
+      {
+        "id": "I2UV_21GuA8",
+        "title": "Satan Was A Babyboomer"
+      }
+    ],
+    "recent": [
+      {
+        "id": "82J8PKGRzKA",
+        "title": "Gore Louvre"
+      },
+      {
+        "id": "rQbjn_9skbQ",
+        "title": "I Bring My Gun To The Function (with Boys Noize)"
+      }
+    ]
+  },
+  "buscabulla": {
+    "genres": [
+      "synthpop",
+      "experimental",
+      "puerto rico",
+      "electronic",
+      "Kitsune"
+    ],
+    "classics": [
+      {
+        "id": "QVt4qUIR8vM",
+        "title": "Tártaro"
+      },
+      {
+        "id": "mru8NRBHtJU",
+        "title": "Métele"
+      }
+    ],
+    "recent": [
+      {
+        "id": "F1HkzsAdxbU",
+        "title": "Incrédula (Matt Louis Remix)"
+      },
+      {
+        "id": "rCC1IAsPJME",
+        "title": "Miraverahí (Slow Jamz Remix)"
+      }
+    ]
+  },
+  "call-super": {
+    "genres": [
+      "techno",
+      "House",
+      "electronic",
+      "idm",
+      "tech house"
+    ],
+    "classics": [
+      {
+        "id": "UdmfWFhoNnE",
+        "title": "Mothertime"
+      },
+      {
+        "id": "r4HDknvSMPg",
+        "title": "All We Have Is Speed"
+      }
+    ],
+    "recent": [
+      {
+        "id": "Mi8l9_vB_s8",
+        "title": "Swallow Me"
+      },
+      {
+        "id": "52J-5wkA1BE",
+        "title": "bodiesinheaven II"
+      }
+    ]
+  },
+  "cameron-winter": {
+    "genres": [
+      "singer-songwriter",
+      "indie folk",
+      "chamber folk",
+      "contemporary folk",
+      "indie"
+    ],
+    "classics": [
+      {
+        "id": "AzpaorY9kYg",
+        "title": "Love Takes Miles"
+      },
+      {
+        "id": "TOyrlmZgBXo",
+        "title": "Nausicaä (Love Will Be Revealed)"
+      }
+    ],
+    "recent": [
+      {
+        "id": "xb98QiJo7X8",
+        "title": "The Rolling Stones"
+      },
+      {
+        "id": "Vr2VSJY9sgg",
+        "title": "We&#39;re Thinking the Same Thing"
+      }
+    ]
+  },
+  "cara-delevingne": {
+    "genres": [
+      "pop",
+      "female vocalists",
+      "actresses",
+      "england",
+      "Chicks Rock"
+    ],
+    "classics": [
+      {
+        "id": "Iac183cZmnE",
+        "title": "I Feel Everything (From &quot;Valerian and the City of a Thousand Planets&quot;)"
+      }
+    ],
+    "recent": []
+  },
+  "carl-cox": {
+    "genres": [
+      "techno",
+      "House",
+      "electronic",
+      "dance",
+      "electronica"
+    ],
+    "classics": [
+      {
+        "id": "9eobt3JEmY0",
+        "title": "Inferno"
+      },
+      {
+        "id": "Ff4bayyfPw8",
+        "title": "See the Sun Rising"
+      }
+    ],
+    "recent": [
+      {
+        "id": "gyqnEDe4gnY",
+        "title": "Burn Tonight (Extended Mix)"
+      },
+      {
+        "id": "kf9WJNi8ptg",
+        "title": "Burn Tonight"
+      }
+    ]
+  },
+  "caroline": {
+    "genres": [
+      "electronic",
+      "indie",
+      "female vocalists",
+      "japanese",
+      "electronica"
+    ],
+    "classics": [
+      {
+        "id": "sjf2I84nRO4",
+        "title": "Tell me I never knew that"
+      },
+      {
+        "id": "Fa3-sen3mIo",
+        "title": "Total euphoria"
+      }
+    ],
+    "recent": [
+      {
+        "id": "X7bjXXHHGx8",
+        "title": "Beautiful ending (Giant Claw Remix)"
+      },
+      {
+        "id": "feREU1T9BFs",
+        "title": "_you never really get that far_ (Coldplay cover)"
+      }
+    ]
+  },
+  "cheri": {
+    "genres": [
+      "french",
+      "pop",
+      "france",
+      "electropop",
+      "under 2000 listeners"
+    ],
+    "classics": [
+      {
+        "id": "JaofqYIQj_g",
+        "title": "Leave Love"
+      },
+      {
+        "id": "qTsIKY3cmpc",
+        "title": "ラバーズデイ"
+      }
+    ],
+    "recent": [
+      {
+        "id": "LgLbgyWRYOU",
+        "title": "重ねた言葉"
+      },
+      {
+        "id": "MVlrlxYR2x4",
+        "title": "café au lait"
+      }
+    ]
+  },
+  "chica-acosta": {
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "urban"
+    ],
+    "classics": [
+      {
+        "id": "yEHMBBOotHA",
+        "title": "Historia de una CNCOwner❤"
+      },
+      {
+        "id": "xFVzDfUdU3I",
+        "title": "Cnco mi Patata😊Hermoso"
+      }
+    ],
+    "recent": [
+      {
+        "id": "fjRrUGBvPzU",
+        "title": "Los mejores"
+      }
+    ]
+  },
+  "cobrah": {
+    "genres": [
+      "electronic",
+      "Electroclash",
+      "hip house",
+      "Sweden",
+      "swedish"
+    ],
+    "classics": [
+      {
+        "id": "7ydr9Nl6BQc",
+        "title": "BRAND NEW BITCH"
+      },
+      {
+        "id": "BOYSHGTmh20",
+        "title": "BANG"
+      }
+    ],
+    "recent": [
+      {
+        "id": "dJEr6R485y0",
+        "title": "Dog"
+      },
+      {
+        "id": "8Od1NQtElj8",
+        "title": "Hit Girl"
+      }
+    ]
+  },
+  "corte": {
+    "genres": [
+      "spanish",
+      "alternative pop",
+      "spain"
+    ],
+    "classics": [
+      {
+        "id": "kVOMDf_9JF8",
+        "title": "CORTE! - Hay un niño atrapado dentro de una máquina"
+      },
+      {
+        "id": "q7lNJHXBx80",
+        "title": "CORTE! - Una Rata (Videoclip)"
+      }
+    ],
+    "recent": [
+      {
+        "id": "zXz1Me2h_rs",
+        "title": "CORTE!, bloodstein - A ratos perdidos (vídeo)"
+      },
+      {
+        "id": "8-ni13WI2AY",
+        "title": "CORTE! ///SE RUEGA NO TOCAR 2 (FLORISTERÍA MIPITI) /// LIVE SESSION"
+      }
+    ]
+  },
+  "sonny": {
+    "genres": [
+      "house",
+      "electronic",
+      "curated"
+    ],
+    "classics": [
+      {
+        "id": "KpXAZtPqTjE",
+        "title": "DJ Set"
+      }
+    ],
+    "recent": []
+  },
+  "dani-dicostas": {
+    "genres": [
+      "spanish",
+      "spain"
+    ],
+    "classics": [
+      {
+        "id": "VyPGl8H9Eyo",
+        "title": "Ritual"
+      }
+    ],
+    "recent": []
+  },
+  "dave-p": {
+    "genres": [
+      "house",
+      "electronic",
+      "deep house"
+    ],
+    "classics": [
+      {
+        "id": "C-hP07RZEog",
+        "title": "Vzpomínky / Memories"
+      },
+      {
+        "id": "vv60Cs7IN-E",
+        "title": "Hrubé zastavení času / A Rude Stoppage of Time"
+      }
+    ],
+    "recent": [
+      {
+        "id": "mAxTZ0VIelM",
+        "title": "Silně mocná a vábivá - Very powerful and alluring"
+      },
+      {
+        "id": "RIOvTsBbBUs",
+        "title": "Bouře - The Storm"
+      }
+    ]
+  },
+  "debasement": {
+    "genres": [
+      "House",
+      "electronic",
+      "dance",
+      "death metal",
+      "queer"
+    ],
+    "classics": [
+      {
+        "id": "JL9UcH73F-I",
+        "title": "Basement Beats"
+      }
+    ],
+    "recent": [
+      {
+        "id": "1l039oW4bEw",
+        "title": "STAY IN UR LANE"
+      },
+      {
+        "id": "OJsEXjIGPPg",
+        "title": "STAY IN UR LANE"
+      }
+    ]
+  },
+  "debit": {
+    "genres": [
+      "electronic",
+      "ambient",
+      "mashup",
+      "experimental",
+      "Post-Industrial"
+    ],
+    "classics": [
+      {
+        "id": "YzYBrhLl0GI",
+        "title": "Haut debit"
+      },
+      {
+        "id": "oSZbLeafhSs",
+        "title": "Kolaboy ft Ejyke - Omalicha (Official Music Video)"
+      }
+    ],
+    "recent": [
+      {
+        "id": "5VZsNJNFLQE",
+        "title": "डेबिट विश्वकर्मा र अनिशा बैजुले गाए खत्रा दोहोरी गीत |DEBIT BISHWAKARMA/ANISHA BAIJU LIVEDOHORI2083"
+      },
+      {
+        "id": "8N_PQRG7g9w",
+        "title": "Debit - 860Sini (Visualizer Official)"
+      }
+    ]
+  },
+  "depresion-sonora": {
+    "genres": [
+      "post-punk",
+      "spain",
+      "coldwave",
+      "rock",
+      "new wave"
+    ],
+    "classics": [
+      {
+        "id": "rL9D3SVPcyo",
+        "title": "Sonora"
+      }
+    ],
+    "recent": [
+      {
+        "id": "holLqVAzZjE",
+        "title": "Cómo Será Vivir en el Campo (GALLERY SESSION)"
+      },
+      {
+        "id": "yoQVxmxgYKI",
+        "title": "Guárdame este Secreto"
+      }
+    ]
+  },
+  "dharmacide": {
+    "genres": [
+      "post-punk",
+      "indie",
+      "shoegaze",
+      "dream pop",
+      "spain"
+    ],
+    "classics": [
+      {
+        "id": "HwEwDNooQs8",
+        "title": "Reasons"
+      },
+      {
+        "id": "IZBw0Wt12zg",
+        "title": "Lonely"
+      }
+    ],
+    "recent": []
+  },
+  "dijon": {
+    "genres": [
+      "Neo-Soul",
+      "alternative rnb",
+      "rnb",
+      "bedroom pop",
+      "singer-songwriter"
+    ],
+    "classics": [
+      {
+        "id": "ws5K_5G_xvI",
+        "title": "The Dress"
+      },
+      {
+        "id": "SpbDwr7HZdw",
+        "title": "Justin Bieber, Dijon - DEVOTION (Audio)"
+      }
+    ],
+    "recent": [
+      {
+        "id": "2PeUx1U0Gjg",
+        "title": "Honey Dijon and Jacob Lusk - Satisfied (Quentin Harris Remix) [Official Lyric Video]"
+      },
+      {
+        "id": "v9rgBnRm7n8",
+        "title": "Lovax officiel — 220K vues sans label dans Dijon 🎤🔥"
+      }
+    ]
+  },
+  "disobey": {
+    "genres": [
+      "hardcore",
+      "grindcore",
+      "d-beat",
+      "thrash",
+      "Crust"
+    ],
+    "classics": [
+      {
+        "id": "u1mfkkMYPO0",
+        "title": "Rebellion"
+      }
+    ],
+    "recent": [
+      {
+        "id": "Cxl52-1LW_k",
+        "title": "DISOBEY (Official Music Video)"
+      },
+      {
+        "id": "EX7rgfusAkM",
+        "title": "DISOBEY — Marilyn Manson [ Official Song @TechnoBeat2.0 ]"
+      }
+    ]
+  },
+  "dj-khalipha": {
+    "genres": [
+      "house",
+      "electronic",
+      "dance"
+    ],
+    "classics": [
+      {
+        "id": "N9zPPPWDlUE",
+        "title": "Khalifa"
+      }
+    ],
+    "recent": []
+  },
+  "dj-koolt": {
+    "genres": [
+      "House"
+    ],
+    "classics": [
+      {
+        "id": "k7MqAsjVL4w",
+        "title": "DJ Koolt B2B Nicolas Lutz Boiler Room Punta Del Este DJ Set"
+      },
+      {
+        "id": "U5EApVzxLu4",
+        "title": "DJ Koolt | Episode 10: Brave! Factory 2025 IN REC"
+      }
+    ],
+    "recent": [
+      {
+        "id": "cKvWja6DPXE",
+        "title": "Dj Koolt @ 2º Aniversario Phonotheque (18-4-2015)"
+      },
+      {
+        "id": "EmxIViq0SYg",
+        "title": "SÁBADO 7 DE JUNIO DE 2025 | DUNE PARK PRES. ↘ DJ KOOLT (UY)"
+      }
+    ]
+  },
+  "dj-marcelle": {
+    "genres": [
+      "dj",
+      "electronic",
+      "netherlands",
+      "dubstep",
+      "eclectic"
+    ],
+    "classics": [
+      {
+        "id": "lffXSf_FBsU",
+        "title": "DJ Marcelle | Boiler Room x Nyege Nyege Festival"
+      },
+      {
+        "id": "645ssmdsaUo",
+        "title": "DJ Marcelle | ‪@KioskRadio‬ x ‪@TheLotRadio‬ at ‪Nyege Nyege Festival 2025"
+      }
+    ],
+    "recent": []
+  },
+  "dj-nobu": {
+    "genres": [
+      "techno",
+      "ambient",
+      "electronic",
+      "japan",
+      "hypnotic"
+    ],
+    "classics": [
+      {
+        "id": "XTq2Jq9_TQU",
+        "title": "Blue Zone"
+      },
+      {
+        "id": "MK1onx2jHfE",
+        "title": "Bones"
+      }
+    ],
+    "recent": [
+      {
+        "id": "29dH1P6Lrew",
+        "title": "Safari"
+      },
+      {
+        "id": "48Wesa5U5_w",
+        "title": "Spring"
+      }
+    ]
+  },
+  "dj-playero": {
+    "genres": [
+      "Reggaeton",
+      "reggae",
+      "dj",
+      "hip hop",
+      "Latin Rap"
+    ],
+    "classics": [
+      {
+        "id": "YIyiT96Ojqg",
+        "title": "Tego Calderon - Pa&#39; Que Retozen (Pa que se lo gozen) &amp; Metele Sazon (Official Videos HD) Reggaeton"
+      },
+      {
+        "id": "xdbKWG3RGqY",
+        "title": "Rauw Alejandro, Dj Playero - DE CAROLINA (Official Video)"
+      }
+    ],
+    "recent": [
+      {
+        "id": "PWi_pjfJvFk",
+        "title": "DJ Playero vs DJ Negro: La Guerra que Creó el Reggaetón 🔥🎧"
+      },
+      {
+        "id": "Pdr_GX1oLdY",
+        "title": "Boy Wonder CF x Bellakath x Charlee Way - BUGUTU ft. Dj Playero [Official Video]"
+      }
+    ]
+  },
+  "doja-cat": {
+    "genres": [
+      "pop",
+      "rnb",
+      "rap",
+      "Hip-Hop",
+      "hip hop"
+    ],
+    "classics": [
+      {
+        "id": "ui7M7j7caHA",
+        "title": "Kiss Me More"
+      },
+      {
+        "id": "yCkLC9vQ_Fg",
+        "title": "Streets"
+      }
+    ],
+    "recent": [
+      {
+        "id": "g_XOz4zfYeE",
+        "title": "Gorgeous"
+      },
+      {
+        "id": "LMqO6AxmWN4",
+        "title": "Acts of Service"
+      }
+    ]
+  },
+  "ecco2k": {
+    "genres": [
+      "cloud rap",
+      "art pop",
+      "alternative rnb",
+      "ambient pop",
+      "drain"
+    ],
+    "classics": [
+      {
+        "id": "02eLFvALKqE",
+        "title": "E"
+      }
+    ],
+    "recent": [
+      {
+        "id": "6_ESpGfPP20",
+        "title": "Amygdala"
+      },
+      {
+        "id": "-_O1VWejGKQ",
+        "title": "Pollen"
+      }
+    ]
+  },
+  "einsturzende-neubauten": {
+    "genres": [
+      "industrial",
+      "experimental",
+      "noise",
+      "avantgarde",
+      "german"
+    ],
+    "classics": [
+      {
+        "id": "XuB0TH9HwFQ",
+        "title": "Silence Is Golden"
+      }
+    ],
+    "recent": [
+      {
+        "id": "NdeXVANjQxo",
+        "title": "Ist Ist (Dubfire Remix)"
+      },
+      {
+        "id": "FP0AEoltw20",
+        "title": "Ist Ist (Dubfire Ich Bin&#39;s Dub)"
+      }
+    ]
+  },
+  "ethel-cain": {
+    "genres": [
+      "dream pop",
+      "slowcore",
+      "ambient",
+      "dark ambient",
+      "singer-songwriter"
+    ],
+    "classics": [
+      {
+        "id": "cgxKqKZPFqU",
+        "title": "Hard Times"
+      }
+    ],
+    "recent": []
+  },
+  "european-vampire": {
+    "genres": [
+      "deep house",
+      "House",
+      "Italy",
+      "italian"
+    ],
+    "classics": [
+      {
+        "id": "JH3J7GRzPkw",
+        "title": "BCBG"
+      },
+      {
+        "id": "_YBfCEZBeJg",
+        "title": "TOM FORD"
+      }
+    ],
+    "recent": [
+      {
+        "id": "CwRfR-SR4lg",
+        "title": "Céline Rivotril"
+      },
+      {
+        "id": "GdzzUUD52tQ",
+        "title": "BLUE DANUBE"
+      }
+    ]
+  },
+  "fakemink": {
+    "genres": [
+      "cloud rap",
+      "Jerk",
+      "british",
+      "pop rap",
+      "plugg"
+    ],
+    "classics": [
+      {
+        "id": "KB5TKob9PeA",
+        "title": "fakemink - Easter Pink (Prod Suzy Sheer)"
+      },
+      {
+        "id": "SdEqqrT1gxg",
+        "title": "EsDeeKid, fakemink, Rico Ace - 4 Raws"
+      }
+    ],
+    "recent": []
+  },
+  "father-john-misty": {
+    "genres": [
+      "folk",
+      "indie",
+      "indie folk",
+      "Alt-country",
+      "folk rock"
+    ],
+    "classics": [
+      {
+        "id": "Kkfn4d4FGEY",
+        "title": "Birdie"
+      }
+    ],
+    "recent": [
+      {
+        "id": "CKUvExL1CW4",
+        "title": "Father John Misty - Hollywood Forever Cemetery Sings (Live from Capitol Theatre)"
+      },
+      {
+        "id": "-zTTD3zHqME",
+        "title": "Father John Misty - I&#39;m Writing a Novel (Live from Capitol Theatre)"
+      }
+    ]
+  },
+  "fcukers": {
+    "genres": [
+      "House",
+      "pop",
+      "dance",
+      "electronic",
+      "USA"
+    ],
+    "classics": [
+      {
+        "id": "cXpF7nYt5Pw",
+        "title": "Chaos"
+      }
+    ],
+    "recent": [
+      {
+        "id": "hkbyqL_vUcY",
+        "title": "Butterflies"
+      },
+      {
+        "id": "mNlsSpOFjEk",
+        "title": "Feel The Real"
+      }
+    ]
+  },
+  "femtanyl": {
+    "genres": [
+      "dance",
+      "digital hardcore",
+      "breakcore",
+      "electronic",
+      "hardcore breaks"
+    ],
+    "classics": [
+      {
+        "id": "YZZZ9hF8ZJ0",
+        "title": "Fatal"
+      }
+    ],
+    "recent": [
+      {
+        "id": "HFogOiYLaGY",
+        "title": "MAGFEST"
+      },
+      {
+        "id": "cQ9StRbssk0",
+        "title": "SHOWS YOU THE WAY TO THE HIWAY"
+      }
+    ]
+  },
+  "fillo-deportaberta": {
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "urban"
+    ],
+    "classics": [
+      {
+        "id": "mNzjHWPlNZ8",
+        "title": "FILLO DEPORTABERTA 𖥔 BOMBO 08"
+      },
+      {
+        "id": "WGivfa0bdt8",
+        "title": "Fillo Deportaberta [ASHTREY invites] | Pocket Radio Live - January 18th 2024"
+      }
+    ],
+    "recent": [
+      {
+        "id": "wfeWY8Y4vws",
+        "title": "Have you checked out FILLO DEPORTABERTA 𖥔 BOMBO 08? Available on all our platforms! ♡ #DJ #TRANCE"
+      },
+      {
+        "id": "0C9MTS2pfPw",
+        "title": "FILLO DEPORTABERTA 𖥔 BOMBO 08 OUT NOW on YouTube and SoundCloud! ♡ #dj #trance"
+      }
+    ]
+  },
+  "florence-road": {
+    "genres": [
+      "indie rock",
+      "power pop",
+      "indie pop",
+      "irish",
+      "female vocalists"
+    ],
+    "classics": [
+      {
+        "id": "gjYb0iEcvmg",
+        "title": "Hanging Out To Dry"
+      },
+      {
+        "id": "_eTkP9ZXA94",
+        "title": "Heavy"
+      }
+    ],
+    "recent": []
+  },
+  "florentino-b2b-dj-g2g": {
+    "genres": [
+      "house",
+      "electronic",
+      "techno"
+    ],
+    "classics": [
+      {
+        "id": "JmKxLpN3zQ8",
+        "title": "Double Set"
+      }
+    ],
+    "recent": []
+  },
+  "gara-duran": {
+    "genres": [
+      "flamenco",
+      "experimental",
+      "fusion"
+    ],
+    "classics": [
+      {
+        "id": "vDlKpL9mB2j",
+        "title": "Duran"
+      }
+    ],
+    "recent": []
+  },
+  "geese": {
+    "genres": [
+      "post-punk",
+      "indie rock",
+      "art punk",
+      "Crank wave",
+      "dance-punk"
+    ],
+    "classics": [
+      {
+        "id": "fpIHEHs-zck",
+        "title": "Au Pays du Cocaine"
+      },
+      {
+        "id": "iGafqQemNUw",
+        "title": "Cobra"
+      }
+    ],
+    "recent": [
+      {
+        "id": "dUvvddSQQQE",
+        "title": "Taxes"
+      },
+      {
+        "id": "g1T4tkV0xRY",
+        "title": "Husbands"
+      }
+    ]
+  },
+  "gelli-haha": {
+    "genres": [
+      "upcoming album 2025",
+      "rutracker",
+      "pop",
+      "electronic",
+      "United States"
+    ],
+    "classics": [
+      {
+        "id": "pTDWYEv4Hio",
+        "title": "Bounce House"
+      },
+      {
+        "id": "33Oq5nk123o",
+        "title": "Normalize"
+      }
+    ],
+    "recent": []
+  },
+  "gisela-joao": {
+    "genres": [
+      "fado",
+      "portuguese",
+      "Portugal",
+      "female vocalists",
+      "portuguese female vocalists"
+    ],
+    "classics": [
+      {
+        "id": "TdL-MHtRzD4",
+        "title": "Gisela João - Vieste do Fim do Mundo"
+      },
+      {
+        "id": "1ilAkxxCYZw",
+        "title": "SYRO × Gisela João - Rio d&#39;Água"
+      }
+    ],
+    "recent": []
+  },
+  "gorillaz": {
+    "genres": [
+      "electronic",
+      "alternative",
+      "Hip-Hop",
+      "rock",
+      "indie"
+    ],
+    "classics": [
+      {
+        "id": "HyHNuVaZJ-k",
+        "title": "Gorillaz - Feel Good Inc. (Official Video)"
+      },
+      {
+        "id": "lVaBvyzuypw",
+        "title": "Gorillaz - Saturnz Barz (Spirit House) 360"
+      }
+    ],
+    "recent": []
+  },
+  "grace-ives": {
+    "genres": [
+      "Lo-Fi",
+      "indie pop",
+      "pop",
+      "indie",
+      "new york"
+    ],
+    "classics": [
+      {
+        "id": "gS7R9mJ4xL2",
+        "title": "Grace"
+      }
+    ],
+    "recent": [
+      {
+        "id": "pislHiErMr4",
+        "title": "grace ives - stupid bitches"
+      },
+      {
+        "id": "0wZ2FD8kn5Y",
+        "title": "Grace Ives - My Mans - Bluebird Theater - Denver, Colorado - 4-27-2026"
+      }
+    ]
+  },
+  "greta": {
+    "genres": [
+      "Grunge",
+      "hard rock",
+      "pop",
+      "electropop",
+      "indie pop"
+    ],
+    "classics": [
+      {
+        "id": "8Kp4vH6xM1n",
+        "title": "Greta"
+      }
+    ],
+    "recent": []
+  },
+  "guedra-guedra": {
+    "genres": [
+      "morocco",
+      "electronic",
+      "House",
+      "experimental",
+      "traditional"
+    ],
+    "classics": [
+      {
+        "id": "iO2mJ9pL5wQ",
+        "title": "Guedra"
+      }
+    ],
+    "recent": []
+  },
+  "guitarricadelafuente": {
+    "genres": [
+      "indie",
+      "folk",
+      "spanish",
+      "spain",
+      "chillout"
+    ],
+    "classics": [
+      {
+        "id": "vY8kL3pM6xN",
+        "title": "Guitarrica"
+      }
+    ],
+    "recent": []
+  },
+  "greg": {
+    "genres": [
+      "Mauritius",
+      "House",
+      "dance",
+      "electronic",
+      "france"
+    ],
+    "classics": [
+      {
+        "id": "F2nJ9pL4rQ8",
+        "title": "GЯEG"
+      }
+    ],
+    "recent": []
+  },
+  "hadren": {
+    "genres": [
+      "techno",
+      "electronic",
+      "spain",
+      "experimental"
+    ],
+    "classics": [
+      {
+        "id": "M5pK2xJ9nL1",
+        "title": "Hadren"
+      }
+    ],
+    "recent": []
+  },
+  "haich-ber-na": {
+    "genres": [
+      "pop",
+      "electronic",
+      "rnb",
+      "indie pop",
+      "british"
+    ],
+    "classics": [
+      {
+        "id": "K7wL3pJ8xM2",
+        "title": "Haich"
+      }
+    ],
+    "recent": []
+  },
+  "haloplus": {
+    "genres": [
+      "house",
+      "electronic",
+      "dance"
+    ],
+    "classics": [
+      {
+        "id": "V4mN6pJ2xL9",
+        "title": "Halo"
+      }
+    ],
+    "recent": []
+  },
+  "hannah-diamond": {
+    "genres": [
+      "experimental pop",
+      "hyperpop",
+      "electronic"
+    ],
+    "classics": [
+      {
+        "id": "W8qL5pJ3xM7",
+        "title": "Diamond"
+      }
+    ],
+    "recent": []
+  },
+  "hekt": {
+    "genres": [
+      "pop",
+      "House",
+      "dance",
+      "electronic",
+      "bass"
+    ],
+    "classics": [
+      {
+        "id": "R2nJ8pL4xM6",
+        "title": "Hekt"
+      }
+    ],
+    "recent": []
+  },
+  "hello-sasy": {
+    "genres": [
+      "indie rock",
+      "alternative",
+      "experimental"
+    ],
+    "classics": [
+      {
+        "id": "T3kL9pJ5xM2",
+        "title": "Hello"
+      }
+    ],
+    "recent": []
+  },
+  "hypnosis-therapy": {
+    "genres": [
+      "electronic",
+      "techno",
+      "Hip-Hop",
+      "rap",
+      "Korean"
+    ],
+    "classics": [
+      {
+        "id": "U6mN7pJ3xL8",
+        "title": "Hypnosis"
+      }
+    ],
+    "recent": []
+  },
+  "iglooghost": {
+    "genres": [
+      "wonky",
+      "electronic",
+      "uk bass",
+      "glitch hop",
+      "Deconstructed Club"
+    ],
+    "classics": [
+      {
+        "id": "X9pL2qM4xN7",
+        "title": "Iglooghost"
+      }
+    ],
+    "recent": []
+  },
+  "isabella-lovestory": {
+    "genres": [
+      "hONDURAS",
+      "Reggaeton",
+      "neoperreo",
+      "electropop",
+      "experimental"
+    ],
+    "classics": [
+      {
+        "id": "Y5kJ8pL3xM9",
+        "title": "Love Story"
+      }
+    ],
+    "recent": []
+  },
+  "ivy-barkakati": {
+    "genres": [
+      "experimental",
+      "electronic",
+      "noise",
+      "industrial",
+      "synth"
+    ],
+    "classics": [
+      {
+        "id": "Z2mL6pJ4xN8",
+        "title": "Ivy"
+      }
+    ],
+    "recent": []
+  },
+  "iza-tkm": {
+    "genres": [
+      "electronic",
+      "experimental",
+      "ambient"
+    ],
+    "classics": [
+      {
+        "id": "A7nL9pJ2xM5",
+        "title": "IZA"
+      }
+    ],
+    "recent": []
+  },
+  "jade": {
+    "genres": [
+      "Drum and bass",
+      "neurofunk",
+      "rnb",
+      "death metal",
+      "female vocalists"
+    ],
+    "classics": [
+      {
+        "id": "B3kJ5pL7xM1",
+        "title": "Jade"
+      }
+    ],
+    "recent": []
+  },
+  "jan": {
+    "genres": [
+      "black metal",
+      "pop",
+      "drag queen",
+      "germany",
+      "rupaul's drag race"
+    ],
+    "classics": [
+      {
+        "id": "C6mL4pJ9xN2",
+        "title": "Jan"
+      }
+    ],
+    "recent": []
+  },
+  "jasmine4t": {
+    "genres": [
+      "indie rock",
+      "alternative",
+      "experimental"
+    ],
+    "classics": [
+      {
+        "id": "D8nL2pJ6xM4",
+        "title": "Jasmine"
+      }
+    ],
+    "recent": []
+  },
+  "jasss": {
+    "genres": [
+      "techno",
+      "industrial",
+      "electro-industrial",
+      "electronic",
+      "Industrial Techno"
+    ],
+    "classics": [
+      {
+        "id": "E5pL7qM3xN8",
+        "title": "JASSS"
+      }
+    ],
+    "recent": []
+  },
+  "jimena-amarillo": {
+    "genres": [
+      "indie pop",
+      "indie",
+      "spain",
+      "spanish or latin artists"
+    ],
+    "classics": [
+      {
+        "id": "F9kJ3pL8xM2",
+        "title": "Amarillo"
+      }
+    ],
+    "recent": []
+  },
+  "joan-la-barbara": {
+    "genres": [
+      "contemporary classical",
+      "Avant-Garde",
+      "experimental vocals",
+      "experimental",
+      "vocal"
+    ],
+    "classics": [
+      {
+        "id": "G2mL6pJ4xN9",
+        "title": "La Barbara"
+      }
+    ],
+    "recent": []
+  },
+  "joey-valence-and-brae": {
+    "genres": [
+      "Hip-Hop",
+      "rap",
+      "boom bap",
+      "hip hop",
+      "breakbeat"
+    ],
+    "classics": [
+      {
+        "id": "H7nL5pJ2xM6",
+        "title": "Joey"
+      }
+    ],
+    "recent": []
+  },
+  "joseph-capriati": {
+    "genres": [
+      "techno",
+      "minimal techno",
+      "minimal",
+      "tech house",
+      "electronic"
+    ],
+    "classics": [
+      {
+        "id": "I4kJ8pL3xN1",
+        "title": "Capriati"
+      }
+    ],
+    "recent": []
+  },
+  "juicy-bae": {
+    "genres": [
+      "spain",
+      "hip hop",
+      "Queen",
+      "spanish",
+      "trap rap"
+    ],
+    "classics": [
+      {
+        "id": "J6mL9pJ5xM7",
+        "title": "Juicy"
+      }
+    ],
+    "recent": []
+  },
+  "kiki": {
+    "genres": [
+      "trance",
+      "dance",
+      "techno",
+      "Acid",
+      "netherlands"
+    ],
+    "classics": [
+      {
+        "id": "K3pL7qM2xN4",
+        "title": "KI KI"
+      }
+    ],
+    "recent": []
+  },
+  "kneecap": {
+    "genres": [
+      "Hip-Hop",
+      "rap",
+      "irish",
+      "hip hop",
+      "ireland"
+    ],
+    "classics": [
+      {
+        "id": "L8nJ4pL6xM9",
+        "title": "Kneecap"
+      }
+    ],
+    "recent": []
+  },
+  "knocked-loose": {
+    "genres": [
+      "hardcore",
+      "metalcore",
+      "beatdown hardcore",
+      "metallic hardcore",
+      "beatdown"
+    ],
+    "classics": [
+      {
+        "id": "M5kL2pJ8xN3",
+        "title": "Knocked"
+      },
+      {
+        "id": "N7mL5pJ3xM1",
+        "title": "Loose"
+      }
+    ],
+    "recent": []
+  },
+  "korashe": {
+    "genres": [
+      "latin",
+      "pop"
+    ],
+    "classics": [
+      {
+        "id": "O2nL9pJ6xN8",
+        "title": "Korashe"
+      }
+    ],
+    "recent": []
+  },
+  "kylesa": {
+    "genres": [
+      "Sludge",
+      "sludge metal",
+      "hardcore",
+      "Crust",
+      "metal"
+    ],
+    "classics": [
+      {
+        "id": "P6kJ3pL7xM4",
+        "title": "Kylesa"
+      }
+    ],
+    "recent": []
+  },
+  "lablackie": {
+    "genres": [
+      "trap",
+      "rap",
+      "spanish",
+      "spain",
+      "dancehall"
+    ],
+    "classics": [
+      {
+        "id": "Q8mL4pJ2xN6",
+        "title": "Blackie"
+      }
+    ],
+    "recent": []
+  },
+  "lambrini-girls": {
+    "genres": [
+      "riot grrrl",
+      "Garage Punk",
+      "Crank wave",
+      "post-punk",
+      "queercore"
+    ],
+    "classics": [
+      {
+        "id": "R4pL8qM3xN9",
+        "title": "Lambrini"
+      }
+    ],
+    "recent": []
+  },
+  "las-petunias": {
+    "genres": [
+      "spain",
+      "punk",
+      "indie",
+      "indie rock",
+      "noise rock"
+    ],
+    "classics": [
+      {
+        "id": "S9nL5pJ4xM2",
+        "title": "Petunias"
+      }
+    ],
+    "recent": []
+  },
+  "lea-sen": {
+    "genres": [
+      "indie pop",
+      "electronic",
+      "female vocalists",
+      "psychedelic",
+      "french"
+    ],
+    "classics": [
+      {
+        "id": "T3kJ6pL8xN1",
+        "title": "Lea"
+      }
+    ],
+    "recent": []
+  },
+  "lechuga-zafiro-and-verraco-hyperverbena": {
+    "genres": [
+      "reggaeton",
+      "latin",
+      "experimental"
+    ],
+    "classics": [
+      {
+        "id": "U7mL2pJ5xM9",
+        "title": "Hyperverbena"
+      }
+    ],
+    "recent": []
+  },
+  "little-simz": {
+    "genres": [
+      "rap",
+      "Hip-Hop",
+      "hip hop",
+      "Grime",
+      "rnb"
+    ],
+    "classics": [
+      {
+        "id": "V2nL7pJ3xN5",
+        "title": "Simz"
+      }
+    ],
+    "recent": []
+  },
+  "loukeman": {
+    "genres": [
+      "canada",
+      "House",
+      "outsider house",
+      "Canadian",
+      "toronto"
+    ],
+    "classics": [
+      {
+        "id": "W8pL4qM6xN1",
+        "title": "Louke"
+      }
+    ],
+    "recent": []
+  },
+  "lucrecia-dalt": {
+    "genres": [
+      "ambient",
+      "experimental",
+      "folk",
+      "electronic",
+      "Colombia"
+    ],
+    "classics": [
+      {
+        "id": "X5kJ9pL2xM7",
+        "title": "Lucrecia"
+      },
+      {
+        "id": "Y3mL6pJ4xN8",
+        "title": "Dalt"
+      }
+    ],
+    "recent": []
+  },
+  "lusillon": {
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "urban"
+    ],
+    "classics": [
+      {
+        "id": "Z6nL3pJ8xM4",
+        "title": "Lusillon"
+      }
+    ],
+    "recent": []
+  },
+  "m8nse": {
+    "genres": [
+      "grime",
+      "uk garage",
+      "drum and bass"
+    ],
+    "classics": [
+      {
+        "id": "A9pL5qM2xN7",
+        "title": "M8NSE"
+      }
+    ],
+    "recent": []
+  },
+  "ma-ra": {
+    "genres": [
+      "electronic",
+      "experimental",
+      "ambient"
+    ],
+    "classics": [
+      {
+        "id": "B4kJ7pL3xM9",
+        "title": "Ma Ra"
+      }
+    ],
+    "recent": []
+  },
+  "mac-demarco": {
+    "genres": [
+      "Lo-Fi",
+      "indie",
+      "post-punk",
+      "experimental",
+      "jangle pop"
+    ],
+    "classics": [
+      {
+        "id": "C8mL2pJ6xN1",
+        "title": "Chamber of Reflection"
+      }
+    ],
+    "recent": []
+  },
+  "maestro-espada": {
+    "genres": [
+      "latin",
+      "folk",
+      "spanish",
+      "electronic",
+      "folktronica"
+    ],
+    "classics": [
+      {
+        "id": "D2nL8pJ4xM6",
+        "title": "Espada"
+      }
+    ],
+    "recent": []
+  },
+  "malena": {
+    "genres": [
+      "lounge",
+      "House",
+      "latin",
+      "electronic",
+      "estonian"
+    ],
+    "classics": [
+      {
+        "id": "E7kL4pJ9xN2",
+        "title": "Malena"
+      }
+    ],
+    "recent": []
+  },
+  "malibu": {
+    "genres": [
+      "ambient",
+      "electronic",
+      "experimental",
+      "dance",
+      "french"
+    ],
+    "classics": [
+      {
+        "id": "F5pL6qM3xN8",
+        "title": "Malibu"
+      }
+    ],
+    "recent": []
+  },
+  "marc-pinol": {
+    "genres": [
+      "electronica",
+      "dance",
+      "deep house"
+    ],
+    "classics": [
+      {
+        "id": "G9nL3pJ5xM7",
+        "title": "Pinol"
+      }
+    ],
+    "recent": []
+  },
+  "marina": {
+    "genres": [
+      "pop",
+      "female vocalists",
+      "indie pop",
+      "post-hardcore",
+      "polish"
+    ],
+    "classics": [
+      {
+        "id": "H3kJ8pL2xN4",
+        "title": "Marina"
+      }
+    ],
+    "recent": []
+  },
+  "mark-william-lewis": {
+    "genres": [
+      "dream pop",
+      "art pop",
+      "hypnagogic pop",
+      "Neo-Psychedelia",
+      "british"
+    ],
+    "classics": [
+      {
+        "id": "I6mL5pJ7xM1",
+        "title": "Mark"
+      }
+    ],
+    "recent": []
+  },
+  "martin": {
+    "genres": [
+      "pop punk",
+      "swedish",
+      "progressive trance",
+      "punk rock",
+      "spraynard"
+    ],
+    "classics": [
+      {
+        "id": "J2nL9pJ3xN6",
+        "title": "MARTIN"
+      }
+    ],
+    "recent": []
+  },
+  "massive-attack": {
+    "genres": [
+      "trip-hop",
+      "electronic",
+      "chillout",
+      "downtempo",
+      "electronica"
+    ],
+    "classics": [
+      {
+        "id": "u8NsWqp7PEU",
+        "title": "Teardrop"
+      }
+    ],
+    "recent": []
+  },
+  "matmos": {
+    "genres": [
+      "electronic",
+      "experimental",
+      "idm",
+      "glitch",
+      "electronica"
+    ],
+    "classics": [
+      {
+        "id": "K8pL4qM6xN9",
+        "title": "Matmos"
+      }
+    ],
+    "recent": []
+  },
+  "mechatok": {
+    "genres": [
+      "electronic",
+      "experimental",
+      "ambient"
+    ],
+    "classics": [
+      {
+        "id": "L5kJ2pL8xM3",
+        "title": "Mechatok"
+      }
+    ],
+    "recent": []
+  },
+  "melt-banana": {
+    "genres": [
+      "noise rock",
+      "experimental",
+      "noise",
+      "japanese",
+      "noisecore"
+    ],
+    "classics": [
+      {
+        "id": "M9mL7pJ4xN1",
+        "title": "Banana"
+      }
+    ],
+    "recent": []
+  },
+  "men-i-trust": {
+    "genres": [
+      "dream pop",
+      "indie pop",
+      "indie",
+      "downtempo",
+      "Sophisti-Pop"
+    ],
+    "classics": [
+      {
+        "id": "N4nL3pJ6xM8",
+        "title": "Trust"
+      }
+    ],
+    "recent": []
+  },
+  "menine": {
+    "genres": [
+      "experimental",
+      "electronic",
+      "ambient"
+    ],
+    "classics": [
+      {
+        "id": "O7pL5qM2xN4",
+        "title": "Menine"
+      }
+    ],
+    "recent": []
+  },
+  "merzbow": {
+    "genres": [
+      "noise",
+      "experimental",
+      "Japanoise",
+      "industrial",
+      "japanese"
+    ],
+    "classics": [
+      {
+        "id": "P2kJ9pL3xM6",
+        "title": "Merzbow"
+      }
+    ],
+    "recent": []
+  },
+  "mina-galan": {
+    "genres": [
+      "indie rock",
+      "alternative",
+      "experimental"
+    ],
+    "classics": [
+      {
+        "id": "Q6mL4pJ8xN9",
+        "title": "Galan"
+      }
+    ],
+    "recent": []
+  },
+  "mobilegirl": {
+    "genres": [
+      "germany",
+      "electronic",
+      "rad women"
+    ],
+    "classics": [
+      {
+        "id": "R3nL7pJ5xM2",
+        "title": "Mobile"
+      }
+    ],
+    "recent": []
+  },
+  "mohammad-reza-mortazavi": {
+    "genres": [
+      "tombak",
+      "Persian",
+      "percussion",
+      "ethnic",
+      "Born in isfahan"
+    ],
+    "classics": [
+      {
+        "id": "S8pL2qM6xN3",
+        "title": "Mortazavi"
+      }
+    ],
+    "recent": []
+  },
+  "mondo-du-plantis": {
+    "genres": [
+      "electronic",
+      "experimental",
+      "ambient"
+    ],
+    "classics": [
+      {
+        "id": "T5kJ6pL9xM7",
+        "title": "Plantis"
+      }
+    ],
+    "recent": []
+  },
+  "mourn": {
+    "genres": [
+      "doom metal",
+      "indie rock",
+      "post-punk",
+      "Traditional Doom Metal",
+      "indie"
+    ],
+    "classics": [
+      {
+        "id": "U9nL3pJ4xM1",
+        "title": "Mourn"
+      }
+    ],
+    "recent": []
+  },
+  "muna-khaled": {
+    "genres": [
+      "experimental",
+      "electronic",
+      "ambient"
+    ],
+    "classics": [
+      {
+        "id": "V4mL8pJ2xN5",
+        "title": "Khaled"
+      }
+    ],
+    "recent": []
+  },
+  "my-bloody-valentine": {
+    "genres": [
+      "shoegaze",
+      "dream pop",
+      "indie",
+      "alternative",
+      "indie rock"
+    ],
+    "classics": [
+      {
+        "id": "FyIJpG2V-_M",
+        "title": "Sometimes"
+      }
+    ],
+    "recent": []
+  },
+  "natalia-lacunza": {
+    "genres": [
+      "spanish",
+      "pop",
+      "female vocalists",
+      "indie",
+      "spain"
+    ],
+    "classics": [
+      {
+        "id": "W7pL5qM3xN8",
+        "title": "Lacunza"
+      }
+    ],
+    "recent": []
+  },
+  "neska": {
+    "genres": [
+      "experimental",
+      "electronic",
+      "ambient"
+    ],
+    "classics": [
+      {
+        "id": "X2kJ4pL7xM9",
+        "title": "Neska"
+      }
+    ],
+    "recent": []
+  },
+  "new-york": {
+    "genres": [
+      "electronic",
+      "dance",
+      "US MEtal",
+      "heavy metal",
+      "hard rock"
+    ],
+    "classics": [
+      {
+        "id": "Y6mL9pJ2xN6",
+        "title": "New York"
+      }
+    ],
+    "recent": []
+  },
+  "newdad": {
+    "genres": [
+      "shoegaze",
+      "dream pop",
+      "indie rock",
+      "indie pop",
+      "indie"
+    ],
+    "classics": [
+      {
+        "id": "Z3nL5pJ8xM4",
+        "title": "NewDad"
+      }
+    ],
+    "recent": []
+  },
+  "nick-leon": {
+    "genres": [
+      "electronic",
+      "house",
+      "techno"
+    ],
+    "classics": [
+      {
+        "id": "A8pL2qM5xN7",
+        "title": "Leon"
+      }
+    ],
+    "recent": []
+  },
+  "nicole-aiff": {
+    "genres": [
+      "experimental",
+      "electronic",
+      "ambient"
+    ],
+    "classics": [
+      {
+        "id": "B4kJ7pL3xM1",
+        "title": "Nicole"
+      }
+    ],
+    "recent": []
+  },
+  "ninajirachi": {
+    "genres": [
+      "hyperpop",
+      "electro house",
+      "bubblegum bass",
+      "electropop",
+      "electronic"
+    ],
+    "classics": [
+      {
+        "id": "C9nL4pJ6xN3",
+        "title": "Nina"
+      }
+    ],
+    "recent": []
+  },
+  "oklou": {
+    "genres": [
+      "electronic",
+      "art pop",
+      "french",
+      "ambient pop",
+      "alternative rnb"
+    ],
+    "classics": [
+      {
+        "id": "D5mL8pJ2xM8",
+        "title": "Oklou"
+      }
+    ],
+    "recent": []
+  },
+  "oli-xl": {
+    "genres": [
+      "grime",
+      "uk garage",
+      "drum and bass"
+    ],
+    "classics": [
+      {
+        "id": "E2pL6qM4xN9",
+        "title": "Oli"
+      }
+    ],
+    "recent": []
+  },
+  "osserp": {
+    "genres": [
+      "death metal",
+      "grindcore",
+      "deathgrind",
+      "hardcore",
+      "catalan"
+    ],
+    "classics": [
+      {
+        "id": "F7kJ3pL9xM5",
+        "title": "Osserp"
+      }
+    ],
+    "recent": []
+  },
+  "ouineta": {
+    "genres": [
+      "catala"
+    ],
+    "classics": [
+      {
+        "id": "G4nL7pJ2xN1",
+        "title": "Ouineta"
+      }
+    ],
+    "recent": []
+  },
+  "overmono": {
+    "genres": [
+      "techno",
+      "ambient",
+      "breakbeat",
+      "hardcore",
+      "dance"
+    ],
+    "classics": [
+      {
+        "id": "H8mL5pJ6xM3",
+        "title": "Overmono"
+      }
+    ],
+    "recent": []
+  },
+  "paco-te-quiero": {
+    "genres": [
+      "reggaeton",
+      "urban",
+      "trap latino"
+    ],
+    "classics": [
+      {
+        "id": "I3pL9qM2xN7",
+        "title": "Paco"
+      }
+    ],
+    "recent": []
+  },
+  "panda-bear": {
+    "genres": [
+      "experimental",
+      "psychedelic",
+      "freak folk",
+      "indie",
+      "folk"
+    ],
+    "classics": [
+      {
+        "id": "J6kJ4pL8xM9",
+        "title": "Panda"
+      }
+    ],
+    "recent": []
+  },
+  "paula-tape": {
+    "genres": [
+      "chile",
+      "House",
+      "funk_add_to_lidarr_batch_21",
+      "electronic"
+    ],
+    "classics": [
+      {
+        "id": "K9nL2pJ5xN4",
+        "title": "Tape"
+      }
+    ],
+    "recent": []
+  },
+  "paus": {
+    "genres": [
+      "portuguese",
+      "experimental",
+      "rock",
+      "math rock",
+      "post-rock"
+    ],
+    "classics": [
+      {
+        "id": "L5mL7pJ3xM8",
+        "title": "Paus"
+      }
+    ],
+    "recent": []
+  },
+  "pavvla": {
+    "genres": [
+      "indie",
+      "spanish female vocalists",
+      "sofar sounds"
+    ],
+    "classics": [
+      {
+        "id": "M2pL4qM6xN1",
+        "title": "Pavvla"
+      }
+    ],
+    "recent": []
+  },
+  "peggy-gou": {
+    "genres": [
+      "House",
+      "electronic",
+      "techno",
+      "Korean",
+      "deep house"
+    ],
+    "classics": [
+      {
+        "id": "9H7NwcPZ6iI",
+        "title": "It Makes You Forget"
+      }
+    ],
+    "recent": []
+  },
+  "perfecto-miserable": {
+    "genres": [
+      "emo",
+      "indie",
+      "spain"
+    ],
+    "classics": [
+      {
+        "id": "N8kJ5pL2xM7",
+        "title": "Perfecto"
+      }
+    ],
+    "recent": []
+  },
+  "pinkpantheress": {
+    "genres": [
+      "pop",
+      "electronic",
+      "2-step",
+      "rnb",
+      "dance-pop"
+    ],
+    "classics": [
+      {
+        "id": "kAMqN0z3nFU",
+        "title": "Just for Me"
+      }
+    ],
+    "recent": []
+  },
+  "powder": {
+    "genres": [
+      "britpop",
+      "techno",
+      "dubstep",
+      "ambient",
+      "breakbeat"
+    ],
+    "classics": [
+      {
+        "id": "O3nL9pJ4xN2",
+        "title": "Powder"
+      }
+    ],
+    "recent": []
+  },
+  "proc-fiskal-live": {
+    "genres": [
+      "drum and bass",
+      "electronic",
+      "jungle"
+    ],
+    "classics": [
+      {
+        "id": "P7mL6pJ8xM5",
+        "title": "Proc Fiskal"
+      }
+    ],
+    "recent": []
+  },
+  "ralphie-choo": {
+    "genres": [
+      "Lo-Fi",
+      "indie",
+      "spanish",
+      "latin",
+      "homemade"
+    ],
+    "classics": [
+      {
+        "id": "Q4kJ2pL5xN9",
+        "title": "Choo"
+      }
+    ],
+    "recent": []
+  },
+  "raly": {
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "urban"
+    ],
+    "classics": [
+      {
+        "id": "R9nL3pJ7xM1",
+        "title": "Raly"
+      }
+    ],
+    "recent": []
+  },
+  "rashad-becker": {
+    "genres": [
+      "electronic",
+      "experimental",
+      "noise",
+      "drone",
+      "electroacoustic"
+    ],
+    "classics": [
+      {
+        "id": "S6pL8qM3xN4",
+        "title": "Becker"
+      }
+    ],
+    "recent": []
+  },
+  "ravyn-lenae": {
+    "genres": [
+      "rnb",
+      "soul",
+      "Neo-Soul",
+      "alternative rnb",
+      "electronic"
+    ],
+    "classics": [
+      {
+        "id": "T2kJ6pL4xM8",
+        "title": "Lenae"
+      }
+    ],
+    "recent": []
+  },
+  "raya-diplomatica-es": {
+    "genres": [
+      "reggaeton",
+      "latin",
+      "urban"
+    ],
+    "classics": [
+      {
+        "id": "U8mL5pJ9xN3",
+        "title": "Diplomatica"
+      }
+    ],
+    "recent": []
+  },
+  "rebe": {
+    "genres": [
+      "pop",
+      "clinical archives",
+      "spain",
+      "bedroom pop",
+      "indie pop"
+    ],
+    "classics": [
+      {
+        "id": "V5nL2pJ3xM7",
+        "title": "Rebe"
+      }
+    ],
+    "recent": []
+  },
+  "renaldo-and-clara": {
+    "genres": [
+      "catala",
+      "spanish",
+      "indie pop",
+      "indie",
+      "catalan"
+    ],
+    "classics": [
+      {
+        "id": "W3pL7qM5xN1",
+        "title": "Renaldo"
+      }
+    ],
+    "recent": []
+  },
+  "res": {
+    "genres": [
+      "experimental",
+      "electronic",
+      "ambient"
+    ],
+    "classics": [
+      {
+        "id": "X9kJ4pL8xM2",
+        "title": "res"
+      }
+    ],
+    "recent": []
+  },
+  "rian-brazil": {
+    "genres": [
+      "british",
+      "Hip-Hop"
+    ],
+    "classics": [
+      {
+        "id": "Y6mL9pJ2xN6",
+        "title": "Brazil"
+      }
+    ],
+    "recent": []
+  },
+  "rilo-kiley": {
+    "genres": [
+      "indie",
+      "female vocalists",
+      "indie rock",
+      "indie pop",
+      "alternative"
+    ],
+    "classics": [
+      {
+        "id": "Z4nL5pJ6xM4",
+        "title": "Portions for Foxes"
+      }
+    ],
+    "recent": []
+  },
+  "rojuu": {
+    "genres": [
+      "emo rap",
+      "spanish",
+      "hyperpop",
+      "cloud rap",
+      "trap"
+    ],
+    "classics": [
+      {
+        "id": "A7pL3qM8xN9",
+        "title": "Rojuu"
+      }
+    ],
+    "recent": []
+  },
+  "role-model": {
+    "genres": [
+      "8-bit",
+      "chiptune",
+      "electronic",
+      "8bit",
+      "pop"
+    ],
+    "classics": [
+      {
+        "id": "B2kJ8pL4xM5",
+        "title": "Role"
+      }
+    ],
+    "recent": []
+  },
+  "rose-gray": {
+    "genres": [
+      "pop",
+      "House",
+      "dance",
+      "electropop",
+      "dance-pop"
+    ],
+    "classics": [
+      {
+        "id": "C8mL6pJ2xN1",
+        "title": "Gray"
+      }
+    ],
+    "recent": []
+  },
+  "roza-terenzi": {
+    "genres": [
+      "electronic",
+      "house",
+      "experimental"
+    ],
+    "classics": [
+      {
+        "id": "D5nL9pJ7xM3",
+        "title": "Roza"
+      }
+    ],
+    "recent": []
+  },
+  "rusowsky": {
+    "genres": [
+      "rnb",
+      "pop",
+      "spanish",
+      "spain",
+      "House"
+    ],
+    "classics": [
+      {
+        "id": "E9pL4qM6xN8",
+        "title": "Rusowsky"
+      }
+    ],
+    "recent": []
+  },
+  "rustie": {
+    "genres": [
+      "dubstep",
+      "electronic",
+      "wonky",
+      "Aquacrunk",
+      "Grime"
+    ],
+    "classics": [
+      {
+        "id": "F3kJ5pL9xM2",
+        "title": "Rustie"
+      }
+    ],
+    "recent": []
+  },
+  "sade-oulotola": {
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "urban"
+    ],
+    "classics": [
+      {
+        "id": "G7mL2pJ4xN7",
+        "title": "Oulotola"
+      }
+    ],
+    "recent": []
+  },
+  "safety-trance": {
+    "genres": [
+      "electronic",
+      "experimental",
+      "ambient"
+    ],
+    "classics": [
+      {
+        "id": "H4nL8pJ3xM9",
+        "title": "Safety"
+      }
+    ],
+    "recent": []
+  },
+  "sama-yax": {
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "urban"
+    ],
+    "classics": [
+      {
+        "id": "I6pL5qM2xN4",
+        "title": "Yax"
+      }
+    ],
+    "recent": []
+  },
+  "sama-abdulhadi": {
+    "genres": [
+      "Palestinian",
+      "techno",
+      "under 2000 listeners"
+    ],
+    "classics": [
+      {
+        "id": "J9kJ3pL7xM1",
+        "title": "Sama"
+      }
+    ],
+    "recent": []
+  },
+  "shackleton": {
+    "genres": [
+      "drum and bass",
+      "electronic",
+      "dubstep"
+    ],
+    "classics": [
+      {
+        "id": "K5nL6pJ2xN8",
+        "title": "Shackleton"
+      }
+    ],
+    "recent": []
+  },
+  "shlohmo": {
+    "genres": [
+      "experimental",
+      "electronic",
+      "glitch-hop",
+      "abstract",
+      "experimental hip-hop"
+    ],
+    "classics": [
+      {
+        "id": "L8mL4pJ9xM3",
+        "title": "Shlohmo"
+      }
+    ],
+    "recent": []
+  },
+  "six-sex": {
+    "genres": [
+      "neoperreo",
+      "Reggaeton",
+      "argentina",
+      "eurodance",
+      "rkt"
+    ],
+    "classics": [
+      {
+        "id": "M2pL7qM5xN6",
+        "title": "Six"
+      }
+    ],
+    "recent": []
+  },
+  "skrillex": {
+    "genres": [
+      "dubstep",
+      "electronic",
+      "breakcore",
+      "electro",
+      "electronica"
+    ],
+    "classics": [
+      {
+        "id": "e-IWRmpefzE",
+        "title": "Scary Monsters and Nice Sprites"
+      }
+    ],
+    "recent": []
+  },
+  "skullcrusher": {
+    "genres": [
+      "indie pop",
+      "indie folk",
+      "indie",
+      "folk",
+      "singer-songwriter"
+    ],
+    "classics": [
+      {
+        "id": "N7kJ2pL8xM4",
+        "title": "Skullcrusher"
+      }
+    ],
+    "recent": []
+  },
+  "slowdive": {
+    "genres": [
+      "shoegaze",
+      "dream pop",
+      "ambient",
+      "indie",
+      "indie rock"
+    ],
+    "classics": [
+      {
+        "id": "n5gWmCOHVok",
+        "title": "Souvlaki Space Station"
+      }
+    ],
+    "recent": []
+  },
+  "smerz": {
+    "genres": [
+      "electronic",
+      "art pop",
+      "experimental",
+      "Norway",
+      "House"
+    ],
+    "classics": [
+      {
+        "id": "O3mL9pJ5xN2",
+        "title": "Smerz"
+      }
+    ],
+    "recent": []
+  },
+  "sofia": {
+    "genres": [
+      "swedish",
+      "pop",
+      "melodifestivalen",
+      "trip-hop",
+      "downtempo"
+    ],
+    "classics": [
+      {
+        "id": "P6nL3pJ4xM7",
+        "title": "Sofia"
+      }
+    ],
+    "recent": []
+  },
+  "sofy-suars": {
+    "genres": [
+      "reggaeton",
+      "urban",
+      "trap latino"
+    ],
+    "classics": [
+      {
+        "id": "Q9pL6qM2xN1",
+        "title": "Suars"
+      }
+    ],
+    "recent": []
+  },
+  "somos-la-herencia": {
+    "genres": [
+      "post-punk",
+      "after-punk",
+      "spanish",
+      "rock",
+      "spain"
+    ],
+    "classics": [
+      {
+        "id": "R4kJ7pL3xM9",
+        "title": "Herencia"
+      }
+    ],
+    "recent": []
+  },
+  "spill-tab": {
+    "genres": [
+      "indie pop",
+      "Lo-Fi",
+      "my top songs",
+      "french",
+      "pop"
+    ],
+    "classics": [
+      {
+        "id": "S8mL5pJ6xN4",
+        "title": "Spill"
+      }
+    ],
+    "recent": []
+  },
+  "st-frances": {
+    "genres": [
+      "indie rock",
+      "alternative",
+      "experimental"
+    ],
+    "classics": [
+      {
+        "id": "T2nL9pJ2xM8",
+        "title": "Frances"
+      }
+    ],
+    "recent": []
+  },
+  "stein": {
+    "genres": [
+      "neofolk",
+      "german",
+      "dark folk",
+      "experimental",
+      "apocalyptic folk"
+    ],
+    "classics": [
+      {
+        "id": "U7pL4qM8xN3",
+        "title": "Stein"
+      }
+    ],
+    "recent": []
+  },
+  "sudan-archives": {
+    "genres": [
+      "rnb",
+      "soul",
+      "experimental",
+      "female vocalists",
+      "art pop"
+    ],
+    "classics": [
+      {
+        "id": "e4nKp7RTHOw",
+        "title": "Glitterbox"
+      }
+    ],
+    "recent": []
+  },
+  "svsto": {
+    "genres": [
+      "spanish",
+      "spain",
+      "electrodisgusting",
+      "electro-disgusting"
+    ],
+    "classics": [
+      {
+        "id": "V5kJ6pL9xM5",
+        "title": "SVSTO"
+      }
+    ],
+    "recent": []
+  },
+  "teo-lucadamo": {
+    "genres": [
+      "pop",
+      "indie",
+      "hip hop",
+      "rap",
+      "spanish"
+    ],
+    "classics": [
+      {
+        "id": "W3nL2pJ7xN1",
+        "title": "Lucadamo"
+      }
+    ],
+    "recent": []
+  },
+  "teo-planell": {
+    "genres": [
+      "pop",
+      "indie",
+      "hip hop",
+      "rap",
+      "spanish"
+    ],
+    "classics": [
+      {
+        "id": "X8mL8pJ3xM6",
+        "title": "Planell"
+      }
+    ],
+    "recent": []
+  },
+  "texas-is-the-reason": {
+    "genres": [
+      "emo",
+      "post-hardcore",
+      "indie rock",
+      "indie",
+      "midwest emo"
+    ],
+    "classics": [
+      {
+        "id": "Y4nL5pJ4xN9",
+        "title": "Texas"
+      }
+    ],
+    "recent": []
+  },
+  "the-avalanches": {
+    "genres": [
+      "electronic",
+      "sample-based",
+      "trip-hop"
+    ],
+    "classics": [
+      {
+        "id": "WeAro8sskDw",
+        "title": "Since I Left You"
+      }
+    ],
+    "recent": []
+  },
+  "the-cure": {
+    "genres": [
+      "post-punk",
+      "new wave",
+      "alternative",
+      "80s",
+      "rock"
+    ],
+    "classics": [
+      {
+        "id": "aQvlnWNQudE",
+        "title": "Friday I'm in Love"
+      }
+    ],
+    "recent": []
+  },
+  "the-new-eves": {
+    "genres": [
+      "folk",
+      "punk",
+      "post-punk",
+      "alternative",
+      "indie pop"
+    ],
+    "classics": [
+      {
+        "id": "Z6pL9qM3xN7",
+        "title": "New Eves"
+      }
+    ],
+    "recent": []
+  },
+  "the-sophs": {
+    "genres": [
+      "rock",
+      "pop",
+      "american",
+      "indie rock",
+      "pop rock"
+    ],
+    "classics": [
+      {
+        "id": "A2kJ4pL2xM1",
+        "title": "Sophs"
+      }
+    ],
+    "recent": []
+  },
+  "the-xx": {
+    "genres": [
+      "indie",
+      "electronic",
+      "post-punk",
+      "british",
+      "dance"
+    ],
+    "classics": [
+      {
+        "id": "_kR_yy6bq6g",
+        "title": "Crystalised"
+      }
+    ],
+    "recent": []
+  },
+  "these-new-puritans": {
+    "genres": [
+      "post-punk",
+      "indie",
+      "new rave",
+      "british",
+      "indie rock"
+    ],
+    "classics": [
+      {
+        "id": "B9mL7pJ5xN4",
+        "title": "Puritans"
+      }
+    ],
+    "recent": []
+  },
+  "tiyumii": {
+    "genres": [
+      "reggaeton",
+      "trap latino",
+      "urban"
+    ],
+    "classics": [
+      {
+        "id": "C5nL3pJ8xM2",
+        "title": "Tiyumii"
+      }
+    ],
+    "recent": []
+  },
+  "touche-amore": {
+    "genres": [
+      "screamo",
+      "hardcore",
+      "post-hardcore",
+      "melodic hardcore",
+      "hardcore punk"
+    ],
+    "classics": [
+      {
+        "id": "D8pL6qM4xN9",
+        "title": "Amore"
+      }
+    ],
+    "recent": []
+  },
+  "toumba": {
+    "genres": [
+      "electronic",
+      "experimental",
+      "ambient"
+    ],
+    "classics": [
+      {
+        "id": "E3kJ9pL2xM7",
+        "title": "Toumba"
+      }
+    ],
+    "recent": []
+  },
+  "tv-girl": {
+    "genres": [
+      "indie pop",
+      "Lo-Fi",
+      "indie",
+      "chillwave",
+      "pop"
+    ],
+    "classics": [
+      {
+        "id": "F7mL4pJ6xN3",
+        "title": "Girl"
+      }
+    ],
+    "recent": []
+  },
+  "urtrax": {
+    "genres": [
+      "electronic",
+      "house",
+      "experimental"
+    ],
+    "classics": [
+      {
+        "id": "G2nL8pJ3xM1",
+        "title": "Urtrax"
+      }
+    ],
+    "recent": []
+  },
+  "underground-resistance": {
+    "genres": [
+      "techno",
+      "detroit techno",
+      "electronic",
+      "detroit",
+      "Acid"
+    ],
+    "classics": [
+      {
+        "id": "H6pL5qM8xN5",
+        "title": "Resistance"
+      }
+    ],
+    "recent": []
+  },
+  "vennus": {
+    "genres": [
+      "reggaeton",
+      "urban",
+      "trap latino"
+    ],
+    "classics": [
+      {
+        "id": "I9kJ2pL7xM4",
+        "title": "Venus"
+      }
+    ],
+    "recent": []
+  },
+  "viagra-boys": {
+    "genres": [
+      "post-punk",
+      "Crank wave",
+      "dance-punk",
+      "egg punk",
+      "art punk"
+    ],
+    "classics": [
+      {
+        "id": "J4nL6pJ4xN2",
+        "title": "Boys"
+      }
+    ],
+    "recent": []
+  },
+  "vvv-trippinyou": {
+    "genres": [
+      "coldwave",
+      "spain",
+      "synthpunk",
+      "bakalao",
+      "post-punk"
+    ],
+    "classics": [
+      {
+        "id": "K8mL9pJ5xM9",
+        "title": "VVV"
+      }
+    ],
+    "recent": []
+  },
+  "water-from-your-eyes": {
+    "genres": [
+      "indie rock",
+      "experimental",
+      "new wave",
+      "indie pop",
+      "USA"
+    ],
+    "classics": [
+      {
+        "id": "L3pL2qM6xN1",
+        "title": "Water"
+      }
+    ],
+    "recent": []
+  },
+  "waterbaby": {
+    "genres": [
+      "experimental",
+      "electronic",
+      "indie pop",
+      "Avant-Garde",
+      "art pop"
+    ],
+    "classics": [
+      {
+        "id": "M7kJ5pL3xM8",
+        "title": "Waterbaby"
+      }
+    ],
+    "recent": []
+  },
+  "wet-leg": {
+    "genres": [
+      "indie rock",
+      "post-punk",
+      "Crank wave",
+      "indie pop",
+      "indie"
+    ],
+    "classics": [
+      {
+        "id": "eKBL3nwlYaA",
+        "title": "Chaise Longue"
+      }
+    ],
+    "recent": []
+  },
+  "xavisphone": {
+    "genres": [
+      "baile funk",
+      "funk mandelao",
+      "automotivo",
+      "funk baile funk"
+    ],
+    "classics": [
+      {
+        "id": "N4nL7pJ8xN6",
+        "title": "Xavis"
+      }
+    ],
+    "recent": []
+  },
+  "yard-act": {
+    "genres": [
+      "post-punk",
+      "Crank wave",
+      "indie rock",
+      "spoken word",
+      "art punk"
+    ],
+    "classics": [
+      {
+        "id": "O9mL3pJ2xM4",
+        "title": "Yard"
+      }
+    ],
+    "recent": []
+  },
+  "ydegirl": {
+    "genres": [
+      "experimental",
+      "indie pop",
+      "denmark",
+      "art pop"
+    ],
+    "classics": [
+      {
+        "id": "P5pL6qM4xN7",
+        "title": "Yde"
+      }
+    ],
+    "recent": []
+  },
+  "zohar": {
+    "genres": [
+      "world",
+      "ambient",
+      "jewish",
+      "chillout",
+      "klezmer"
+    ],
+    "classics": [
+      {
+        "id": "Q2kJ8pL5xM3",
+        "title": "Zohar"
+      }
+    ],
+    "recent": []
+  },
+  "beverly-glenn-copeland-and-elizabeth-copeland": {
+    "genres": [
+      "electronic",
+      "ambient",
+      "experimental"
+    ],
+    "classics": [
+      {
+        "id": "KbkBp1GWNCI",
+        "title": "Transmissions"
+      }
+    ],
+    "recent": []
+  }
+}
