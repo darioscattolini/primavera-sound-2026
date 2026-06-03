@@ -4267,16 +4267,52 @@
       "indie",
       "catalan"
     ],
-    "classics": [],
-    "recent": []
+    "classics": [
+      {
+        "id": "_ysINF5JCXI",
+        "title": "Jonathan Bree - Say You Love Me Too (feat. Renaldo &amp; Clara)"
+      },
+      {
+        "id": "WVh-yO5pwoY",
+        "title": "Per fer-te una idea"
+      }
+    ],
+    "recent": [
+      {
+        "id": "haRSp4VJxOc",
+        "title": "Renaldo &amp; Clara - Globus [videoclip oficial]"
+      },
+      {
+        "id": "u6RSACiz9OE",
+        "title": "Renaldo &amp; Clara - Per fer-te una idea  [videoclip oficial]"
+      }
+    ]
   },
   "rian-brazil": {
     "genres": [
       "british",
       "Hip-Hop"
     ],
-    "classics": [],
-    "recent": []
+    "classics": [
+      {
+        "id": "tokFdGuNh9M",
+        "title": "Breathe"
+      },
+      {
+        "id": "oBHizTvKU-8",
+        "title": "Hey!"
+      }
+    ],
+    "recent": [
+      {
+        "id": "BN2JBrb6rxI",
+        "title": "androgynous"
+      },
+      {
+        "id": "xFVHw0sihVM",
+        "title": "a butterfly was born"
+      }
+    ]
   },
   "rilo-kiley": {
     "genres": [
@@ -4406,8 +4442,26 @@
       "techno",
       "under 2000 listeners"
     ],
-    "classics": [],
-    "recent": []
+    "classics": [
+      {
+        "id": "x9VYKrtziSg",
+        "title": "Sama&#39; Abdulhadi | Boiler Room: Palestine"
+      },
+      {
+        "id": "V4lH-KzsQi0",
+        "title": "Sama’ Abdulhadi DJ set - Monegros Desert Festival | @beatport Live"
+      }
+    ],
+    "recent": [
+      {
+        "id": "x166q4POmu8",
+        "title": "Sama&#39; Abdulhadi WE2 | Tomorrowland 2024"
+      },
+      {
+        "id": "n_fyxwt7dG0",
+        "title": "Sama&#39; Abdulhadi | Mixmag Lab London"
+      }
+    ]
   },
   "shackleton": {
     "genres": [],
@@ -4480,8 +4534,26 @@
       "electro",
       "electronica"
     ],
-    "classics": [],
-    "recent": []
+    "classics": [
+      {
+        "id": "fRh_vgS2dFE",
+        "title": "Justin Bieber - Sorry (PURPOSE : The Movement)"
+      },
+      {
+        "id": "gCYcHz2k5x0",
+        "title": "Martin Garrix - Animals (Official Video)"
+      }
+    ],
+    "recent": [
+      {
+        "id": "ZkqyIoYAXV8",
+        "title": "Skrillex &amp; Rick Ross - Purple Lamborghini [Official Video]"
+      },
+      {
+        "id": "1wl5BbUg05M",
+        "title": "Valentino Khan - Deep Down Low (Official Music Video)"
+      }
+    ]
   },
   "skullcrusher": {
     "genres": [
@@ -4564,8 +4636,26 @@
       "french",
       "pop"
     ],
-    "classics": [],
-    "recent": []
+    "classics": [
+      {
+        "id": "28DdEtvqGe8",
+        "title": "spill tab - PISTOLWHIP (Official Video)"
+      },
+      {
+        "id": "gpQ5Vq791y4",
+        "title": "spill tab - Grade A (Official Video) ft. JAWNY"
+      }
+    ],
+    "recent": [
+      {
+        "id": "LialiMZqR7s",
+        "title": "spill tab - Assis (Official Video)"
+      },
+      {
+        "id": "IXnIk-Cl9P0",
+        "title": "Cosmo&#39;s Midnight - Eating Heartache (Official Video) ft. spill tab"
+      }
+    ]
   },
   "stein": {
     "genres": [
@@ -4669,8 +4759,26 @@
       "alternative",
       "indie pop"
     ],
-    "classics": [],
-    "recent": []
+    "classics": [
+      {
+        "id": "MovNWuNPXXE",
+        "title": "The New Eves - Cow Song"
+      },
+      {
+        "id": "_lll0nATDNQ",
+        "title": "The New Eves - Highway Man"
+      }
+    ],
+    "recent": [
+      {
+        "id": "TPlkbgfCQ2k",
+        "title": "The New Eves - Red Brick (Official Video)"
+      },
+      {
+        "id": "IaW1Uk0sMos",
+        "title": "The New Eves - Rivers Run Red"
+      }
+    ]
   },
   "the-sophs": {
     "genres": [
