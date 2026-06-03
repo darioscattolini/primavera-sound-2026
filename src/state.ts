@@ -16,7 +16,7 @@ export function saveState(state: AppState): void {
 
 export function getArtistState(state: AppState, id: string): ArtistState {
   if (!state[id]) {
-    state[id] = { priority: null };
+    state[id] = { priority: null, tags: [] };
   }
   return state[id];
 }

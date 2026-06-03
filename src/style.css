@@ -167,6 +167,28 @@ main { padding: 20px; max-width: 1400px; margin: 0 auto; }
 .prio-btn.active-maybe { background: #fffbeb; border-color: var(--maybe); color: var(--maybe); font-weight: 600; }
 .prio-btn.active-skip  { background: #f3f4f6; border-color: var(--skip);  color: #6b7280;      font-weight: 600; }
 
+/* Tags section in modal */
+.modal-tags-section { padding: 12px 20px 4px; }
+.modal-tags { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.user-tag {
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 3px 8px; border-radius: 12px;
+  background: #e0f2fe; color: #0369a1;
+  font-size: 0.75rem; font-weight: 500;
+}
+.tag-remove {
+  background: none; border: none; cursor: pointer;
+  color: #0369a1; font-size: 0.85rem; line-height: 1;
+  padding: 0; opacity: 0.6;
+}
+.tag-remove:hover { opacity: 1; }
+.modal-tag-input {
+  width: 100px; padding: 3px 8px; border-radius: 12px;
+  border: 1px dashed #bbb; font-size: 0.75rem;
+  background: transparent; color: var(--text); outline: none;
+}
+.modal-tag-input:focus { border-color: #93c5fd; border-style: solid; }
+
 /* Section headers */
 .day-section { margin-bottom: 28px; }
 .day-header {
@@ -362,6 +384,14 @@ main { padding: 20px; max-width: 1400px; margin: 0 auto; }
   font-size: 0.62rem;
   color: var(--accent2);
   white-space: nowrap;
+}
+.sg-block-tags {
+  font-size: 0.6rem;
+  color: #888;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 2px;
 }
 .sg-must  { background: #fde68a !important; border-color: #b45309 !important; }
 .sg-want  { background: #fef3c7 !important; border-color: #d97706 !important; }

@@ -12,6 +12,9 @@ export function renderModal(artist: Artist, state: AppState): string {
   const { genres, videos } = getEnrichment(artist.id);
 
   const genreChips = genres.map(g => `<span class="genre-chip">${esc(g)}</span>`).join('');
+  const tagChips = (s.tags ?? []).map(t =>
+    `<span class="user-tag">${esc(t)}<button class="tag-remove" data-action="remove-tag" data-id="${artist.id}" data-tag="${esc(t)}" aria-label="Remove">×</button></span>`
+  ).join('');
 
   const priorityBtns = (['must', 'want', 'maybe', 'skip'] as const).map(p => {
     const labels: Record<string, string> = { must: '🔥 Must', want: '⭐ Want', maybe: '🤔 Maybe', skip: '👋 Skip' };
@@ -52,6 +55,13 @@ export function renderModal(artist: Artist, state: AppState): string {
       </div>
 
       <div class="priority-btns modal-priority-btns">${priorityBtns}</div>
+
+      <div class="modal-tags-section">
+        <div class="modal-tags" id="modal-tags-${artist.id}">
+          ${tagChips}
+          <input class="modal-tag-input" type="text" placeholder="+ tag" data-id="${artist.id}" maxlength="32">
+        </div>
+      </div>
 
       <div class="modal-links">
         <a class="modal-link" href="https://www.primaverasound.com/en/artist/${artist.id}?e=primavera-sound-2026-barcelona" target="_blank" rel="noopener noreferrer">

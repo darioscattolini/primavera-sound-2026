@@ -155,6 +155,62 @@ document.addEventListener('click', e => {
 });
 
 
+// ── Modal: add tag ────────────────────────────────────────────────────────────
+function addTagFromInput(input: HTMLInputElement): void {
+  const id  = input.dataset.id!;
+  const tag = input.value.trim();
+  if (!tag) return;
+  const s = getArtistState(state, id);
+  if (!s.tags) s.tags = [];
+  if (s.tags.includes(tag)) { input.value = ''; return; }
+  s.tags.push(tag);
+  saveState(state);
+  input.value = '';
+  refreshModalTags(id, s.tags);
+  updateStageBlockTags(id, s.tags);
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key !== 'Enter') return;
+  const input = (e.target as Element).closest<HTMLInputElement>('.modal-tag-input');
+  if (input) addTagFromInput(input);
+});
+
+document.addEventListener('click', e => {
+  const btn = (e.target as Element).closest<HTMLElement>('[data-action="remove-tag"]');
+  if (!btn) return;
+  const { id, tag } = btn.dataset as { id: string; tag: string };
+  const s = getArtistState(state, id);
+  s.tags = (s.tags ?? []).filter(t => t !== tag);
+  saveState(state);
+  refreshModalTags(id, s.tags);
+  updateStageBlockTags(id, s.tags);
+});
+
+function refreshModalTags(id: string, tags: string[]): void {
+  const container = document.getElementById(`modal-tags-${id}`);
+  if (!container) return;
+  const input = container.querySelector<HTMLInputElement>('.modal-tag-input');
+  const val = input?.value ?? '';
+  container.innerHTML = tags.map(t =>
+    `<span class="user-tag">${esc(t)}<button class="tag-remove" data-action="remove-tag" data-id="${id}" data-tag="${t}" aria-label="Remove">×</button></span>`
+  ).join('') + `<input class="modal-tag-input" type="text" placeholder="+ tag" data-id="${id}" maxlength="32" value="${esc(val)}">`;
+  container.querySelector<HTMLInputElement>('.modal-tag-input')?.focus();
+}
+
+function updateStageBlockTags(id: string, tags: string[]): void {
+  document.querySelectorAll<HTMLElement>(`.sg-block[data-id="${id}"]`).forEach(block => {
+    let el = block.querySelector<HTMLElement>('.sg-block-tags');
+    if (tags.length === 0) { el?.remove(); return; }
+    if (!el) {
+      el = document.createElement('div');
+      el.className = 'sg-block-tags';
+      block.appendChild(el);
+    }
+    el.textContent = tags.join(' · ');
+  });
+}
+
 // ── Helpers ───────────────────────────────────────────────────────────────────
 function updateArtistDOM(id: string, priority: string | null): void {
   // Grid card

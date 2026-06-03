@@ -88,11 +88,13 @@ function renderDayGrid(day: string, artists: Artist[], state: AppState): string 
         const height = Math.max(a.duration * PX_PER_MIN, 28);
         const endTime = addMinutes(a.time, a.duration);
         const icon = prio === 'must' ? '🔥 ' : prio === 'want' ? '⭐ ' : prio === 'maybe' ? '🤔 ' : '';
+        const tags = (s.tags ?? []).join(' · ');
         return `<div class="sg-block${prio ? ` sg-${prio}` : ''}"
           style="top:${top}px;height:${height}px"
           data-action="open-modal" data-id="${a.id}">
           <div class="sg-block-name">${icon}${esc(a.name)}</div>
           <div class="sg-block-time">${a.time}–${endTime}</div>
+          ${tags ? `<div class="sg-block-tags">${esc(tags)}</div>` : ''}
         </div>`;
       }).join('');
     return `<div class="sg-col" style="width:${CW}px">${blocks}</div>`;
