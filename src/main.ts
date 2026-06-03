@@ -31,9 +31,10 @@ function render(): void {
       ? renderStageLineup(filtered, state)
       : renderLineup(filtered, state);
   } else {
+    const filtered = getFilteredArtists(artists, state, filters);
     scheduleContent.innerHTML = viewMode === 'stage'
-      ? renderStageSchedule(artists, state)
-      : renderSchedule(artists, state);
+      ? renderStageSchedule(filtered, state)
+      : renderSchedule(filtered, state);
   }
 }
 
@@ -99,7 +100,7 @@ document.getElementById('filters-bar')!.addEventListener('click', e => {
     }
   }
 
-  if (currentTab === 'lineup') render();
+  render();
 });
 
 // ── Stage header horizontal sync ─────────────────────────────────────────────
