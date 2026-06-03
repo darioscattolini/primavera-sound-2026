@@ -407,6 +407,30 @@ main { padding: 20px; max-width: 1400px; margin: 0 auto; }
 .modal-meta { font-size: 0.82rem; color: var(--text-muted); margin-bottom: 8px; display: flex; flex-direction: column; gap: 3px; }
 .modal-genres { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 4px; }
 
+/* External links */
+.modal-links {
+  display: flex;
+  gap: 8px;
+  padding: 16px 20px 16px;
+}
+.modal-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #444;
+  text-decoration: none;
+  background: #f5f5f5;
+  transition: background 0.15s, border-color 0.15s;
+}
+.modal-link:hover {
+  background: #ebebeb;
+  border-color: #bbb;
+}
+
 /* Video thumbnails */
 .video-grid {
   display: grid;

@@ -53,6 +53,15 @@ export function renderModal(artist: Artist, state: AppState): string {
 
       <div class="priority-btns modal-priority-btns">${priorityBtns}</div>
 
+      <div class="modal-links">
+        <a class="modal-link" href="https://www.primaverasound.com/en/artist/${artist.id}?e=primavera-sound-2026-barcelona" target="_blank" rel="noopener noreferrer">
+          Primavera Sound
+        </a>
+        <a class="modal-link" href="https://www.youtube.com/results?search_query=${encodeURIComponent(artist.name)}" target="_blank" rel="noopener noreferrer">
+          YouTube
+        </a>
+      </div>
+
       <div class="video-grid">${videoCards}</div>
     </div>
   </div>`;
