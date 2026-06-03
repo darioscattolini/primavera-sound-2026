@@ -1500,20 +1500,6 @@
       }
     ]
   },
-  "dj-khalipha": {
-    "genres": [
-      "house",
-      "electronic",
-      "dance"
-    ],
-    "classics": [
-      {
-        "id": "N9zPPPWDlUE",
-        "title": "Khalifa"
-      }
-    ],
-    "recent": []
-  },
   "dj-koolt": {
     "genres": [
       "House"
@@ -1695,22 +1681,6 @@
         "title": "Ist Ist (Dubfire Ich Bin&#39;s Dub)"
       }
     ]
-  },
-  "ethel-cain": {
-    "genres": [
-      "dream pop",
-      "slowcore",
-      "ambient",
-      "dark ambient",
-      "singer-songwriter"
-    ],
-    "classics": [
-      {
-        "id": "cgxKqKZPFqU",
-        "title": "Hard Times"
-      }
-    ],
-    "recent": []
   },
   "european-vampire": {
     "genres": [
@@ -1896,20 +1866,6 @@
     ],
     "recent": []
   },
-  "gara-duran": {
-    "genres": [
-      "flamenco",
-      "experimental",
-      "fusion"
-    ],
-    "classics": [
-      {
-        "id": "vDlKpL9mB2j",
-        "title": "Duran"
-      }
-    ],
-    "recent": []
-  },
   "geese": {
     "genres": [
       "post-punk",
@@ -1979,26 +1935,6 @@
     ],
     "recent": []
   },
-  "gorillaz": {
-    "genres": [
-      "electronic",
-      "alternative",
-      "Hip-Hop",
-      "rock",
-      "indie"
-    ],
-    "classics": [
-      {
-        "id": "HyHNuVaZJ-k",
-        "title": "Gorillaz - Feel Good Inc. (Official Video)"
-      },
-      {
-        "id": "lVaBvyzuypw",
-        "title": "Gorillaz - Saturnz Barz (Spirit House) 360"
-      }
-    ],
-    "recent": []
-  },
   "grace-ives": {
     "genres": [
       "Lo-Fi",
@@ -2024,6 +1960,110 @@
       }
     ]
   },
+  "dj-khalipha": {
+    "genres": [],
+    "classics": [
+      {
+        "id": "_hn4EPn5wDg",
+        "title": "Mara pass Mara Beat"
+      },
+      {
+        "id": "G9bk8mwHNNs",
+        "title": "Mara Dance beat"
+      }
+    ],
+    "recent": [
+      {
+        "id": "aVJrQnQi3aQ",
+        "title": "Emotional mara beat Pt 2"
+      },
+      {
+        "id": "Cahe_H0nQao",
+        "title": "OGBA BEAT 4.0"
+      }
+    ]
+  },
+  "ethel-cain": {
+    "genres": [
+      "dream pop",
+      "slowcore",
+      "ambient",
+      "dark ambient",
+      "singer-songwriter"
+    ],
+    "classics": [
+      {
+        "id": "kOR4eGcPpRM",
+        "title": "Strangers"
+      },
+      {
+        "id": "ZSvNz6puDT4",
+        "title": "American Teenager"
+      }
+    ],
+    "recent": [
+      {
+        "id": "pNOm3MJRcaY",
+        "title": "Ptolemaea"
+      },
+      {
+        "id": "i6RZ9Ivu9_M",
+        "title": "Family Tree"
+      }
+    ]
+  },
+  "gara-duran": {
+    "genres": [],
+    "classics": [
+      {
+        "id": "vEYAp8dmeuw",
+        "title": "Placer de vivir"
+      },
+      {
+        "id": "wpkCLS3_wJo",
+        "title": "Mi loco cowboy"
+      }
+    ],
+    "recent": [
+      {
+        "id": "l1wHxGA5hBc",
+        "title": "Noto el nudo"
+      },
+      {
+        "id": "KD2DyxcXmKA",
+        "title": "Sin pena ni gloria"
+      }
+    ]
+  },
+  "gorillaz": {
+    "genres": [
+      "electronic",
+      "alternative",
+      "Hip-Hop",
+      "rock",
+      "indie"
+    ],
+    "classics": [
+      {
+        "id": "NxxjLD2pmlk",
+        "title": "Feel Good Inc."
+      },
+      {
+        "id": "p00v9ZFhWJM",
+        "title": "On Melancholy Hill"
+      }
+    ],
+    "recent": [
+      {
+        "id": "UKhpUm7LwZ0",
+        "title": "Tormenta (feat. Bad Bunny)"
+      },
+      {
+        "id": "-W20dfeNCmI",
+        "title": "She&#39;s My Collar (feat. Kali Uchis)"
+      }
+    ]
+  },
   "greta": {
     "genres": [
       "Grunge",
@@ -2034,11 +2074,24 @@
     ],
     "classics": [
       {
-        "id": "8Kp4vH6xM1n",
-        "title": "Greta"
+        "id": "aQTzYRuXkd8",
+        "title": "USTED (feat. xicu &amp; jovedry)"
+      },
+      {
+        "id": "_fOZ_fybpXs",
+        "title": "SI ALGÚN DÍA NO ESTOY (feat. jovedry)"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "ITMopBDeaa4",
+        "title": "pa&#39;l resto (feat. jovedry &amp; blau fosk)"
+      },
+      {
+        "id": "48B4QdIOt-w",
+        "title": "LO QUE MEREZCO (feat. xicu &amp; jovedry)"
+      }
+    ]
   },
   "guedra-guedra": {
     "genres": [
@@ -2050,11 +2103,24 @@
     ],
     "classics": [
       {
-        "id": "iO2mJ9pL5wQ",
-        "title": "Guedra"
+        "id": "KZMPvei9F7w",
+        "title": "Uggug"
+      },
+      {
+        "id": "zXKMkQPlpmk",
+        "title": "Juke Lockstep"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "IWXBzGH2gNo",
+        "title": "Complementariness"
+      },
+      {
+        "id": "T1vKS-i_cno",
+        "title": "Seven Poets"
+      }
+    ]
   },
   "guitarricadelafuente": {
     "genres": [
@@ -2066,11 +2132,24 @@
     ],
     "classics": [
       {
-        "id": "vY8kL3pM6xN",
-        "title": "Guitarrica"
+        "id": "cCkt_oDJkDw",
+        "title": "Guantanamera"
+      },
+      {
+        "id": "ZrrevrysG4I",
+        "title": "A Mi Manera"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "NMAEftaI4EI",
+        "title": "Conticinio"
+      },
+      {
+        "id": "tO8cADB-jA4",
+        "title": "Agua y Mezcal"
+      }
+    ]
   },
   "greg": {
     "genres": [
@@ -2082,11 +2161,24 @@
     ],
     "classics": [
       {
-        "id": "F2nJ9pL4rQ8",
-        "title": "GЯEG"
+        "id": "fBIyClXsC5Y",
+        "title": "Dembow Tronico (feat. King Doudou)"
+      },
+      {
+        "id": "hpT88w7ppGI",
+        "title": "Eau Coulée Smart City"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "o1XvmzDdnEI",
+        "title": "Dembow Tronico (Simo Cell Rhythm &amp; Clicks Remix)"
+      },
+      {
+        "id": "dxPnuEOl-ak",
+        "title": "Bath Slide"
+      }
+    ]
   },
   "hadren": {
     "genres": [
@@ -2097,11 +2189,24 @@
     ],
     "classics": [
       {
-        "id": "M5pK2xJ9nL1",
-        "title": "Hadren"
+        "id": "ELf92-bnnlM",
+        "title": "+Dti"
+      },
+      {
+        "id": "q7KYtesaxJM",
+        "title": "HOT BOYS CLUB"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "UjCMHXsseDk",
+        "title": "GASOLINE"
+      },
+      {
+        "id": "_vKoyyVRAR8",
+        "title": "A TRUE CRIME!"
+      }
+    ]
   },
   "haich-ber-na": {
     "genres": [
@@ -2113,39 +2218,70 @@
     ],
     "classics": [
       {
-        "id": "K7wL3pJ8xM2",
-        "title": "Haich"
+        "id": "guYTpM7VtTU",
+        "title": "So Sick Of Me"
+      },
+      {
+        "id": "U249TddoQno",
+        "title": "Sandringham"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "S3140WPrtSg",
+        "title": "PE3"
+      },
+      {
+        "id": "FPBmES9l-XA",
+        "title": "Knew You Better"
+      }
+    ]
   },
   "haloplus": {
-    "genres": [
-      "house",
-      "electronic",
-      "dance"
-    ],
+    "genres": [],
     "classics": [
       {
-        "id": "V4mN6pJ2xL9",
-        "title": "Halo"
+        "id": "IXQO3tAmtoU",
+        "title": "Musicality"
+      },
+      {
+        "id": "gzBhq8lEef0",
+        "title": "Mouse Tag"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "ZhYwx_6S8LQ",
+        "title": "Beatbox"
+      },
+      {
+        "id": "AhDBBpDr-vY",
+        "title": "Super Cute / Put it on"
+      }
+    ]
   },
   "hannah-diamond": {
-    "genres": [
-      "experimental pop",
-      "hyperpop",
-      "electronic"
-    ],
+    "genres": [],
     "classics": [
       {
-        "id": "W8qL5pJ3xM7",
-        "title": "Diamond"
+        "id": "EPFvbc4onks",
+        "title": "Hannah Diamond - Every Night"
+      },
+      {
+        "id": "vmgp7MHzmBM",
+        "title": "Hannah Diamond - Fade Away (Lyric Video)"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "x_atlUT9TBI",
+        "title": "Hannah Diamond - Perfect Picture (Official Music Video)"
+      },
+      {
+        "id": "14TTlEDMIo0",
+        "title": "Fade Away"
+      }
+    ]
   },
   "hekt": {
     "genres": [
@@ -2157,25 +2293,47 @@
     ],
     "classics": [
       {
-        "id": "R2nJ8pL4xM6",
-        "title": "Hekt"
+        "id": "71wu8iMnsyE",
+        "title": "Dream"
+      },
+      {
+        "id": "3Q_yFLMiJww",
+        "title": "Someday"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "v75m2i-Rp68",
+        "title": "Up In The Air, So"
+      },
+      {
+        "id": "Zxf0BcSO230",
+        "title": "Without You"
+      }
+    ]
   },
   "hello-sasy": {
-    "genres": [
-      "indie rock",
-      "alternative",
-      "experimental"
-    ],
+    "genres": [],
     "classics": [
       {
-        "id": "T3kL9pJ5xM2",
-        "title": "Hello"
+        "id": "REN7pEV78Zw",
+        "title": "MITMISCHEN INVITES - HELLO SASY"
+      },
+      {
+        "id": "w_qNRKuhgcw",
+        "title": "Mareo - Hello Sasy | HÖR - May 27 / 2023"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "-fLesHQX9c8",
+        "title": "Hello Sasy #2 - Emotion Powerhouse | Radio Rudina"
+      },
+      {
+        "id": "7QxwTLTs4dw",
+        "title": "Hello Sasy - Floathouse Studio Showcase 35"
+      }
+    ]
   },
   "hypnosis-therapy": {
     "genres": [
@@ -2187,11 +2345,24 @@
     ],
     "classics": [
       {
-        "id": "U6mN7pJ3xL8",
-        "title": "Hypnosis"
+        "id": "RMSFXWp_THY",
+        "title": "FROG"
+      },
+      {
+        "id": "8mfTZQg0Zw8",
+        "title": "JONGNO"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "nihQgb24d7g",
+        "title": "siren///softcode"
+      },
+      {
+        "id": "aygnNC3e9y0",
+        "title": "subsonic₩"
+      }
+    ]
   },
   "iglooghost": {
     "genres": [
@@ -2203,11 +2374,24 @@
     ],
     "classics": [
       {
-        "id": "X9pL2qM4xN7",
-        "title": "Iglooghost"
+        "id": "l4k7gMTjNW4",
+        "title": "Bug Thief"
+      },
+      {
+        "id": "oTZ9W6HNOqQ",
+        "title": "Super Ink Burst"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "c6W0EUCkI_I",
+        "title": "Nemat0de"
+      },
+      {
+        "id": "DKhjDKcBdC4",
+        "title": "Alloy Flea"
+      }
+    ]
   },
   "isabella-lovestory": {
     "genres": [
@@ -2219,11 +2403,24 @@
     ],
     "classics": [
       {
-        "id": "Y5kJ8pL3xM9",
-        "title": "Love Story"
+        "id": "n8kzC6t1jOI",
+        "title": "Mariposa"
+      },
+      {
+        "id": "pL9Qal4W_Uk",
+        "title": "Fuetazo"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "0nvlT4ZUwpo",
+        "title": "Latina"
+      },
+      {
+        "id": "gOfc2IsW-UA",
+        "title": "Gateo (feat. Ms Nina)"
+      }
+    ]
   },
   "ivy-barkakati": {
     "genres": [
@@ -2235,25 +2432,38 @@
     ],
     "classics": [
       {
-        "id": "Z2mL6pJ4xN8",
-        "title": "Ivy"
+        "id": "vT8s49QefO8",
+        "title": "Reactivar"
+      },
+      {
+        "id": "yEGCQxYjpqc",
+        "title": "Mango Sheen"
       }
     ],
     "recent": []
   },
   "iza-tkm": {
-    "genres": [
-      "electronic",
-      "experimental",
-      "ambient"
-    ],
+    "genres": [],
     "classics": [
       {
-        "id": "A7nL9pJ2xM5",
-        "title": "IZA"
+        "id": "cwtMW64FcPc",
+        "title": "dormiré sin ti"
+      },
+      {
+        "id": "tyfjI1jYZ7c",
+        "title": "t escucho al pensar"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "IYNxJVEeoZ4",
+        "title": "cuídame de mi"
+      },
+      {
+        "id": "8asOZQVvVek",
+        "title": "piezas de ti"
+      }
+    ]
   },
   "jade": {
     "genres": [
@@ -2265,11 +2475,24 @@
     ],
     "classics": [
       {
-        "id": "B3kJ5pL7xM1",
-        "title": "Jade"
+        "id": "GAC77ZU5RiQ",
+        "title": "Before You Break My Heart"
+      },
+      {
+        "id": "poblks2Qk04",
+        "title": "Angel Of My Dreams"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "LCvasleO5Hk",
+        "title": "Church"
+      },
+      {
+        "id": "SmqcFE0FE8g",
+        "title": "Self Saboteur"
+      }
+    ]
   },
   "jan": {
     "genres": [
@@ -2281,25 +2504,47 @@
     ],
     "classics": [
       {
-        "id": "C6mL4pJ9xN2",
-        "title": "Jan"
+        "id": "_zQQJRxUS0s",
+        "title": "Skriveni Broj"
+      },
+      {
+        "id": "nR07r5TAbZ8",
+        "title": "Most Wanted"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "y1u5z7arnZo",
+        "title": "Pink Panther"
+      },
+      {
+        "id": "f7_CYULJSqA",
+        "title": "Insomnia"
+      }
+    ]
   },
   "jasmine4t": {
-    "genres": [
-      "indie rock",
-      "alternative",
-      "experimental"
-    ],
+    "genres": [],
     "classics": [
       {
-        "id": "D8nL2pJ6xM4",
-        "title": "Jasmine"
+        "id": "ZaqCCXmX3ec",
+        "title": "tour diary"
+      },
+      {
+        "id": "BYg5St8Lsgk",
+        "title": "Woman"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "mD4FzuVK_vI",
+        "title": "Find Ur Ppl (feat. Jacob Alon)"
+      },
+      {
+        "id": "_pkIF2tM0oQ",
+        "title": "jasmine.4.t - I Can&#39;t Believe I Did This Without You (Official Audio)"
+      }
+    ]
   },
   "jasss": {
     "genres": [
@@ -2311,11 +2556,24 @@
     ],
     "classics": [
       {
-        "id": "E5pL7qM3xN8",
-        "title": "JASSS"
+        "id": "LH7hu_AyojI",
+        "title": "Turbo Olé"
+      },
+      {
+        "id": "yg6v5Txfmrk",
+        "title": "Every Single Fish in the Pond"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "bC8rRvRRznI",
+        "title": "In Your Mouth"
+      },
+      {
+        "id": "ezbBWnLN-qc",
+        "title": "Camelo"
+      }
+    ]
   },
   "jimena-amarillo": {
     "genres": [
@@ -2326,11 +2584,24 @@
     ],
     "classics": [
       {
-        "id": "F9kJ3pL8xM2",
-        "title": "Amarillo"
+        "id": "VQihtQPO_40",
+        "title": "Ni Se Nota"
+      },
+      {
+        "id": "yyoX3bG0Izw",
+        "title": "Panpin bat bezala"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "pGF9uwVa37A",
+        "title": "3 AMIGAS TUYAS"
+      },
+      {
+        "id": "MCIv3UEwKcQ",
+        "title": "Cuando ya no me quieras"
+      }
+    ]
   },
   "joan-la-barbara": {
     "genres": [
@@ -2342,11 +2613,24 @@
     ],
     "classics": [
       {
-        "id": "G2mL6pJ4xN9",
-        "title": "La Barbara"
+        "id": "7SvVhDMLTbs",
+        "title": "Joan La Barbara - Twelvesong"
+      },
+      {
+        "id": "pzmYA5imuyw",
+        "title": "Joan La Barbara - Klee Alee"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "wf04CznViTk",
+        "title": "Joan La Barbara - Circular Song"
+      },
+      {
+        "id": "YjZmoLqIkBg",
+        "title": "Joan La Barbara - ShadowSong"
+      }
+    ]
   },
   "joey-valence-and-brae": {
     "genres": [
@@ -2358,11 +2642,24 @@
     ],
     "classics": [
       {
-        "id": "H7nL5pJ2xM6",
-        "title": "Joey"
+        "id": "sDfquB8RFIA",
+        "title": "OK"
+      },
+      {
+        "id": "yTsRaKh6WqE",
+        "title": "HOOLIGANG"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "LRrti3otRAQ",
+        "title": "THE BADDEST (BADDER) (feat. Ayesha Erotica)"
+      },
+      {
+        "id": "-IbbkPN6KPI",
+        "title": "DOUGHBOY (feat. Terror Reid)"
+      }
+    ]
   },
   "joseph-capriati": {
     "genres": [
@@ -2374,11 +2671,24 @@
     ],
     "classics": [
       {
-        "id": "I4kJ8pL3xN1",
-        "title": "Capriati"
+        "id": "2H9QgNvjzqo",
+        "title": "Solar System Original Mix"
+      },
+      {
+        "id": "lMOrHvQIQUM",
+        "title": "Awake"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "DehyQkJCmTw",
+        "title": "Ananda"
+      },
+      {
+        "id": "OIQrZ8XBtvo",
+        "title": "Psycology Original Mix"
+      }
+    ]
   },
   "juicy-bae": {
     "genres": [
@@ -2390,11 +2700,24 @@
     ],
     "classics": [
       {
-        "id": "J6mL9pJ5xM7",
-        "title": "Juicy"
+        "id": "1a9SBM6YQe0",
+        "title": "Sinceramente"
+      },
+      {
+        "id": "fYi4qb8fu7g",
+        "title": "BITCH"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "zllNQDbUO4M",
+        "title": "SOLtera nunca solA"
+      },
+      {
+        "id": "1_7ghwmovI0",
+        "title": "69"
+      }
+    ]
   },
   "kiki": {
     "genres": [
@@ -2406,11 +2729,24 @@
     ],
     "classics": [
       {
-        "id": "K3pL7qM2xN4",
-        "title": "KI KI"
+        "id": "q9tCstMyLqA",
+        "title": "Losing Control"
+      },
+      {
+        "id": "RFDg8V1caUQ",
+        "title": "What&#39;s a Girl to Do in &#39;25"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "CHOl5DVOmHw",
+        "title": "5AM"
+      },
+      {
+        "id": "2PzdWgc2_as",
+        "title": "Can&#39;t Stop Loving You"
+      }
+    ]
   },
   "kneecap": {
     "genres": [
@@ -2422,11 +2758,24 @@
     ],
     "classics": [
       {
-        "id": "L8nJ4pL6xM9",
-        "title": "Kneecap"
+        "id": "724LHGUWCww",
+        "title": "H.O.O.D"
+      },
+      {
+        "id": "bAtAjw7VmRM",
+        "title": "Get Your Brits Out"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "saLi6vrWJoU",
+        "title": "THE RECAP"
+      },
+      {
+        "id": "sM1oWym2-4Q",
+        "title": "H.O.O.D (2025 Mix)"
+      }
+    ]
   },
   "knocked-loose": {
     "genres": [
@@ -2438,15 +2787,24 @@
     ],
     "classics": [
       {
-        "id": "M5kL2pJ8xN3",
-        "title": "Knocked"
+        "id": "dMr7xej_2vc",
+        "title": "Suffocate (feat. Poppy)"
       },
       {
-        "id": "N7mL5pJ3xM1",
-        "title": "Loose"
+        "id": "tHQc1GdMATE",
+        "title": "Deep in the Willow"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "RAFjdaobUk0",
+        "title": "Counting Worms"
+      },
+      {
+        "id": "Yn5oEhFgsLY",
+        "title": "Blinding Faith"
+      }
+    ]
   },
   "korashe": {
     "genres": [
@@ -2455,11 +2813,24 @@
     ],
     "classics": [
       {
-        "id": "O2nL9pJ6xN8",
-        "title": "Korashe"
+        "id": "atFS-E86_04",
+        "title": "ALFA RONEO"
+      },
+      {
+        "id": "e0NotUZzUe8",
+        "title": "HELLO PITI"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "fWwBPqJ7xzM",
+        "title": "GRACIOSA!"
+      },
+      {
+        "id": "lRdSmssjiYE",
+        "title": "METÁLICA"
+      }
+    ]
   },
   "kylesa": {
     "genres": [
@@ -2471,11 +2842,24 @@
     ],
     "classics": [
       {
-        "id": "P6kJ3pL7xM4",
-        "title": "Kylesa"
+        "id": "Z9s8SNUilRw",
+        "title": "Come as You Are"
+      },
+      {
+        "id": "tt4VlIPmTBs",
+        "title": "Unspoken"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "YnsW-0mhr3o",
+        "title": "Scapegoat (2022 Remaster)"
+      },
+      {
+        "id": "dMIQnQ-bgXE",
+        "title": "Unknown Awareness (2022 Remaster)"
+      }
+    ]
   },
   "lablackie": {
     "genres": [
@@ -2487,11 +2871,24 @@
     ],
     "classics": [
       {
-        "id": "Q8mL4pJ2xN6",
-        "title": "Blackie"
+        "id": "9I-dhL6JwPI",
+        "title": "MAREMOTO"
+      },
+      {
+        "id": "ZaBLcPDMMHY",
+        "title": "Oh Uau"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "9BgkQB5Q1RU",
+        "title": "Costilla De Raxet"
+      },
+      {
+        "id": "0Syv3imEkA8",
+        "title": "Bon Dia"
+      }
+    ]
   },
   "lambrini-girls": {
     "genres": [
@@ -2503,11 +2900,24 @@
     ],
     "classics": [
       {
-        "id": "R4pL8qM3xN9",
-        "title": "Lambrini"
+        "id": "IuLK56UrCL0",
+        "title": "Lads Lads Lads"
+      },
+      {
+        "id": "oFNfHp56CKg",
+        "title": "Cuntology 101"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "svttRZ1jL2I",
+        "title": "Bad Apple"
+      },
+      {
+        "id": "Iv_hSGcdsEc",
+        "title": "Love"
+      }
+    ]
   },
   "las-petunias": {
     "genres": [
@@ -2519,11 +2929,24 @@
     ],
     "classics": [
       {
-        "id": "S9nL5pJ4xM2",
-        "title": "Petunias"
+        "id": "HY4nT4qAjpY",
+        "title": "Marcelo Criminal"
+      },
+      {
+        "id": "Zk6zXhVYM7c",
+        "title": "patito"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "8Bp_jeuAhNg",
+        "title": "AGOTA LA SUERTE"
+      },
+      {
+        "id": "o3KjDfliq8E",
+        "title": "No necesito estar sola (ya lo he estado toda mi vida)"
+      }
+    ]
   },
   "lea-sen": {
     "genres": [
@@ -2535,25 +2958,24 @@
     ],
     "classics": [
       {
-        "id": "T3kJ6pL8xN1",
-        "title": "Lea"
-      }
-    ],
-    "recent": []
-  },
-  "lechuga-zafiro-and-verraco-hyperverbena": {
-    "genres": [
-      "reggaeton",
-      "latin",
-      "experimental"
-    ],
-    "classics": [
+        "id": "wduloXU7m0c",
+        "title": "lvl 9 - MORE THAN HAPPY"
+      },
       {
-        "id": "U7mL2pJ5xM9",
-        "title": "Hyperverbena"
+        "id": "S-uaAi0HTIk",
+        "title": "Brother"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "2YCXa0CvkZQ",
+        "title": "lvl 10 - LOBBY BOY"
+      },
+      {
+        "id": "Rsjd16Vr2MA",
+        "title": "lvl 6 - VIDEO GAMES"
+      }
+    ]
   },
   "little-simz": {
     "genres": [
@@ -2565,11 +2987,24 @@
     ],
     "classics": [
       {
-        "id": "V2nL7pJ3xN5",
-        "title": "Simz"
+        "id": "A6ieo6maHXg",
+        "title": "Venom"
+      },
+      {
+        "id": "xdJ6mP1lS28",
+        "title": "Gorilla"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "yR0JElhHQfQ",
+        "title": "Angel"
+      },
+      {
+        "id": "jADt4Jpa3_w",
+        "title": "Selfish"
+      }
+    ]
   },
   "loukeman": {
     "genres": [
@@ -2581,11 +3016,24 @@
     ],
     "classics": [
       {
-        "id": "W8pL4qM6xN1",
-        "title": "Louke"
+        "id": "lAWbajY-0II",
+        "title": "Real Stressor"
+      },
+      {
+        "id": "0Wi9CadM6zM",
+        "title": "Manifester"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "KL3eRuNDbCw",
+        "title": "It&#39;s Gonna Keep On Raining"
+      },
+      {
+        "id": "OykBGVG_XhE",
+        "title": "Earlyy"
+      }
+    ]
   },
   "lucrecia-dalt": {
     "genres": [
@@ -2597,57 +3045,70 @@
     ],
     "classics": [
       {
-        "id": "X5kJ9pL2xM7",
-        "title": "Lucrecia"
+        "id": "9Y99wb9g6W8",
+        "title": "Contenida"
       },
       {
-        "id": "Y3mL6pJ4xN8",
-        "title": "Dalt"
+        "id": "GOL78nXzgCc",
+        "title": "Edge"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "vrhR6AjCqno",
+        "title": "cosa rara"
+      },
+      {
+        "id": "K2oSgNRbZPw",
+        "title": "Atemporal"
+      }
+    ]
   },
   "lusillon": {
-    "genres": [
-      "reggaeton",
-      "trap latino",
-      "urban"
-    ],
+    "genres": [],
     "classics": [
       {
-        "id": "Z6nL3pJ8xM4",
-        "title": "Lusillon"
-      }
-    ],
-    "recent": []
-  },
-  "m8nse": {
-    "genres": [
-      "grime",
-      "uk garage",
-      "drum and bass"
-    ],
-    "classics": [
+        "id": "mEyb54yoI4k",
+        "title": "Ikea - lusillón &amp; alex granero (lyric video)"
+      },
       {
-        "id": "A9pL5qM2xN7",
-        "title": "M8NSE"
+        "id": "kbwVkpMhoHI",
+        "title": "amigos pixelados - lusillón canción original (animated by mramos)"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "lSkou5lCSvk",
+        "title": "#kawaii"
+      },
+      {
+        "id": "VIZopRJJzh4",
+        "title": "👁️👁️👁️"
+      }
+    ]
   },
   "ma-ra": {
-    "genres": [
-      "electronic",
-      "experimental",
-      "ambient"
-    ],
+    "genres": [],
     "classics": [
       {
-        "id": "B4kJ7pL3xM9",
-        "title": "Ma Ra"
+        "id": "DWHGqygFqcQ",
+        "title": "iru"
+      },
+      {
+        "id": "cRdsPV4SZqs",
+        "title": "Sıfatsız"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "TaYsl2E7BHw",
+        "title": "Dıptıs"
+      },
+      {
+        "id": "v1obW4Vh06E",
+        "title": "Yolculuğa Dair"
+      }
+    ]
   },
   "mac-demarco": {
     "genres": [
@@ -2659,11 +3120,24 @@
     ],
     "classics": [
       {
-        "id": "C8mL2pJ6xN1",
-        "title": "Chamber of Reflection"
+        "id": "pQsF3pzOc54",
+        "title": "Chamber Of Reflection"
+      },
+      {
+        "id": "cZCm_i6YvAk",
+        "title": "For the First Time"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "qBoQzo98EpQ",
+        "title": "Heart To Heart"
+      },
+      {
+        "id": "WOV3c0t-Mwk",
+        "title": "On the Level"
+      }
+    ]
   },
   "maestro-espada": {
     "genres": [
@@ -2675,11 +3149,24 @@
     ],
     "classics": [
       {
-        "id": "D2nL8pJ4xM6",
-        "title": "Espada"
+        "id": "gxOPzeu6qVc",
+        "title": "Estrellica"
+      },
+      {
+        "id": "lXx9JBWwUHs",
+        "title": "Murciana"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "oKozC5HD_-8",
+        "title": "Yo en deshacerme"
+      },
+      {
+        "id": "EGEa3b3igk8",
+        "title": "Granaíco"
+      }
+    ]
   },
   "malena": {
     "genres": [
@@ -2691,11 +3178,24 @@
     ],
     "classics": [
       {
-        "id": "E7kL4pJ9xN2",
-        "title": "Malena"
+        "id": "-PEsCpTqFUQ",
+        "title": "No Volveré a Decirte"
+      },
+      {
+        "id": "Jca3q29zSL4",
+        "title": "Mientras Tú Me Olvidas"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "4eboqBFyj5k",
+        "title": "Ya sé que lo sabes"
+      },
+      {
+        "id": "czoHL0JPm5E",
+        "title": "Altos, flacos, feos"
+      }
+    ]
   },
   "malibu": {
     "genres": [
@@ -2707,11 +3207,24 @@
     ],
     "classics": [
       {
-        "id": "F5pL6qM3xN8",
-        "title": "Malibu"
+        "id": "VpR9975Gd78",
+        "title": "So Sweet &amp; Willing"
+      },
+      {
+        "id": "jUCuOnCItbk",
+        "title": "Contact"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "F5EFjsQvkEQ",
+        "title": "Jaded"
+      },
+      {
+        "id": "xy7LaDr3QZk",
+        "title": "Watching People Die"
+      }
+    ]
   },
   "marc-pinol": {
     "genres": [
@@ -2721,11 +3234,24 @@
     ],
     "classics": [
       {
-        "id": "G9nL3pJ5xM7",
-        "title": "Pinol"
+        "id": "zyjV4TMwXiA",
+        "title": "The xx - Fiction (Marc Piñol Remix)"
+      },
+      {
+        "id": "O__-h5x-qMs",
+        "title": "Margot - Moderno (Marc Piñol Acid Remix)"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "EGSsdo4eyLw",
+        "title": "Marc Piñol - Cel Avall"
+      },
+      {
+        "id": "d0H0N1fY8Qg",
+        "title": "Margot - Moderno (Marc Piñol Morning Remix)"
+      }
+    ]
   },
   "marina": {
     "genres": [
@@ -2737,11 +3263,24 @@
     ],
     "classics": [
       {
-        "id": "H3kJ8pL2xN4",
-        "title": "Marina"
+        "id": "VOn6i2spFIY",
+        "title": "Bubblegum Bitch"
+      },
+      {
+        "id": "JWywn51-B_I",
+        "title": "Are You Satisfied?"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "qamqBNY3R0Y",
+        "title": "Bubblegum Bitch"
+      },
+      {
+        "id": "0ulEqHskbPk",
+        "title": "How to Be a Heartbreaker"
+      }
+    ]
   },
   "mark-william-lewis": {
     "genres": [
@@ -2753,11 +3292,24 @@
     ],
     "classics": [
       {
-        "id": "I6mL5pJ7xM1",
-        "title": "Mark"
+        "id": "1o86fne7uIA",
+        "title": "Tomorrow is Perfect"
+      },
+      {
+        "id": "5FvtZjW-SOY",
+        "title": "Cut Glass"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "VJ64dWvXyK8",
+        "title": "Skeletons Coupling"
+      },
+      {
+        "id": "GF_XpwcNZMg",
+        "title": "Cold Paris Vogue"
+      }
+    ]
   },
   "martin": {
     "genres": [
@@ -2769,11 +3321,24 @@
     ],
     "classics": [
       {
-        "id": "J2nL9pJ3xN6",
-        "title": "MARTIN"
+        "id": "7HsLwMfcpxk",
+        "title": "[Du är så] Yeah Yeah, Wow Wow"
+      },
+      {
+        "id": "4bWl9mW8ZG0",
+        "title": "Fiskar som viskar"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "964GxZmIUEI",
+        "title": "Jag vill inte motionera"
+      },
+      {
+        "id": "yn0JF7QGBUc",
+        "title": "Dumkåt"
+      }
+    ]
   },
   "massive-attack": {
     "genres": [
@@ -2785,11 +3350,24 @@
     ],
     "classics": [
       {
-        "id": "u8NsWqp7PEU",
+        "id": "HLrqNhgdiC0",
+        "title": "Angel"
+      },
+      {
+        "id": "3h-JYx76QNM",
         "title": "Teardrop"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "66A_3uwuZ_I",
+        "title": "Angel (Remastered 2019)"
+      },
+      {
+        "id": "h3-PvKIc3e4",
+        "title": "Protection"
+      }
+    ]
   },
   "matmos": {
     "genres": [
@@ -2801,25 +3379,43 @@
     ],
     "classics": [
       {
-        "id": "K8pL4qM6xN9",
-        "title": "Matmos"
+        "id": "Rp_7_Zu4WnQ",
+        "title": "Plastic Anniversary"
+      },
+      {
+        "id": "Sd9ETTCPsXg",
+        "title": "Breaking Bread"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "u3Y5JK1fkSw",
+        "title": "No Concept"
+      },
+      {
+        "id": "AEWtmW0UdgU",
+        "title": "Ultimate Care II Excerpt One"
+      }
+    ]
   },
   "mechatok": {
-    "genres": [
-      "electronic",
-      "experimental",
-      "ambient"
-    ],
+    "genres": [],
     "classics": [
       {
-        "id": "L5kJ2pL8xM3",
-        "title": "Mechatok"
+        "id": "ex9Ac2i34CE",
+        "title": "「MECHATOK LIVE」@ O2 Academy Brixton"
+      },
+      {
+        "id": "bdEp4Gf3YBY",
+        "title": "The Dare - Tambourine (feat. Mechatok) (live @ 131 McCormack Street, Toronto, September 6, 2025)"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "5s-ndU2aqLI",
+        "title": "The Dare &amp; Mechatok (live @ 131 McCormack Street, Toronto, September 6, 2025)"
+      }
+    ]
   },
   "melt-banana": {
     "genres": [
@@ -2831,11 +3427,24 @@
     ],
     "classics": [
       {
-        "id": "M9mL7pJ4xN1",
-        "title": "Banana"
+        "id": "CGRvuH8nH-M",
+        "title": "Shield for Your Eyes, A Beast in the Well on Your Hand"
+      },
+      {
+        "id": "mUBvmh3SzN0",
+        "title": "Candy Gun"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "yY_MHBfI-rw",
+        "title": "Vertigo Game"
+      },
+      {
+        "id": "eXLkdAN2JyY",
+        "title": "Zero"
+      }
+    ]
   },
   "men-i-trust": {
     "genres": [
@@ -2847,22 +3456,35 @@
     ],
     "classics": [
       {
-        "id": "N4nL3pJ6xM8",
-        "title": "Trust"
+        "id": "DJCB1ZlseJ8",
+        "title": "Show Me How"
+      },
+      {
+        "id": "ECFzPpKotmk",
+        "title": "I Hope to Be Around"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "Wv-1SMxR6N8",
+        "title": "Sugar"
+      },
+      {
+        "id": "uC6wKP_RVqU",
+        "title": "Tailwhip"
+      }
+    ]
   },
   "menine": {
-    "genres": [
-      "experimental",
-      "electronic",
-      "ambient"
-    ],
+    "genres": [],
     "classics": [
       {
-        "id": "O7pL5qM2xN4",
-        "title": "Menine"
+        "id": "PMz1Zcn24P4",
+        "title": "MAZO PERIN PERIN Isembegbo Menine Cathy DeConté ( Official Music Video 2017 ) By Dj.IKK"
+      },
+      {
+        "id": "G_8lEPKldQI",
+        "title": "Eritrea Song Dqasey Menine  By Aklilu Foto (Tefono) ድቃሰይ መኒነ  ብኣኽሊሉ ፎቶ   ( ተፎኖ )"
       }
     ],
     "recent": []
@@ -2877,22 +3499,31 @@
     ],
     "classics": [
       {
-        "id": "P2kJ9pL3xM6",
-        "title": "Merzbow"
+        "id": "BX1Ozr_CchM",
+        "title": "Woodpecker No. 2 (Remastered)"
+      },
+      {
+        "id": "vya3Q9I12yc",
+        "title": "My Station Rock (Remastered)"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "JcSYv5ZU6fc",
+        "title": "Sedonis A"
+      },
+      {
+        "id": "fjx6R5ouHrM",
+        "title": "¡FLAKKA!"
+      }
+    ]
   },
   "mina-galan": {
-    "genres": [
-      "indie rock",
-      "alternative",
-      "experimental"
-    ],
+    "genres": [],
     "classics": [
       {
-        "id": "Q6mL4pJ8xN9",
-        "title": "Galan"
+        "id": "EwWu6eJbCCE",
+        "title": "Bate"
       }
     ],
     "recent": []
@@ -2905,11 +3536,24 @@
     ],
     "classics": [
       {
-        "id": "R3nL7pJ5xM2",
-        "title": "Mobile"
+        "id": "oB5yOcWLag4",
+        "title": "Vivibass"
+      },
+      {
+        "id": "ajmPnaka6PI",
+        "title": "Lone Ripple (Coucou Chloe Remix)"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "oEuXwkg_NgQ",
+        "title": "Forever (Dirty K Remix)"
+      },
+      {
+        "id": "1nnQle1QHMs",
+        "title": "Ceremonial Song (Scintii Remix)"
+      }
+    ]
   },
   "mohammad-reza-mortazavi": {
     "genres": [
@@ -2921,22 +3565,35 @@
     ],
     "classics": [
       {
-        "id": "S8pL2qM6xN3",
-        "title": "Mortazavi"
+        "id": "zfn1jv1EfHQ",
+        "title": "Circulation"
+      },
+      {
+        "id": "ioLtrpfzwHk",
+        "title": "YEK 127–17"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "F_lC4O13Da4",
+        "title": "Zendegi"
+      },
+      {
+        "id": "J9JNxg7fIaM",
+        "title": "Eleven"
+      }
+    ]
   },
   "mondo-du-plantis": {
-    "genres": [
-      "electronic",
-      "experimental",
-      "ambient"
-    ],
+    "genres": [],
     "classics": [
       {
-        "id": "T5kJ6pL9xM7",
-        "title": "Plantis"
+        "id": "OA4tcS_pGuU",
+        "title": "El Orden De Las Cosas"
+      },
+      {
+        "id": "hM7Yu9DXeQU",
+        "title": "Una Carta, Un Pensamiento"
       }
     ],
     "recent": []
@@ -2951,25 +3608,43 @@
     ],
     "classics": [
       {
-        "id": "U9nL3pJ4xM1",
-        "title": "Mourn"
+        "id": "vxV9B4j4bJk",
+        "title": "A Última Hora"
+      },
+      {
+        "id": "uCvMRnoCmus",
+        "title": "Dormir Tarde"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "WgngoeskGTo",
+        "title": "Verdura y Sentimientos"
+      },
+      {
+        "id": "vruQWHerbW0",
+        "title": "No Queda Nada"
+      }
+    ]
   },
   "muna-khaled": {
-    "genres": [
-      "experimental",
-      "electronic",
-      "ambient"
-    ],
+    "genres": [],
     "classics": [
       {
-        "id": "V4mL8pJ2xN5",
-        "title": "Khaled"
+        "id": "2e_-PPjiObc",
+        "title": "Muna Khaled| Canino FM | 11 June 2025"
+      },
+      {
+        "id": "E8B0_HbkfG4",
+        "title": "jung brutal gutaussehend w. muna khaled | Canino FM | 08 March 2026"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "8OOUFsc1oHM",
+        "title": "jung brutal gutaussehend w. Muna Khaled | Canino FM | 17 May 2026"
+      }
+    ]
   },
   "my-bloody-valentine": {
     "genres": [
@@ -2981,11 +3656,24 @@
     ],
     "classics": [
       {
-        "id": "FyIJpG2V-_M",
-        "title": "Sometimes"
+        "id": "hcOhXThqh_0",
+        "title": "when you sleep"
+      },
+      {
+        "id": "hSI_9P9rRt4",
+        "title": "sometimes"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "rPMvuHRao00",
+        "title": "what you want"
+      },
+      {
+        "id": "4nzZeUUiG2c",
+        "title": "only shallow"
+      }
+    ]
   },
   "natalia-lacunza": {
     "genres": [
@@ -2997,25 +3685,47 @@
     ],
     "classics": [
       {
-        "id": "W7pL5qM3xN8",
-        "title": "Lacunza"
+        "id": "7-c9FMgfql8",
+        "title": "Olivia"
+      },
+      {
+        "id": "d58aRpbc_b4",
+        "title": "nana triste"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "VUGDY8vS_Ao",
+        "title": "ya te vas"
+      },
+      {
+        "id": "thBoWkAKaS4",
+        "title": "a otro lado"
+      }
+    ]
   },
   "neska": {
-    "genres": [
-      "experimental",
-      "electronic",
-      "ambient"
-    ],
+    "genres": [],
     "classics": [
       {
-        "id": "X2kJ4pL7xM9",
-        "title": "Neska"
+        "id": "VNCP4k_q8Q4",
+        "title": "HASTA SIEMPRE"
+      },
+      {
+        "id": "lCpMYmW3gew",
+        "title": "Tu Calle"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "A6MslRA1sZY",
+        "title": "LA OTRA CARA DE LA LUNA"
+      },
+      {
+        "id": "VB1YRsHrF8A",
+        "title": "AY QUE PENA"
+      }
+    ]
   },
   "new-york": {
     "genres": [
@@ -3025,12 +3735,7 @@
       "heavy metal",
       "hard rock"
     ],
-    "classics": [
-      {
-        "id": "Y6mL9pJ2xN6",
-        "title": "New York"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "newdad": {
@@ -3043,39 +3748,47 @@
     ],
     "classics": [
       {
-        "id": "Z3nL5pJ8xM4",
-        "title": "NewDad"
+        "id": "WMI21Ttb1hs",
+        "title": "Sickly Sweet"
+      },
+      {
+        "id": "2ijEST0hc-U",
+        "title": "Madra"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "Wny-sN6iX5c",
+        "title": "Everything I Wanted"
+      },
+      {
+        "id": "D-gtkM1_V_M",
+        "title": "Nosebleed"
+      }
+    ]
   },
   "nick-leon": {
-    "genres": [
-      "electronic",
-      "house",
-      "techno"
-    ],
+    "genres": [],
     "classics": [
       {
-        "id": "A8pL2qM5xN7",
-        "title": "Leon"
-      }
-    ],
-    "recent": []
-  },
-  "nicole-aiff": {
-    "genres": [
-      "experimental",
-      "electronic",
-      "ambient"
-    ],
-    "classics": [
+        "id": "7lp8cHzpuE4",
+        "title": "Comment Check with Nick León"
+      },
       {
-        "id": "B4kJ7pL3xM1",
-        "title": "Nicole"
+        "id": "34pN-sdKttU",
+        "title": "Nick León | Boiler Room Medellín: TraTraTrax"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "T_vGSN9xOpE",
+        "title": "BAWDY is A LOT - [Nick León + Six Sex] (Official Audio)"
+      },
+      {
+        "id": "VR26OKdglDY",
+        "title": "Nick León &amp; Erika de Casier — Bikini"
+      }
+    ]
   },
   "ninajirachi": {
     "genres": [
@@ -3085,12 +3798,7 @@
       "electropop",
       "electronic"
     ],
-    "classics": [
-      {
-        "id": "C9nL4pJ6xN3",
-        "title": "Nina"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "oklou": {
@@ -3101,27 +3809,27 @@
       "ambient pop",
       "alternative rnb"
     ],
-    "classics": [
-      {
-        "id": "D5mL8pJ2xM8",
-        "title": "Oklou"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "oli-xl": {
-    "genres": [
-      "grime",
-      "uk garage",
-      "drum and bass"
-    ],
+    "genres": [],
     "classics": [
       {
-        "id": "E2pL6qM4xN9",
-        "title": "Oli"
+        "id": "SmL9V5YWVyc",
+        "title": "oli xl [dj] - helsinki, club zero [2024 mar 28]"
+      },
+      {
+        "id": "iCnpdKErFG0",
+        "title": "oli xl [dj] - london, natural mind 1 [2022 mar 26]"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "JAvKA5XRd1o",
+        "title": "oli xl [dj] - manchester, soup [2025 nov 28]"
+      }
+    ]
   },
   "osserp": {
     "genres": [
@@ -3131,24 +3839,14 @@
       "hardcore",
       "catalan"
     ],
-    "classics": [
-      {
-        "id": "F7kJ3pL9xM5",
-        "title": "Osserp"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "ouineta": {
     "genres": [
       "catala"
     ],
-    "classics": [
-      {
-        "id": "G4nL7pJ2xN1",
-        "title": "Ouineta"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "overmono": {
@@ -3159,27 +3857,31 @@
       "hardcore",
       "dance"
     ],
-    "classics": [
-      {
-        "id": "H8mL5pJ6xM3",
-        "title": "Overmono"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "paco-te-quiero": {
-    "genres": [
-      "reggaeton",
-      "urban",
-      "trap latino"
-    ],
+    "genres": [],
     "classics": [
       {
-        "id": "I3pL9qM2xN7",
-        "title": "Paco"
+        "id": "x9hjqy-kPS4",
+        "title": "pase lo que pase"
+      },
+      {
+        "id": "5khYWblBj2A",
+        "title": "Hoy (Lo Siento)"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "84UtvC-hwMM",
+        "title": "cuando despierto"
+      },
+      {
+        "id": "oPKnaWurNhs",
+        "title": "nunca voy a decirte lo que quiero decirte"
+      }
+    ]
   },
   "panda-bear": {
     "genres": [
@@ -3191,11 +3893,24 @@
     ],
     "classics": [
       {
-        "id": "J6kJ4pL8xM9",
-        "title": "Panda"
+        "id": "UAgOStE2Glk",
+        "title": "Boys Latin"
+      },
+      {
+        "id": "pxBvg6QSZZw",
+        "title": "Bros"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "hk3azUYuwV4",
+        "title": "Praise"
+      },
+      {
+        "id": "xmN7_-Aavrk",
+        "title": "Ends Meet"
+      }
+    ]
   },
   "paula-tape": {
     "genres": [
@@ -3206,11 +3921,24 @@
     ],
     "classics": [
       {
-        "id": "K9nL2pJ5xN4",
-        "title": "Tape"
+        "id": "gQ2hkD1lSEk",
+        "title": "Paula Tape | Mixmag Lab London"
+      },
+      {
+        "id": "NqhO1X6Gzes",
+        "title": "Paula Tape | Boiler Room x Polifonic Festival"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "whRuWA4jQeQ",
+        "title": "Paula Tape - Sónar 2025 - ARTE Concert"
+      },
+      {
+        "id": "Jqh0avNG-b4",
+        "title": "Paula Tape - Feel 2 Real (Visualiser)"
+      }
+    ]
   },
   "paus": {
     "genres": [
@@ -3222,11 +3950,24 @@
     ],
     "classics": [
       {
-        "id": "L5mL7pJ3xM8",
-        "title": "Paus"
+        "id": "YSQE_SbYc8g",
+        "title": "पहीलाच पाऊस पडलाय डोंगरान || pahilach paus || Aai Ekveera song || singer dinesh boste|| sonali bhoir"
+      },
+      {
+        "id": "hRhirY_My1w",
+        "title": "Paaus ( पाऊस ) Official Video : Sanju Rathod | G-Spark | Kajal Pawar | VIBES | Marathi Song | 2022"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "kc8RbpJ6hVI",
+        "title": "Nishana Tula Disla Na DJ Song | Zirmir Zirmir Paus Dhara Trending Song | Marathi Dj Song | AB Remix"
+      },
+      {
+        "id": "oj9sLIR0-Cc",
+        "title": "Nishana Tula Disla Na | Zirmir Zirmir Paus Dhara Clap Mix | SoundS OF BombaY @PratikRemixOfficial "
+      }
+    ]
   },
   "pavvla": {
     "genres": [
@@ -3236,11 +3977,24 @@
     ],
     "classics": [
       {
-        "id": "M2pL4qM6xN1",
-        "title": "Pavvla"
+        "id": "ZrTqv0_n99c",
+        "title": "Planets and Stars"
+      },
+      {
+        "id": "A00DHQEI194",
+        "title": "YOUNG"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "1-QIwqyl2gc",
+        "title": "Otra Noche Sin Ti (Remix)"
+      },
+      {
+        "id": "FVR-pyhTeL8",
+        "title": "Tot el meu cos"
+      }
+    ]
   },
   "peggy-gou": {
     "genres": [
@@ -3252,11 +4006,24 @@
     ],
     "classics": [
       {
-        "id": "9H7NwcPZ6iI",
-        "title": "It Makes You Forget"
+        "id": "XOsY3W3dlI0",
+        "title": "[It Goes Like] Nanana (Edit)"
+      },
+      {
+        "id": "tyd-Vs0MHH4",
+        "title": "[It Goes Like] Nanana"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "jAwtFtcgNkA",
+        "title": "D.A.N.C.E"
+      },
+      {
+        "id": "tZjN2Ilr59k",
+        "title": "Find The Way"
+      }
+    ]
   },
   "perfecto-miserable": {
     "genres": [
@@ -3264,12 +4031,7 @@
       "indie",
       "spain"
     ],
-    "classics": [
-      {
-        "id": "N8kJ5pL2xM7",
-        "title": "Perfecto"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "pinkpantheress": {
@@ -3282,11 +4044,24 @@
     ],
     "classics": [
       {
-        "id": "kAMqN0z3nFU",
-        "title": "Just for Me"
+        "id": "aYdRRUs85w8",
+        "title": "Boy&#39;s a liar Pt. 2"
+      },
+      {
+        "id": "iHsObIWkM-s",
+        "title": "Stateside + Zara Larsson"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "XuKq7zT_0nM",
+        "title": "Illegal"
+      },
+      {
+        "id": "rS_THlCbgGA",
+        "title": "Boy&#39;s a liar Pt. 2"
+      }
+    ]
   },
   "powder": {
     "genres": [
@@ -3296,27 +4071,31 @@
       "ambient",
       "breakbeat"
     ],
-    "classics": [
-      {
-        "id": "O3nL9pJ4xN2",
-        "title": "Powder"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "proc-fiskal-live": {
-    "genres": [
-      "drum and bass",
-      "electronic",
-      "jungle"
-    ],
+    "genres": [],
     "classics": [
       {
-        "id": "P7mL6pJ8xM5",
-        "title": "Proc Fiskal"
+        "id": "rCTCpJSVzNY",
+        "title": "Proc Fiskal - Disease Again (Official Video) [4K|UHD|60FPS]"
+      },
+      {
+        "id": "PKfX0MQO5IE",
+        "title": "Proc Fiskal - Pico"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "Y5cA1crEd14",
+        "title": "Proc Fiskal - NIKE RUN HOUR (Radar Radio)"
+      },
+      {
+        "id": "tK33KUpgjhE",
+        "title": "All Things Fast and Hard from Proc Fiskal for Keep Hush (Edinburgh)"
+      }
+    ]
   },
   "ralphie-choo": {
     "genres": [
@@ -3328,25 +4107,47 @@
     ],
     "classics": [
       {
-        "id": "Q4kJ2pL5xN9",
-        "title": "Choo"
+        "id": "va5CLF4lOjA",
+        "title": "GATA"
+      },
+      {
+        "id": "1wySB2rHDxE",
+        "title": "NHF"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "sxc440Vrnm8",
+        "title": "lamento de una supernova"
+      },
+      {
+        "id": "1Cz1rjvZ-uI",
+        "title": "WCID?"
+      }
+    ]
   },
   "raly": {
-    "genres": [
-      "reggaeton",
-      "trap latino",
-      "urban"
-    ],
+    "genres": [],
     "classics": [
       {
-        "id": "R9nL3pJ7xM1",
-        "title": "Raly"
+        "id": "2ZmKtAms7vM",
+        "title": "De Mi Madre"
+      },
+      {
+        "id": "hgwIaLsbYZY",
+        "title": "Soledad - La Llamadora (Official Visualizer) ft. Raly Barrionuevo"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "KTmIEgx0xZo",
+        "title": "RALY - ALO ft. ABHIR"
+      },
+      {
+        "id": "x5qIemj76zk",
+        "title": "RALY - ACERO"
+      }
+    ]
   },
   "rashad-becker": {
     "genres": [
@@ -3358,11 +4159,24 @@
     ],
     "classics": [
       {
-        "id": "S6pL8qM3xN4",
-        "title": "Becker"
+        "id": "MKvwModIsBY",
+        "title": "Rashad Becker - Dances I"
+      },
+      {
+        "id": "neemYTM5mNg",
+        "title": "Rashad Becker - Dances V"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "Nwd3xlGVSpw",
+        "title": "SWIM 2023 – Rashad Becker at ZiMMT Leipzig"
+      },
+      {
+        "id": "XM9gfeKy-vc",
+        "title": "Rashad Becker - Dances VIII"
+      }
+    ]
   },
   "ravyn-lenae": {
     "genres": [
@@ -3374,25 +4188,47 @@
     ],
     "classics": [
       {
-        "id": "T2kJ6pL4xM8",
-        "title": "Lenae"
+        "id": "cswfR85D7jM",
+        "title": "Ravyn Lenae - Love Me Not (Official Music Video)"
+      },
+      {
+        "id": "HfpR4tAmI7E",
+        "title": "Love Me Not"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "3Rd0b-QvyHI",
+        "title": "[Subthai] Love Me Not - Ravyn Lenae"
+      },
+      {
+        "id": "EqVqS9IFgcw",
+        "title": "ravyn lenae - love me not [ slowed + reverb ] (lyrics)"
+      }
+    ]
   },
   "raya-diplomatica-es": {
-    "genres": [
-      "reggaeton",
-      "latin",
-      "urban"
-    ],
+    "genres": [],
     "classics": [
       {
-        "id": "U8mL5pJ9xN3",
-        "title": "Diplomatica"
+        "id": "TW8LbqxQUAM",
+        "title": "HETERO FARLOPERO"
+      },
+      {
+        "id": "gUo_x8vkPGQ",
+        "title": "WANANI (37 MARICONES)"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "KMAg63_nftU",
+        "title": "RAYA DIPLOMATICA, BBK LIVE  2025"
+      },
+      {
+        "id": "0VyosV1hXVE",
+        "title": "Raya Diplomática son la banda de synth punk revelación de 2025 💥"
+      }
+    ]
   },
   "rebe": {
     "genres": [
@@ -3404,11 +4240,24 @@
     ],
     "classics": [
       {
-        "id": "V5nL2pJ3xM7",
-        "title": "Rebe"
+        "id": "zbfKFa-reBE",
+        "title": "HOW MUSIC WORKS - Marcin (Official Video)"
+      },
+      {
+        "id": "QlYD3BjIP0M",
+        "title": "KINGP  - Robo Rebe (Official Video)"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "Pse4NEhytgk",
+        "title": "In the Name of Love - Martin Garrix &amp; Rebe Rexha (Official DRILL Remix)"
+      },
+      {
+        "id": "F--gykiUtVI",
+        "title": "rebe - hasta el fin... [Official]"
+      }
+    ]
   },
   "renaldo-and-clara": {
     "genres": [
@@ -3418,26 +4267,7 @@
       "indie",
       "catalan"
     ],
-    "classics": [
-      {
-        "id": "W3pL7qM5xN1",
-        "title": "Renaldo"
-      }
-    ],
-    "recent": []
-  },
-  "res": {
-    "genres": [
-      "experimental",
-      "electronic",
-      "ambient"
-    ],
-    "classics": [
-      {
-        "id": "X9kJ4pL8xM2",
-        "title": "res"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "rian-brazil": {
@@ -3445,12 +4275,7 @@
       "british",
       "Hip-Hop"
     ],
-    "classics": [
-      {
-        "id": "Y6mL9pJ2xN6",
-        "title": "Brazil"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "rilo-kiley": {
@@ -3463,11 +4288,24 @@
     ],
     "classics": [
       {
-        "id": "Z4nL5pJ6xM4",
-        "title": "Portions for Foxes"
+        "id": "jVtSSCzASR0",
+        "title": "Rilo Kiley - Silver Lining (Official Video)"
+      },
+      {
+        "id": "qtNV3pOqcjI",
+        "title": "Rilo Kiley - Portions for Foxes - Official Video"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "Hn7Ldn7liGU",
+        "title": "Portions for Foxes"
+      },
+      {
+        "id": "-zTXFOUvZiw",
+        "title": "With Arms Outstretched"
+      }
+    ]
   },
   "rojuu": {
     "genres": [
@@ -3477,12 +4315,7 @@
       "cloud rap",
       "trap"
     ],
-    "classics": [
-      {
-        "id": "A7pL3qM8xN9",
-        "title": "Rojuu"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "role-model": {
@@ -3495,11 +4328,24 @@
     ],
     "classics": [
       {
-        "id": "B2kJ8pL4xM5",
-        "title": "Role"
+        "id": "4kqx05jGAeQ",
+        "title": "hello!"
+      },
+      {
+        "id": "OI511QowG3g",
+        "title": "Sally, When The Wine Runs Out"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "SrvrBI_wTaA",
+        "title": "The Longest Goodbye"
+      },
+      {
+        "id": "F-HetA2tEsA",
+        "title": "Some Protector"
+      }
+    ]
   },
   "rose-gray": {
     "genres": [
@@ -3509,24 +4355,15 @@
       "electropop",
       "dance-pop"
     ],
-    "classics": [
-      {
-        "id": "C8mL6pJ2xN1",
-        "title": "Gray"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "roza-terenzi": {
-    "genres": [
-      "electronic",
-      "house",
-      "experimental"
-    ],
+    "genres": [],
     "classics": [
       {
-        "id": "D5nL9pJ7xM3",
-        "title": "Roza"
+        "id": "vkzUIdWbTM4",
+        "title": "Roza Terenzi | cdcr.live | 2024.2.13"
       }
     ],
     "recent": []
@@ -3539,12 +4376,7 @@
       "spain",
       "House"
     ],
-    "classics": [
-      {
-        "id": "E9pL4qM6xN8",
-        "title": "Rusowsky"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "rustie": {
@@ -3555,52 +4387,15 @@
       "Aquacrunk",
       "Grime"
     ],
-    "classics": [
-      {
-        "id": "F3kJ5pL9xM2",
-        "title": "Rustie"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "sade-oulotola": {
-    "genres": [
-      "reggaeton",
-      "trap latino",
-      "urban"
-    ],
+    "genres": [],
     "classics": [
       {
-        "id": "G7mL2pJ4xN7",
-        "title": "Oulotola"
-      }
-    ],
-    "recent": []
-  },
-  "safety-trance": {
-    "genres": [
-      "electronic",
-      "experimental",
-      "ambient"
-    ],
-    "classics": [
-      {
-        "id": "H4nL8pJ3xM9",
-        "title": "Safety"
-      }
-    ],
-    "recent": []
-  },
-  "sama-yax": {
-    "genres": [
-      "reggaeton",
-      "trap latino",
-      "urban"
-    ],
-    "classics": [
-      {
-        "id": "I6pL5qM2xN4",
-        "title": "Yax"
+        "id": "ljRw1-kmdMk",
+        "title": "Game For Two - Sade Olutola (Official music video)"
       }
     ],
     "recent": []
@@ -3611,27 +4406,31 @@
       "techno",
       "under 2000 listeners"
     ],
-    "classics": [
-      {
-        "id": "J9kJ3pL7xM1",
-        "title": "Sama"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "shackleton": {
-    "genres": [
-      "drum and bass",
-      "electronic",
-      "dubstep"
-    ],
+    "genres": [],
     "classics": [
       {
-        "id": "K5nL6pJ2xN8",
-        "title": "Shackleton"
+        "id": "CzHMoiWnd7w",
+        "title": "MacPherson&#39;s Rant"
+      },
+      {
+        "id": "h6ytMwIjPuY",
+        "title": "Shackleton (Live 2003)"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "7ERSbUwGWT4",
+        "title": "Shackleton &amp; Six Organs of Admittance &quot;Stages Of Capitulation&quot; (Official Music Video)"
+      },
+      {
+        "id": "g0WyVWT1T10",
+        "title": "Shackleton live @ St John-at-Hackney, London, 19/06/14"
+      }
+    ]
   },
   "shlohmo": {
     "genres": [
@@ -3641,12 +4440,7 @@
       "abstract",
       "experimental hip-hop"
     ],
-    "classics": [
-      {
-        "id": "L8mL4pJ9xM3",
-        "title": "Shlohmo"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "six-sex": {
@@ -3659,11 +4453,24 @@
     ],
     "classics": [
       {
-        "id": "M2pL7qM5xN6",
-        "title": "Six"
+        "id": "cW7ikauW92E",
+        "title": "Plan B - Love and Sex"
+      },
+      {
+        "id": "eh6lKYIUQwI",
+        "title": "Emilia, Six Sex - pasarella 👠 (Official Video)"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "SZvJd2fADHM",
+        "title": "SXYBIT – Like the First Rain (Official Music Video)"
+      },
+      {
+        "id": "Ccx6awh99aM",
+        "title": "Yeri Mua, Six Sex - Ya Cogí con Otro (Video Oficial)"
+      }
+    ]
   },
   "skrillex": {
     "genres": [
@@ -3673,12 +4480,7 @@
       "electro",
       "electronica"
     ],
-    "classics": [
-      {
-        "id": "e-IWRmpefzE",
-        "title": "Scary Monsters and Nice Sprites"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "skullcrusher": {
@@ -3691,11 +4493,24 @@
     ],
     "classics": [
       {
-        "id": "N7kJ2pL8xM4",
-        "title": "Skullcrusher"
+        "id": "qs46GpypZrk",
+        "title": "GRCA - SKULL CRUSHER (MARKO BOJKOVIC WALKOUT SONG)"
+      },
+      {
+        "id": "PxD6W1Av_EY",
+        "title": "Hausbrjótr - Skullcrusher"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "PV5TVXzxwnY",
+        "title": "Innocents Torn| SkullCrusher | Official Lyric Video"
+      },
+      {
+        "id": "pr4UazhFFk0",
+        "title": "Skullcrusher - Living (Official Video)"
+      }
+    ]
   },
   "slowdive": {
     "genres": [
@@ -3705,12 +4520,7 @@
       "indie",
       "indie rock"
     ],
-    "classics": [
-      {
-        "id": "n5gWmCOHVok",
-        "title": "Souvlaki Space Station"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "smerz": {
@@ -3721,12 +4531,7 @@
       "Norway",
       "House"
     ],
-    "classics": [
-      {
-        "id": "O3mL9pJ5xN2",
-        "title": "Smerz"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "sofia": {
@@ -3737,26 +4542,7 @@
       "trip-hop",
       "downtempo"
     ],
-    "classics": [
-      {
-        "id": "P6nL3pJ4xM7",
-        "title": "Sofia"
-      }
-    ],
-    "recent": []
-  },
-  "sofy-suars": {
-    "genres": [
-      "reggaeton",
-      "urban",
-      "trap latino"
-    ],
-    "classics": [
-      {
-        "id": "Q9pL6qM2xN1",
-        "title": "Suars"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "somos-la-herencia": {
@@ -3767,12 +4553,7 @@
       "rock",
       "spain"
     ],
-    "classics": [
-      {
-        "id": "R4kJ7pL3xM9",
-        "title": "Herencia"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "spill-tab": {
@@ -3783,26 +4564,7 @@
       "french",
       "pop"
     ],
-    "classics": [
-      {
-        "id": "S8mL5pJ6xN4",
-        "title": "Spill"
-      }
-    ],
-    "recent": []
-  },
-  "st-frances": {
-    "genres": [
-      "indie rock",
-      "alternative",
-      "experimental"
-    ],
-    "classics": [
-      {
-        "id": "T2nL9pJ2xM8",
-        "title": "Frances"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "stein": {
@@ -3815,11 +4577,24 @@
     ],
     "classics": [
       {
-        "id": "U7pL4qM8xN3",
-        "title": "Stein"
+        "id": "WGU_4-5RaxU",
+        "title": "Blondie - Heart Of Glass"
+      },
+      {
+        "id": "kiMG_JV2gbo",
+        "title": "Adel Tawil &quot;Lieder&quot; (Official Lyrics Video)"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "znCHL_UcMBM",
+        "title": "unreal, we’re officially Monster High dolls!! our childhood dream come true. thank you@MonsterHigh"
+      },
+      {
+        "id": "howTT2QBUi8",
+        "title": "SIDO ft. Bozza - Sterne (prod. Beatgees x Desue x Yanek Stärk) [Official Video]"
+      }
+    ]
   },
   "sudan-archives": {
     "genres": [
@@ -3829,12 +4604,7 @@
       "female vocalists",
       "art pop"
     ],
-    "classics": [
-      {
-        "id": "e4nKp7RTHOw",
-        "title": "Glitterbox"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "svsto": {
@@ -3844,12 +4614,7 @@
       "electrodisgusting",
       "electro-disgusting"
     ],
-    "classics": [
-      {
-        "id": "V5kJ6pL9xM5",
-        "title": "SVSTO"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "teo-lucadamo": {
@@ -3860,12 +4625,7 @@
       "rap",
       "spanish"
     ],
-    "classics": [
-      {
-        "id": "W3nL2pJ7xN1",
-        "title": "Lucadamo"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "teo-planell": {
@@ -3876,12 +4636,7 @@
       "rap",
       "spanish"
     ],
-    "classics": [
-      {
-        "id": "X8mL8pJ3xM6",
-        "title": "Planell"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "texas-is-the-reason": {
@@ -3892,26 +4647,7 @@
       "indie",
       "midwest emo"
     ],
-    "classics": [
-      {
-        "id": "Y4nL5pJ4xN9",
-        "title": "Texas"
-      }
-    ],
-    "recent": []
-  },
-  "the-avalanches": {
-    "genres": [
-      "electronic",
-      "sample-based",
-      "trip-hop"
-    ],
-    "classics": [
-      {
-        "id": "WeAro8sskDw",
-        "title": "Since I Left You"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "the-cure": {
@@ -3922,12 +4658,7 @@
       "80s",
       "rock"
     ],
-    "classics": [
-      {
-        "id": "aQvlnWNQudE",
-        "title": "Friday I'm in Love"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "the-new-eves": {
@@ -3938,12 +4669,7 @@
       "alternative",
       "indie pop"
     ],
-    "classics": [
-      {
-        "id": "Z6pL9qM3xN7",
-        "title": "New Eves"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "the-sophs": {
@@ -3954,12 +4680,7 @@
       "indie rock",
       "pop rock"
     ],
-    "classics": [
-      {
-        "id": "A2kJ4pL2xM1",
-        "title": "Sophs"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "the-xx": {
@@ -3970,12 +4691,7 @@
       "british",
       "dance"
     ],
-    "classics": [
-      {
-        "id": "_kR_yy6bq6g",
-        "title": "Crystalised"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "these-new-puritans": {
@@ -3988,25 +4704,24 @@
     ],
     "classics": [
       {
-        "id": "B9mL7pJ5xN4",
-        "title": "Puritans"
-      }
-    ],
-    "recent": []
-  },
-  "tiyumii": {
-    "genres": [
-      "reggaeton",
-      "trap latino",
-      "urban"
-    ],
-    "classics": [
+        "id": "GIfKqgWPVvk",
+        "title": "These New Puritans - We Want War (Official Video)"
+      },
       {
-        "id": "C5nL3pJ8xM2",
-        "title": "Tiyumii"
+        "id": "lzHwRcOsDNw",
+        "title": "These New Puritans - Elvis (Official Video)"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "0sJZcyQsdUM",
+        "title": "These New Puritans - Organ Eternal (Official Video)"
+      },
+      {
+        "id": "ftvICVWLBKY",
+        "title": "These New Puritans - Fragment Two (Official Video)"
+      }
+    ]
   },
   "touche-amore": {
     "genres": [
@@ -4016,26 +4731,7 @@
       "melodic hardcore",
       "hardcore punk"
     ],
-    "classics": [
-      {
-        "id": "D8pL6qM4xN9",
-        "title": "Amore"
-      }
-    ],
-    "recent": []
-  },
-  "toumba": {
-    "genres": [
-      "electronic",
-      "experimental",
-      "ambient"
-    ],
-    "classics": [
-      {
-        "id": "E3kJ9pL2xM7",
-        "title": "Toumba"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "tv-girl": {
@@ -4048,25 +4744,43 @@
     ],
     "classics": [
       {
-        "id": "F7mL4pJ6xN3",
-        "title": "Girl"
+        "id": "j_sG_Juncn8",
+        "title": "Lovers Rock"
+      },
+      {
+        "id": "DCYmJDO2_IE",
+        "title": "Cinnamon Girl"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "_JGGLJMpVks",
+        "title": "Billie Eilish - TV (Official Lyric Video)"
+      },
+      {
+        "id": "7j6C9METNm0",
+        "title": "Cigarettes out the Window"
+      }
+    ]
   },
   "urtrax": {
-    "genres": [
-      "electronic",
-      "house",
-      "experimental"
-    ],
+    "genres": [],
     "classics": [
       {
-        "id": "G2nL8pJ3xM1",
-        "title": "Urtrax"
+        "id": "L_a0Do1Lw4M",
+        "title": "u.r.trax | Boiler Room: Paris"
+      },
+      {
+        "id": "TI7bwaDWVtc",
+        "title": "u.r.trax – I Miss The Club [URAF01]"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "K3inl_OQ2j0",
+        "title": "Ultra Rare Takeover invite u.r.trax (DJ set) | Rinse France"
+      }
+    ]
   },
   "underground-resistance": {
     "genres": [
@@ -4076,26 +4790,7 @@
       "detroit",
       "Acid"
     ],
-    "classics": [
-      {
-        "id": "H6pL5qM8xN5",
-        "title": "Resistance"
-      }
-    ],
-    "recent": []
-  },
-  "vennus": {
-    "genres": [
-      "reggaeton",
-      "urban",
-      "trap latino"
-    ],
-    "classics": [
-      {
-        "id": "I9kJ2pL7xM4",
-        "title": "Venus"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "viagra-boys": {
@@ -4106,12 +4801,7 @@
       "egg punk",
       "art punk"
     ],
-    "classics": [
-      {
-        "id": "J4nL6pJ4xN2",
-        "title": "Boys"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "vvv-trippinyou": {
@@ -4122,12 +4812,7 @@
       "bakalao",
       "post-punk"
     ],
-    "classics": [
-      {
-        "id": "K8mL9pJ5xM9",
-        "title": "VVV"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "water-from-your-eyes": {
@@ -4140,11 +4825,24 @@
     ],
     "classics": [
       {
-        "id": "L3pL2qM6xN1",
-        "title": "Water"
+        "id": "8tdPKlYTWn4",
+        "title": "Water From Your Eyes- &quot;Barley&quot; (Official Music Video)"
+      },
+      {
+        "id": "1reSpJWbuYE",
+        "title": "Water From Your Eyes - &quot;Life Signs&quot; (Official Music Video)"
       }
     ],
-    "recent": []
+    "recent": [
+      {
+        "id": "pwiTAgwff3Y",
+        "title": "ALBUM OF THE YEAR? 📀 Geese / Lottie&#39;s / Water From Your Eyes 📀"
+      },
+      {
+        "id": "uD3Zl2rDBJo",
+        "title": "Water From Your Eyes - &quot;Nights in Armor&quot; (Official Music Video)"
+      }
+    ]
   },
   "waterbaby": {
     "genres": [
@@ -4154,12 +4852,7 @@
       "Avant-Garde",
       "art pop"
     ],
-    "classics": [
-      {
-        "id": "M7kJ5pL3xM8",
-        "title": "Waterbaby"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "wet-leg": {
@@ -4170,12 +4863,7 @@
       "indie pop",
       "indie"
     ],
-    "classics": [
-      {
-        "id": "eKBL3nwlYaA",
-        "title": "Chaise Longue"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "xavisphone": {
@@ -4185,12 +4873,7 @@
       "automotivo",
       "funk baile funk"
     ],
-    "classics": [
-      {
-        "id": "N4nL7pJ8xN6",
-        "title": "Xavis"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "yard-act": {
@@ -4201,12 +4884,7 @@
       "spoken word",
       "art punk"
     ],
-    "classics": [
-      {
-        "id": "O9mL3pJ2xM4",
-        "title": "Yard"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "ydegirl": {
@@ -4216,12 +4894,7 @@
       "denmark",
       "art pop"
     ],
-    "classics": [
-      {
-        "id": "P5pL6qM4xN7",
-        "title": "Yde"
-      }
-    ],
+    "classics": [],
     "recent": []
   },
   "zohar": {
@@ -4232,26 +4905,7 @@
       "chillout",
       "klezmer"
     ],
-    "classics": [
-      {
-        "id": "Q2kJ8pL5xM3",
-        "title": "Zohar"
-      }
-    ],
-    "recent": []
-  },
-  "beverly-glenn-copeland-and-elizabeth-copeland": {
-    "genres": [
-      "electronic",
-      "ambient",
-      "experimental"
-    ],
-    "classics": [
-      {
-        "id": "KbkBp1GWNCI",
-        "title": "Transmissions"
-      }
-    ],
+    "classics": [],
     "recent": []
   }
 }

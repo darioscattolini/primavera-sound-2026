@@ -106,12 +106,14 @@ async function getVideos(artistName) {
 }
 
 // ── Enrich one artist ─────────────────────────────────────────────────────────
-async function enrichArtist(slug, name) {
-  const [genres, { classics, recent }] = await Promise.all([
-    getGenres(name),
-    getVideos(name),
+async function enrichArtist(slug, name, existing) {
+  const needsGenres = !existing?.genres?.length;
+  const needsVideos = !existing?.classics?.length && !existing?.recent?.length;
+  const [genres, videos] = await Promise.all([
+    needsGenres ? getGenres(name) : Promise.resolve(existing.genres),
+    needsVideos ? getVideos(name) : Promise.resolve({ classics: existing.classics ?? [], recent: existing.recent ?? [] }),
   ]);
-  return { genres, classics, recent };
+  return { genres, ...videos };
 }
 
 // ── Main ──────────────────────────────────────────────────────────────────────
@@ -134,7 +136,7 @@ async function main() {
       const complete = e?.genres?.length && (e?.classics?.length || e?.recent?.length);
       if (complete) { process.stdout.write('.'); continue; }
       try {
-        const result = await enrichArtist(slug, name);
+        const result = await enrichArtist(slug, name, e);
         const merged = {
           genres:   result.genres.length   ? result.genres   : (e?.genres   ?? []),
           classics: result.classics.length ? result.classics : (e?.classics ?? []),
