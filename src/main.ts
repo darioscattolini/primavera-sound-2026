@@ -249,6 +249,42 @@ function closestFestivalDay(): string {
   return available.find(d => DAY_DATE[d] >= todayVal) ?? available[available.length - 1] ?? 'thu';
 }
 
+// ── Export / Import ───────────────────────────────────────────────────────────
+document.getElementById('btn-export')!.addEventListener('click', () => {
+  const json = JSON.stringify(state, null, 2);
+  const blob = new Blob([json], { type: 'application/json' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  const date = new Date().toISOString().slice(0, 10);
+  a.href     = url;
+  a.download = `ps26-picks-${date}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+});
+
+document.getElementById('input-import')!.addEventListener('change', e => {
+  const file = (e.target as HTMLInputElement).files?.[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = ev => {
+    try {
+      const imported = JSON.parse(ev.target!.result as string) as typeof state;
+      // Merge: imported values win, but keys absent in import are kept
+      for (const [id, entry] of Object.entries(imported)) {
+        if (!state[id]) state[id] = { priority: null, tags: [] };
+        if (entry.priority !== undefined) state[id].priority = entry.priority;
+        if (Array.isArray(entry.tags))    state[id].tags     = entry.tags;
+      }
+      saveState(state);
+      render();
+    } catch {
+      alert('Invalid file — could not import picks.');
+    }
+    (e.target as HTMLInputElement).value = '';
+  };
+  reader.readAsText(file);
+});
+
 // ── Init ──────────────────────────────────────────────────────────────────────
 Promise.all([fetchLineup(), loadEnrichment()])
   .then(([data]) => {

@@ -56,6 +56,23 @@ body { padding-top: 44px; }
 .view-toggle .chip.active { background: var(--accent); border-color: transparent; color: #fff; }
 .view-toggle .chip:hover:not(.active) { background: var(--border); color: var(--text); }
 
+/* Footer */
+footer {
+  display: flex; gap: 8px; justify-content: center; align-items: center;
+  padding: 16px 20px;
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+  margin-top: 24px;
+}
+.filter-action-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  height: 32px; padding: 0 14px; border-radius: 6px; border: 1px solid var(--border);
+  background: var(--surface2); color: var(--text-muted); font-size: 0.8rem;
+  font-weight: 500; cursor: pointer; white-space: nowrap;
+  transition: background 0.15s, color 0.15s;
+}
+.filter-action-btn:hover { background: var(--border); color: var(--text); }
+
 /* Filters — desktop: horizontal flex row */
 .filters {
   background: var(--surface);
